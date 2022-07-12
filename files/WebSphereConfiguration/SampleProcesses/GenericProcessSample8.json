@@ -1,0 +1,384 @@
+{
+    "name": "WebSphere - Example 8 - Discover & Templatize Cell Configuration Data",
+    "description": "Sample process to pull Cell configuration data from a WAS instance and turn that data into a template.",
+    "rootActivity": {
+        "edges": [
+            {
+                "to": "WebSphere Configuration Discovery",
+                "from": "Clean working directory",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "GetInfo",
+                "from": "WebSphere - Templatize Cell Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Cell Configuration Data",
+                "from": "WebSphere - Extract Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create Cell Component",
+                "from": "Switch",
+                "type": "VALUE",
+                "value": "false"
+            },
+            {
+                "to": "Check If Cell Component exists",
+                "from": "GetInfo",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Extract Configuration Data",
+                "from": "WebSphere Configuration Discovery",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create component version",
+                "from": "Create Cell Component",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Clean working directory",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "Switch",
+                "from": "Check If Cell Component exists",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "79e6d743a67d8e918c55849d1a18f1",
+                "from": "Create component version",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create component version",
+                "from": "Switch",
+                "type": "VALUE",
+                "value": "true"
+            }
+        ],
+        "offsets": [
+            {
+                "name": "79e6d743a67d8e918c55849d1a18f1",
+                "x": 0,
+                "y": 860,
+                "h": 50,
+                "w": 90
+            },
+            {
+                "name": "WebSphere Configuration Discovery",
+                "x": -215,
+                "y": 150,
+                "h": 50,
+                "w": 510
+            },
+            {
+                "name": "Clean working directory",
+                "x": -155,
+                "y": 73.66666666666669,
+                "h": 50,
+                "w": 390
+            },
+            {
+                "name": "WebSphere - Templatize Cell Configuration Data",
+                "x": -280,
+                "y": 338.6666666666667,
+                "h": 50,
+                "w": 640
+            },
+            {
+                "name": "Check If Cell Component exists",
+                "x": -175,
+                "y": 516.6666666666667,
+                "h": 50,
+                "w": 430
+            },
+            {
+                "name": "GetInfo",
+                "x": -85,
+                "y": 438.6666666666667,
+                "h": 50,
+                "w": 250
+            },
+            {
+                "name": "Create Cell Component",
+                "x": 247,
+                "y": 680,
+                "h": 50,
+                "w": 340
+            },
+            {
+                "name": "WebSphere - Extract Configuration Data",
+                "x": -230,
+                "y": 260,
+                "h": 50,
+                "w": 540
+            },
+            {
+                "name": "Switch",
+                "x": -155,
+                "y": 602.8,
+                "h": 50,
+                "w": 390
+            },
+            {
+                "name": "Create component version",
+                "x": -130,
+                "y": 760,
+                "h": 50,
+                "w": 340
+            }
+        ],
+        "type": "graph",
+        "name": "bbc8f835-5750-4d7d-b958-faee11b1cb49",
+        "children": [
+            {
+                "type": "finish",
+                "name": "79e6d743a67d8e918c55849d1a18f1",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": true,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere Configuration Discovery",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 35,
+                "properties": {
+                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                    "wasuser": "${p?:resource\/websphere.user}",
+                    "waspassword": "${p?:resource\/websphere.password}",
+                    "host": "${p?:resource\/websphere.host}",
+                    "port": "${p?:resource\/websphere.port}",
+                    "connType": "SOAP",
+                    "resourcePath": "${p?:resource.path}",
+                    "limitDiscovery": "Cell",
+                    "configurationTypes": "${p?:websphere.cell.configurationtypes}",
+                    "configurationOutputFile": "${p:configurationFile}",
+                    "wasAdminMaxHeap": "-Xmx512m",
+                    "logLevel": "3"
+                },
+                "type": "plugin",
+                "name": "WebSphere Configuration Discovery",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Run Groovy Script",
+                "pluginName": "Groovy",
+                "pluginVersion": 6,
+                "properties": {
+                    "groovyHome": "${GROOVY_HOME}",
+                    "scriptBody": "import java.text.SimpleDateFormat\n\n\/\/ Get date and time\ndef today = new Date()\ndef formattedDateTime = new SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\").format(today)\noutProps.put(\"datetime\",formattedDateTime)\n\n\/\/ Get absolute path to outputDirectory\noutputDirString = \"${p:outputDirectory}\"\noutputDirString = outputDirString.trim()\noutputDirAbs = new File(outputDirString).getAbsolutePath()\noutProps.put(\"outputDirAbs\", outputDirAbs)"
+                },
+                "type": "plugin",
+                "name": "GetInfo",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}\/templates\/Cell\/cell",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Cell - ${p?:resource\/websphere.cell}",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create component version",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Delete Files and Directories",
+                "pluginName": "File Utils",
+                "pluginVersion": 41,
+                "properties": {
+                    "baseDir": ".",
+                    "includes": "**\/*\n*",
+                    "excludes": "",
+                    "followSymlinks": "false",
+                    "caseSensitive": "true"
+                },
+                "type": "plugin",
+                "name": "Clean working directory",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "postProcessingScript": {
+                    "id": "63436523-0f95-46aa-933f-a993c08cd8a6",
+                    "name": "customScript",
+                    "description": "",
+                    "body": "\r\n    properties.put('Status', 'Success');\r\n    scanner.register(\"OUTPUT: \", function(lineNumber, line){\r\n        var outputString=line.replace(\"OUTPUT: \",\"\")\r\n        properties.put('Output',outputString)\r\n    });\r\n    scanner.scan()"
+                },
+                "commandName": "Check If Component Exists",
+                "pluginName": "UrbanCode Deploy Components",
+                "pluginVersion": 72,
+                "properties": {"component": "Cell - ${p?:resource\/websphere.cell}"},
+                "type": "plugin",
+                "name": "Check If Cell Component exists",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Create Component",
+                "pluginName": "UrbanCode Deploy Components",
+                "pluginVersion": 72,
+                "properties": {
+                    "component": "Cell - ${p?:resource\/websphere.cell}",
+                    "description": "",
+                    "template": "WebSphere - Cell Config (simple)",
+                    "templateVersion": "",
+                    "sourceConfig": "None",
+                    "defaultVersionType": "Full",
+                    "importAutomatically": "false",
+                    "useVfs": "false",
+                    "sourceConfigProps": ""
+                },
+                "type": "plugin",
+                "name": "Create Cell Component",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Extract Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 35,
+                "properties": {
+                    "configurationFile": "${p:configurationFile}",
+                    "outputDir": "${p:outputDirectory}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Extract Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Cell Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 35,
+                "properties": {
+                    "outputDir": "${p:outputDirectory}",
+                    "userDefinedTokenization": "${p:userDefinedTokenization}",
+                    "discoveredOnlyCellConfig": "true",
+                    "nodeName": "${p:nodeName}",
+                    "nodeHostName": "${p:nodeHostName}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Cell Configuration Data",
+                "children": []
+            },
+            {
+                "propertyName": "${p:Check If Cell Component exists\/exists}",
+                "type": "switch",
+                "name": "Switch",
+                "children": []
+            }
+        ]
+    },
+    "properties": [
+        {
+            "name": "contextType",
+            "value": "Resource",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "workingDir",
+            "value": "${p:resource\/work.dir}\/${p:process.name}",
+            "description": "",
+            "secure": false
+        }
+    ],
+    "propDefs": [
+        {
+            "name": "configurationFile",
+            "label": "Config File",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "discovered_configuration.txt",
+            "required": true,
+            "description": "Location and name of the discovered configuration file",
+            "placeholder": ""
+        },
+        {
+            "name": "outputDirectory",
+            "label": "Output Directory",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "TemplatizedOutput",
+            "required": true,
+            "description": "Location where the templatized data will be placed",
+            "placeholder": ""
+        },
+        {
+            "name": "userDefinedTokenization",
+            "label": "User Defined Tokenization",
+            "pattern": "",
+            "type": "TEXTAREA",
+            "required": false,
+            "description": "To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace-&gt;newValue. For example, entering the value abcd1234-&gt;@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@.",
+            "placeholder": ""
+        },
+        {
+            "name": "nodeName",
+            "label": "Dmgr\/Application Server Node",
+            "pattern": "",
+            "type": "TEXT",
+            "required": false,
+            "description": "Some security settings may include the name of the node that hosts the deployment manager (WAS ND) or an application server (WAS Base). If you wish to tokenize the node name value, enter the node name in this field.",
+            "placeholder": ""
+        },
+        {
+            "name": "nodeHostName",
+            "label": "Dmgr\/Application Server Node Host Name",
+            "pattern": "",
+            "type": "TEXT",
+            "required": false,
+            "description": "Some security settings may include the host name of the node that hosts the deployment manager (WAS ND) or an application server (WAS Base). If you wish to tokenize the node host name value, enter the node host name in this field.",
+            "placeholder": ""
+        }
+    ],
+    "teamMappings": []
+}

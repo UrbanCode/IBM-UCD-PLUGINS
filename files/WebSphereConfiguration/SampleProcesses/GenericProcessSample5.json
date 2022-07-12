@@ -1,0 +1,387 @@
+{
+    "name": "WebSphere - Example 5 - Discover & Templatize Cluster Configuration Data Only (Multiplicity)",
+    "description": "Sample process to pull Cluster configuration data from a WAS instance and turn that data into templates.",
+    "rootActivity": {
+        "edges": [
+            {
+                "to": "07622394f0b4f9fc7e999397f14afe",
+                "from": "Create Cluster Config component version",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Server for Cluster Configuration Data",
+                "from": "WebSphere - Templatize Cluster Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Clean working directory",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "Discover Server Config Data",
+                "from": "Discover Cluster Config Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "GetInfo",
+                "from": "WebSphere - Templatize Server for Cluster Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create Cluster Config component version",
+                "from": "GetInfo",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Discover Cluster Config Data",
+                "from": "Clean working directory",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Cluster Configuration Data",
+                "from": "Discover Server Config Data",
+                "type": "SUCCESS",
+                "value": ""
+            }
+        ],
+        "offsets": [
+            {
+                "name": "Create Cluster Config component version",
+                "x": -170,
+                "y": 720,
+                "h": 50,
+                "w": 420
+            },
+            {
+                "name": "Clean working directory",
+                "x": -155,
+                "y": 110,
+                "h": 50,
+                "w": 390
+            },
+            {
+                "name": "07622394f0b4f9fc7e999397f14afe",
+                "x": -5,
+                "y": 810,
+                "h": 50,
+                "w": 90
+            },
+            {
+                "name": "Discover Server Config Data",
+                "x": -195,
+                "y": 290,
+                "h": 50,
+                "w": 470
+            },
+            {
+                "name": "WebSphere - Templatize Cluster Configuration Data",
+                "x": -295,
+                "y": 380,
+                "h": 50,
+                "w": 670
+            },
+            {
+                "name": "Discover Cluster Config Data",
+                "x": -195,
+                "y": 202.66666666666669,
+                "h": 50,
+                "w": 470
+            },
+            {
+                "name": "GetInfo",
+                "x": -85,
+                "y": 600,
+                "h": 50,
+                "w": 250
+            },
+            {
+                "name": "WebSphere - Templatize Server for Cluster Configuration Data",
+                "x": -355,
+                "y": 480.3333333333333,
+                "h": 50,
+                "w": 790
+            }
+        ],
+        "type": "graph",
+        "name": "29144550-dd01-4827-8b93-eefa7d01863c",
+        "children": [
+            {
+                "type": "finish",
+                "name": "07622394f0b4f9fc7e999397f14afe",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": true,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere Configuration Discovery",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 22,
+                "properties": {
+                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                    "wasuser": "${p?:resource\/websphere.user}",
+                    "waspassword": "${p?:resource\/websphere.password}",
+                    "host": "${p?:resource\/websphere.host}",
+                    "port": "${p?:resource\/websphere.port}",
+                    "connType": "SOAP",
+                    "resourcePath": "${p?:resource.path}",
+                    "configurationTypes": "${p?:websphere.cell.configurationtypes}",
+                    "configurationFile": "${p?:websphere.cell.configurationfile}",
+                    "configurationOutputFile": "${p:clusterConfigFile}",
+                    "wasAdminMaxHeap": "-Xmx1024m",
+                    "logLevel": "3"
+                },
+                "type": "plugin",
+                "name": "Discover Cluster Config Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": true,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere Configuration Discovery",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 22,
+                "properties": {
+                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                    "wasuser": "${p?:resource\/websphere.user}",
+                    "waspassword": "${p?:resource\/websphere.password}",
+                    "host": "${p?:resource\/websphere.host}",
+                    "port": "${p?:resource\/websphere.port}",
+                    "connType": "SOAP",
+                    "resourcePath": "${p:serverResourcePath}",
+                    "configurationTypes": "${p?:websphere.cell.configurationtypes}",
+                    "configurationFile": "${p?:websphere.cell.configurationfile}",
+                    "configurationOutputFile": "${p:serverConfigFile}",
+                    "wasAdminMaxHeap": "-Xmx1024m",
+                    "logLevel": "3"
+                },
+                "type": "plugin",
+                "name": "Discover Server Config Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Cluster Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 22,
+                "properties": {
+                    "clusterName": "${p:clusterName}",
+                    "outputDir": "${p:outputDirString}",
+                    "useMultiplicity": "true",
+                    "discoveryRunOnCluster": "true",
+                    "configFile": "${p:clusterConfigFile}",
+                    "cellName": "${p:cellName}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Cluster Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Server for Cluster Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 22,
+                "properties": {
+                    "serverName": "${p:serverName}",
+                    "nodeName": "${p:nodeName}",
+                    "clusterName": "${p:clusterName}",
+                    "outputDir": "${p:outputDirString}",
+                    "discoveryRunOnServer": "true",
+                    "configFile": "${p:serverConfigFile}",
+                    "cellName": "${p:cellName}",
+                    "nodeHostName": "${p:nodeHostName}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Server for Cluster Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Run Groovy Script",
+                "pluginName": "Groovy",
+                "pluginVersion": 6,
+                "properties": {
+                    "groovyHome": "${GROOVY_HOME}",
+                    "scriptBody": "import java.text.SimpleDateFormat\n\n\/\/ Get date and time\ndef today = new Date()\ndef formattedDateTime = new SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\").format(today)\noutProps.put(\"datetime\",formattedDateTime)\n\n\/\/ Get absolute path to outputDirectory\noutputDirString = \"${p:outputDirString}\"\noutputDirString = outputDirString.trim()\noutputDirAbs = new File(outputDirString).getAbsolutePath()\noutProps.put(\"outputDirAbs\", outputDirAbs)"
+                },
+                "type": "plugin",
+                "name": "GetInfo",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Cluster Config",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create Cluster Config component version",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Delete Files and Directories",
+                "pluginName": "File Utils",
+                "pluginVersion": 41,
+                "properties": {
+                    "baseDir": ".",
+                    "includes": "**\/*\n*",
+                    "excludes": "",
+                    "followSymlinks": "false",
+                    "caseSensitive": "true"
+                },
+                "type": "plugin",
+                "name": "Clean working directory",
+                "children": []
+            }
+        ]
+    },
+    "properties": [
+        {
+            "name": "contextType",
+            "value": "Resource",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "defaultResourceId",
+            "value": "",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "workingDir",
+            "value": "${p:resource\/work.dir}\/${p:process.name}",
+            "description": "",
+            "secure": false
+        }
+    ],
+    "propDefs": [
+        {
+            "name": "clusterName",
+            "label": "Cluster Name",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Name of the Cluster to templatize",
+            "placeholder": ""
+        },
+        {
+            "name": "cellName",
+            "label": "Cell Name",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Name of the cell the cluster resides on",
+            "placeholder": ""
+        },
+        {
+            "name": "outputDirString",
+            "label": "Output Directory",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Directory where the templates will be placed when created",
+            "placeholder": ""
+        },
+        {
+            "name": "clusterConfigFile",
+            "label": "Cluster Configuration File",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Location and name of the file that contains Cluster configuration data",
+            "placeholder": ""
+        },
+        {
+            "name": "serverConfigFile",
+            "label": "Server Configuration File",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Location and name of the file that contains Server configuration data",
+            "placeholder": ""
+        },
+        {
+            "name": "serverResourcePath",
+            "label": "Resource Tree Path to Server",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Resource tree path to the server to be templatized (for example, \/topLevelGroup\/agentName\/cellName\/Nodes\/nodeName\/Servers\/serverName)",
+            "placeholder": ""
+        },
+        {
+            "name": "serverName",
+            "label": "Server Name",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Name of the server (cluster member) to be templatized.",
+            "placeholder": ""
+        },
+        {
+            "name": "nodeName",
+            "label": "Server's Node Name",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Name of the node the server to be templatized resides on",
+            "placeholder": ""
+        },
+        {
+            "name": "nodeHostName",
+            "label": "Server's Node Host Name",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "",
+            "required": false,
+            "description": "Host name of the Node the server to be templatized resides on",
+            "placeholder": ""
+        }
+    ],
+    "teamMappings": []
+}

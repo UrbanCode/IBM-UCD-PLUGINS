@@ -1,0 +1,340 @@
+{
+    "name": "WebSphere - Example 10 - Discover & Templatize Server Configuration Data",
+    "description": "Sample process to pull Server configuration data from a WAS instance and turn that data into a template.",
+    "rootActivity": {
+        "edges": [
+            {
+                "to": "Check If Server Component exists",
+                "from": "GetInfo",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create component version",
+                "from": "Switch",
+                "type": "VALUE",
+                "value": "true"
+            },
+            {
+                "to": "Clean working directory",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "Create Server Component",
+                "from": "Switch",
+                "type": "VALUE",
+                "value": "false"
+            },
+            {
+                "to": "GetInfo",
+                "from": "WebSphere - Templatize Server Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Server Configuration Data",
+                "from": "WebSphere Configuration Discovery",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere Configuration Discovery",
+                "from": "Clean working directory",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create component version",
+                "from": "Create Server Component",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Switch",
+                "from": "Check If Server Component exists",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "79e6d743a67d8e918c55849d1a18f1",
+                "from": "Create component version",
+                "type": "SUCCESS",
+                "value": ""
+            }
+        ],
+        "offsets": [
+            {
+                "name": "Switch",
+                "x": -160,
+                "y": 488,
+                "h": 50,
+                "w": 400
+            },
+            {
+                "name": "79e6d743a67d8e918c55849d1a18f1",
+                "x": -5,
+                "y": 683,
+                "h": 50,
+                "w": 90
+            },
+            {
+                "name": "WebSphere Configuration Discovery",
+                "x": -215,
+                "y": 149.99999999999997,
+                "h": 50,
+                "w": 500
+            },
+            {
+                "name": "Create Server Component",
+                "x": 319.5,
+                "y": 527,
+                "h": 50,
+                "w": 350
+            },
+            {
+                "name": "WebSphere - Templatize Server Configuration Data",
+                "x": -285,
+                "y": 234.4,
+                "h": 50,
+                "w": 650
+            },
+            {
+                "name": "Check If Server Component exists",
+                "x": -180,
+                "y": 418,
+                "h": 50,
+                "w": 440
+            },
+            {
+                "name": "Clean working directory",
+                "x": -155,
+                "y": 73.66666666666669,
+                "h": 50,
+                "w": 390
+            },
+            {
+                "name": "GetInfo",
+                "x": -85,
+                "y": 340,
+                "h": 50,
+                "w": 250
+            },
+            {
+                "name": "Create component version",
+                "x": -125,
+                "y": 603,
+                "h": 50,
+                "w": 330
+            }
+        ],
+        "type": "graph",
+        "name": "955258dc-2877-4bd6-b38d-0ce7eb949678",
+        "children": [
+            {
+                "type": "finish",
+                "name": "79e6d743a67d8e918c55849d1a18f1",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": true,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere Configuration Discovery",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 33,
+                "properties": {
+                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                    "wasuser": "${p?:resource\/websphere.user}",
+                    "waspassword": "${p?:resource\/websphere.password}",
+                    "host": "${p?:resource\/websphere.host}",
+                    "port": "${p?:resource\/websphere.port}",
+                    "connType": "SOAP",
+                    "resourcePath": "${p?:resource.path}",
+                    "limitDiscovery": "None",
+                    "configurationTypes": "${p?:websphere.cell.configurationtypes}",
+                    "configurationOutputFile": "${p:configurationFile}",
+                    "wasAdminMaxHeap": "-Xmx512m",
+                    "logLevel": "3"
+                },
+                "type": "plugin",
+                "name": "WebSphere Configuration Discovery",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Run Groovy Script",
+                "pluginName": "Groovy",
+                "pluginVersion": 6,
+                "properties": {
+                    "groovyHome": "${GROOVY_HOME}",
+                    "scriptBody": "import java.text.SimpleDateFormat\n\n\/\/ Get date and time\ndef today = new Date()\ndef formattedDateTime = new SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\").format(today)\noutProps.put(\"datetime\",formattedDateTime)\n\n\/\/ Get absolute path to outputDirectory\noutputDirString = \"${p:outputDirectory}\"\noutputDirString = outputDirString.trim()\noutputDirAbs = new File(outputDirString).getAbsolutePath()\noutProps.put(\"outputDirAbs\", outputDirAbs)"
+                },
+                "type": "plugin",
+                "name": "GetInfo",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Server - ${p?:resource\/websphere.server}",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create component version",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Delete Files and Directories",
+                "pluginName": "File Utils",
+                "pluginVersion": 41,
+                "properties": {
+                    "baseDir": ".",
+                    "includes": "**\/*\n*",
+                    "excludes": "",
+                    "followSymlinks": "false",
+                    "caseSensitive": "true"
+                },
+                "type": "plugin",
+                "name": "Clean working directory",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "postProcessingScript": {
+                    "id": "63436523-0f95-46aa-933f-a993c08cd8a6",
+                    "name": "customScript",
+                    "description": "",
+                    "body": "\r\n    properties.put('Status', 'Success');\r\n    scanner.register(\"OUTPUT: \", function(lineNumber, line){\r\n        var outputString=line.replace(\"OUTPUT: \",\"\")\r\n        properties.put('Output',outputString)\r\n    });\r\n    scanner.scan()"
+                },
+                "commandName": "Check If Component Exists",
+                "pluginName": "UrbanCode Deploy Components",
+                "pluginVersion": 72,
+                "properties": {"component": "Server - ${p?:resource\/websphere.server}"},
+                "type": "plugin",
+                "name": "Check If Server Component exists",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Create Component",
+                "pluginName": "UrbanCode Deploy Components",
+                "pluginVersion": 72,
+                "properties": {
+                    "component": "Server - ${p?:resource\/websphere.server}",
+                    "description": "",
+                    "template": "WebSphere - Server Config",
+                    "templateVersion": "",
+                    "sourceConfig": "None",
+                    "defaultVersionType": "Full",
+                    "importAutomatically": "false",
+                    "useVfs": "false",
+                    "sourceConfigProps": ""
+                },
+                "type": "plugin",
+                "name": "Create Server Component",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Server Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 33,
+                "properties": {
+                    "serverName": "${p?:resource\/websphere.server}",
+                    "sourceNodeName": "${p?:resource\/websphere.node}",
+                    "outputDir": "${p:outputDirectory}",
+                    "userDefinedTokenization": "${p:userDefinedTokenization}",
+                    "discoveryRunOnServer": "true",
+                    "configFile": "${p:configurationFile}",
+                    "cellName": "${p?:resource\/websphere.cell}",
+                    "nodeHostName": "${p?:resource\/websphere.node.hostname}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Server Configuration Data",
+                "children": []
+            },
+            {
+                "propertyName": "${p:Check If Server Component exists\/exists}",
+                "type": "switch",
+                "name": "Switch",
+                "children": []
+            }
+        ]
+    },
+    "properties": [
+        {
+            "name": "contextType",
+            "value": "Resource",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "workingDir",
+            "value": "${p:resource\/work.dir}\/${p:process.name}",
+            "description": "",
+            "secure": false
+        }
+    ],
+    "propDefs": [
+        {
+            "name": "configurationFile",
+            "label": "Config File",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "discovered_configuration.txt",
+            "required": true,
+            "description": "Location and name of the discovered configuration file",
+            "placeholder": ""
+        },
+        {
+            "name": "outputDirectory",
+            "label": "Output Directory",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "TemplatizedOutput",
+            "required": true,
+            "description": "Location where the templatized data will be placed",
+            "placeholder": ""
+        },
+        {
+            "name": "userDefinedTokenization",
+            "label": "User Defined Tokenization",
+            "pattern": "",
+            "type": "TEXTAREA",
+            "required": false,
+            "description": "To tokenize or change values in the configuration data, specify a new line separated list of values in the format stringToReplace-&gt;newValue. For example, entering the value abcd1234-&gt;@NewToken@ will replace every occurrence of abcd1234 in your configuration file with @NewToken@.",
+            "placeholder": ""
+        },
+    ],
+    "teamMappings": []
+}

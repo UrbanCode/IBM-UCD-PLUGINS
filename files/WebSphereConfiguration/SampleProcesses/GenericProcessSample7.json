@@ -1,0 +1,561 @@
+{
+    "name": "WebSphere - Example 7 - Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)",
+    "description": "Sample process to pull configuration data from a WAS instance and turn that data into templates.",
+    "rootActivity": {
+        "edges": [
+            {
+                "to": "Create Cluster Config component version",
+                "from": "Create Node Config component version",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere Configuration Discovery",
+                "from": "Clean working directory",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "GetInfo",
+                "from": "Trim property whitespaces",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create Node Config component version",
+                "from": "Create Cell Config component version",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Clean working directory",
+                "type": "ALWAYS",
+                "value": ""
+            },
+            {
+                "to": "aa8621335fe14ac60e5cd40c733226",
+                "from": "Create Cluster Config component version",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Cell Configuration Data",
+                "from": "WebSphere - Extract Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Extract Configuration Data",
+                "from": "WebSphere Configuration Discovery",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Node Configuration Data",
+                "from": "WebSphere - Templatize Cell Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Trim property whitespaces",
+                "from": "WebSphere - Templatize Cluster Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "WebSphere - Templatize Cluster Configuration Data",
+                "from": "WebSphere - Templatize Node Configuration Data",
+                "type": "SUCCESS",
+                "value": ""
+            },
+            {
+                "to": "Create Cell Config component version",
+                "from": "GetInfo",
+                "type": "SUCCESS",
+                "value": ""
+            }
+        ],
+        "offsets": [
+            {
+                "name": "Clean working directory",
+                "x": -156.5,
+                "y": 132.16666666666666,
+                "h": 50,
+                "w": 390
+            },
+            {
+                "name": "Create Cluster Config component version",
+                "x": -172.5625,
+                "y": 1488.6666666666665,
+                "h": 50,
+                "w": 420
+            },
+            {
+                "name": "4c6b40581795cf1c46e4774a550a15",
+                "x": 267,
+                "y": 555.5,
+                "h": 90,
+                "w": 300
+            },
+            {
+                "name": "Create Cell Config component version",
+                "x": -162.46874999999994,
+                "y": 1248.9166666666665,
+                "h": 50,
+                "w": 400
+            },
+            {
+                "name": "WebSphere - Templatize Cluster Configuration Data",
+                "x": -156.5,
+                "y": 690.8333333333333,
+                "h": 66.66666666666674,
+                "w": 393
+            },
+            {
+                "name": "GetInfo",
+                "x": -87.46874999999994,
+                "y": 1100.583333333333,
+                "h": 50,
+                "w": 250
+            },
+            {
+                "name": "52b405ba7b62b1e754fd28fc31dc46",
+                "x": 247,
+                "y": 467.5,
+                "h": 60,
+                "w": 200
+            },
+            {
+                "name": "df298847db3a0f63e43e7a9d677304",
+                "x": 235,
+                "y": 332.5,
+                "h": 90,
+                "w": 200
+            },
+            {
+                "name": "WebSphere - Templatize Node Configuration Data",
+                "x": -170,
+                "y": 574.5,
+                "h": 52,
+                "w": 420
+            },
+            {
+                "name": "Trim property whitespaces",
+                "x": -137.1875,
+                "y": 895,
+                "h": 50,
+                "w": 350
+            },
+            {
+                "name": "WebSphere Configuration Discovery",
+                "x": -115,
+                "y": 226.5,
+                "h": 60,
+                "w": 310
+            },
+            {
+                "name": "Create Node Config component version",
+                "x": -167.56249999999994,
+                "y": 1368.9166666666665,
+                "h": 50,
+                "w": 410
+            },
+            {
+                "name": "aa8621335fe14ac60e5cd40c733226",
+                "x": -8.312499999999943,
+                "y": 1608.9166666666665,
+                "h": 50,
+                "w": 90
+            },
+            {
+                "name": "f51f1399e14fbf7c826457ddaa06f5",
+                "x": 244.3125,
+                "y": 1253.9166666666665,
+                "h": 53.66666666666674,
+                "w": 318.25
+            },
+            {
+                "name": "beea376e3f401df2fc16cb687f279c",
+                "x": 270.75,
+                "y": 132.16666666666666,
+                "h": 50,
+                "w": 190
+            },
+            {
+                "name": "ab023ba0860d4c2c8013b6a91af6c2",
+                "x": 231.5625,
+                "y": 875,
+                "h": 80,
+                "w": 315.625
+            },
+            {
+                "name": "WebSphere - Templatize Cell Configuration Data",
+                "x": -150,
+                "y": 467.5,
+                "h": 60,
+                "w": 380
+            },
+            {
+                "name": "6e7203ba518d4a59307cce8ceb6bfc",
+                "x": 196.6875,
+                "y": 1093.9166666666665,
+                "h": 56.66666666666674,
+                "w": 312.25
+            },
+            {
+                "name": "cefc5d819fdd99bd15bff20c429655",
+                "x": 250,
+                "y": 663.3333333333333,
+                "h": 121.66666666666674,
+                "w": 330
+            },
+            {
+                "name": "WebSphere - Extract Configuration Data",
+                "x": -125,
+                "y": 347.5,
+                "h": 60,
+                "w": 330
+            },
+            {
+                "name": "358c12e030f251c816a8b98dc00b1e",
+                "x": 212,
+                "y": 220,
+                "h": 75,
+                "w": 310
+            }
+        ],
+        "type": "graph",
+        "name": "64f72094-360c-4a72-a165-187ec1ea21fb",
+        "children": [
+            {
+                "type": "finish",
+                "name": "aa8621335fe14ac60e5cd40c733226",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere Configuration Discovery",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 26,
+                "properties": {
+                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                    "wasuser": "${p?:resource\/websphere.user}",
+                    "waspassword": "${p?:resource\/websphere.password}",
+                    "host": "${p?:resource\/websphere.host}",
+                    "port": "${p?:resource\/websphere.port}",
+                    "connType": "${p?:resource\/websphere.connType}",
+                    "resourcePath": "${p?:resource.path}",
+                    "configurationTypes": "${p?:websphere.cell.configurationtypes}",
+                    "configurationFile": "${p?:websphere.cell.configurationfile}",
+                    "configurationOutputFile": "${p:configurationFile}",
+                    "wasAdminMaxHeap": "-Xmx1024m",
+                    "logLevel": "3"
+                },
+                "type": "plugin",
+                "name": "WebSphere Configuration Discovery",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Extract Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 26,
+                "properties": {
+                    "configurationFile": "${p:configurationFile}",
+                    "outputDir": "${p:outputDirectory}"
+                },
+                "type": "plugin",
+                "name": "WebSphere - Extract Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Cell Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 26,
+                "properties": {"outputDir": "${p:outputDirectory}"},
+                "type": "plugin",
+                "name": "WebSphere - Templatize Cell Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Node Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 26,
+                "properties": {
+                    "nodeName": "${p:nodeName}",
+                    "outputDir": "${p:outputDirectory}",
+                    "discoveryRunOnNode": "false",
+                    "configFile": "",
+                    "cellName": ""
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Node Configuration Data",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "WebSphere - Templatize Cluster Configuration Data",
+                "pluginName": "WAS - Configure",
+                "pluginVersion": 26,
+                "properties": {
+                    "clusterName": "${p:clusterName}",
+                    "outputDir": "${p:outputDirectory}",
+                    "useMultiplicity": "false",
+                    "discoveryRunOnCluster": "false",
+                    "configFile": "",
+                    "cellName": ""
+                },
+                "type": "plugin",
+                "name": "WebSphere - Templatize Cluster Configuration Data",
+                "children": []
+            },
+            {
+                "name": "358c12e030f251c816a8b98dc00b1e",
+                "text": "Connects to a WAS instance, \ndiscovers its configuration, and \nsaves the configuration data into a \nfile (see the step's Configuration \nOutput File property).",
+                "type": "note",
+                "children": []
+            },
+            {
+                "name": "df298847db3a0f63e43e7a9d677304",
+                "text": "Splits the configuration file into \nmultiple files representing Cell, \nNode, Server, and Cluster \nconfigurations. ",
+                "type": "note",
+                "children": []
+            },
+            {
+                "name": "52b405ba7b62b1e754fd28fc31dc46",
+                "text": "Converts the Cell configuration \ndata into a reusable template.",
+                "type": "note",
+                "children": []
+            },
+            {
+                "name": "4c6b40581795cf1c46e4774a550a15",
+                "text": "Converts a Node's configuration \ndata into a reusable template.  A \nnode name must be specified. \nAdditional steps must be added \nfor each additional node you wish \nto templatize.",
+                "type": "note",
+                "children": []
+            },
+            {
+                "name": "cefc5d819fdd99bd15bff20c429655",
+                "text": "Converts a Cluster's configuration \ndata into a reusable template. A \ncluster name must be specified, or you \nmay enter ALL as the cluster name and \nall available clusters will be \ntemplatized. In this example, the Use \nMultiplicity option is unchecked.",
+                "type": "note",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Run Groovy Script",
+                "pluginName": "Groovy",
+                "pluginVersion": 6,
+                "properties": {
+                    "groovyHome": "${GROOVY_HOME}",
+                    "scriptBody": "import java.text.SimpleDateFormat\n\n\/\/ Get date and time\ndef today = new Date()\ndef formattedDateTime = new SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\").format(today)\noutProps.put(\"datetime\",formattedDateTime)\n\n\/\/ Get absolute path to outputDirectory\noutputDirString = \"${p:outputDirectory}\"\noutputDirString = outputDirString.trim()\noutputDirAbs = new File(outputDirString).getAbsolutePath()\noutProps.put(\"outputDirAbs\", outputDirAbs)"
+                },
+                "type": "plugin",
+                "name": "GetInfo",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}\/templates\/Cell",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Cell Config",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create Cell Config component version",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}\/templates\/Node-${p:Trim property whitespaces\/nodeName}",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Node Config",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create Node Config component version",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "workingDir": "${p:GetInfo\/outputDirAbs}\/templates\/Cluster-${p:Trim property whitespaces\/clusterName}",
+                "commandName": "Create Version",
+                "pluginName": "UrbanCode Deploy Versions",
+                "pluginVersion": 66,
+                "properties": {
+                    "componentName": "Cluster Config - No Multiplicity",
+                    "versionName": "${p:GetInfo\/datetime}",
+                    "uploadFiles": "true",
+                    "includes": "**\/*",
+                    "excludes": "",
+                    "saveFileExecuteBits": "false"
+                },
+                "type": "plugin",
+                "name": "Create Cluster Config component version",
+                "children": []
+            },
+            {
+                "name": "6e7203ba518d4a59307cce8ceb6bfc",
+                "text": "Gets the location of the templates and \nthe date\/time (for use as a date stamp when \ncreating component versions later).",
+                "type": "note",
+                "children": []
+            },
+            {
+                "name": "f51f1399e14fbf7c826457ddaa06f5",
+                "text": "The remaining steps create component \nversions for the various components.",
+                "type": "note",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Delete Files and Directories",
+                "pluginName": "File Utils",
+                "pluginVersion": 41,
+                "properties": {
+                    "baseDir": ".",
+                    "includes": "**\/*\n*",
+                    "excludes": "",
+                    "followSymlinks": "false",
+                    "caseSensitive": "true"
+                },
+                "type": "plugin",
+                "name": "Clean working directory",
+                "children": []
+            },
+            {
+                "name": "beea376e3f401df2fc16cb687f279c",
+                "text": "Clear out the working directory",
+                "type": "note",
+                "children": []
+            },
+            {
+                "allowFailure": false,
+                "useImpersonation": false,
+                "showHidden": false,
+                "impersonationUseSudo": false,
+                "commandName": "Run Groovy Script",
+                "pluginName": "Groovy",
+                "pluginVersion": 6,
+                "properties": {
+                    "groovyHome": "${GROOVY_HOME}",
+                    "scriptBody": "def nodeName = \"${p:nodeName}\"\ndef clusterName = \"${p:clusterName}\"\n\noutProps.put(\"nodeName\", nodeName.trim())\noutProps.put(\"clusterName\", clusterName.trim())\n"
+                },
+                "type": "plugin",
+                "name": "Trim property whitespaces",
+                "children": []
+            },
+            {
+                "name": "ab023ba0860d4c2c8013b6a91af6c2",
+                "text": "Need to trim any leading\/trailing \nwhitespaces in properties to ensure \ncomponent versions are created. This \nstep will need to be updated if changing \nprocess properties.",
+                "type": "note",
+                "children": []
+            }
+        ]
+    },
+    "properties": [
+        {
+            "name": "contextType",
+            "value": "Resource",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "defaultResourceId",
+            "value": "",
+            "description": "",
+            "secure": false
+        },
+        {
+            "name": "workingDir",
+            "value": "${p:resource\/work.dir}\/${p:process.name}",
+            "description": "",
+            "secure": false
+        }
+    ],
+    "propDefs": [
+        {
+            "name": "configurationFile",
+            "label": "Configuration File",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "discovered_configuration.txt",
+            "required": true,
+            "description": "Location and name of the file which will contain configuration data (for example, \/tmp\/foo\/was_config_data.txt)",
+            "placeholder": ""
+        },
+        {
+            "name": "outputDirectory",
+            "label": "Output Directory",
+            "pattern": "",
+            "type": "TEXT",
+            "value": "extractAndTemplatizeOutput",
+            "required": true,
+            "description": "Location where templates created by this process will be stored. Each extract\/templatize step in a process must use the same output directory. In this directory, folders named extracted (contains configuration data split into different scopes) and templates (contains tokenized, resuable templates) will be created. Example value: \/tmp\/foo\/DataAndTemplates",
+            "placeholder": ""
+        },
+        {
+            "name": "nodeName",
+            "label": "Node Name",
+            "pattern": "",
+            "type": "TEXT",
+            "required": true,
+            "description": "Name of the node to templatize",
+            "placeholder": ""
+        },
+        {
+            "name": "clusterName",
+            "label": "Dynamic Cluster Name",
+            "pattern": "",
+            "type": "TEXT",
+            "required": true,
+            "description": "Name of the dynamic cluster to templatize",
+            "placeholder": ""
+        }
+    ],
+    "teamMappings": []
+}
