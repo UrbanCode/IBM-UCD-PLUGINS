@@ -1,0 +1,6 @@
+{
+   "name": "DeployDemo",
+   "component": "DeployDemo",
+   "componentTag": "deployComp",
+   "parent": "/DeployNewResource/LABEC431.vmec.svl.ibm.com"
+}
