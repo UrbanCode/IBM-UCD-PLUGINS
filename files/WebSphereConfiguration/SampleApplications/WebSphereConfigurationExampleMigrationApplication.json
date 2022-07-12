@@ -1,0 +1,37 @@
+{
+    "name": "WebSphere Configuration - Example Migration Application",
+    "description": "",
+    "enforceCompleteSnapshots": false,
+    "propSheet": {"properties": []},
+    "templatePropSheet": {
+        "name": "template",
+        "properties": []
+    },
+    "components": [],
+    "environments": [{
+        "name": "Target WAS Environment",
+        "description": "",
+        "color": "#17AF4B",
+        "requireApprovals": false,
+        "exemptProcesses": [],
+        "lockSnapshots": false,
+        "cleanupDaysToKeep": 0,
+        "cleanupCountToKeep": 0,
+        "order": 0,
+        "active": true,
+        "propSheet": {"properties": []},
+        "templatePropSheet": {
+            "name": "template",
+            "properties": []
+        },
+        "baseResources": [],
+        "componentPropSheets": [],
+        "versionConditions": [],
+        "teamMappings": []
+    }],
+    "statuses": [],
+    "processes": [],
+    "genericProcesses": [],
+    "teamMappings": [],
+    "tags": []
+}

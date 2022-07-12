@@ -1,0 +1,819 @@
+{
+    "name": "WebSphere Configuration - Example Application - Snippets for Individual Configuration Objects",
+    "description": "Includes application processes for removing and applying individual configuration objects.",
+    "enforceCompleteSnapshots": false,
+    "propSheet": {"properties": []},
+    "templatePropSheet": {
+        "name": "template",
+        "properties": []
+    },
+    "components": [{
+        "name": "Snippet Config for Individual Configuration Object",
+        "created": 1473792254310,
+        "componentType": "STANDARD",
+        "ignoreQualifiers": 0,
+        "importAutomatically": false,
+        "useVfs": true,
+        "active": true,
+        "deleted": false,
+        "defaultVersionType": "FULL",
+        "cleanupDaysToKeep": 0,
+        "cleanupCountToKeep": 0,
+        "componentTemplate": {
+            "securityResourceId": "42968d5f-7ea0-46f2-bafa-a0c3672ac4f6",
+            "path": "componentTemplates\/357741e8-2340-4e05-8b25-bfc4e085ecbf",
+            "name": "WebSphere - Snippet Config for Individual Configuration Object",
+            "description": "",
+            "ignoreQualifiers": 0,
+            "componentType": "STANDARD",
+            "tags": [],
+            "active": true,
+            "envPropDefs": [],
+            "resPropDefs": [],
+            "propDefs": [],
+            "properties": [],
+            "processes": [
+                {
+                    "name": "Apply",
+                    "description": "",
+                    "defaultWorkingDir": "${p:resource\/work.dir}\/${p:component.name}",
+                    "takesVersion": true,
+                    "inventoryActionType": "ADD",
+                    "status": "Active",
+                    "configActionType": "ADD",
+                    "active": true,
+                    "path": "componentTemplates\/357741e8-2340-4e05-8b25-bfc4e085ecbf\/processes\/eb248924-2813-48e9-ae7e-7c3d8385118b",
+                    "propDefs": [],
+                    "rootActivity": {
+                        "edges": [
+                            {
+                                "to": "Combine Server",
+                                "from": "Replace Tokens",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Apply Snippet Config",
+                                "from": "Combine Server",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Delete Files and Directories",
+                                "type": "ALWAYS",
+                                "value": ""
+                            },
+                            {
+                                "to": "52979db205550f93abf943bcfdb5ef",
+                                "from": "Apply Snippet Config",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Replace Tokens",
+                                "from": "Download Artifacts",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Download Artifacts",
+                                "from": "Delete Files and Directories",
+                                "type": "SUCCESS",
+                                "value": ""
+                            }
+                        ],
+                        "offsets": [
+                            {
+                                "name": "Delete Files and Directories",
+                                "x": -96.5,
+                                "y": 62.5,
+                                "h": 47.5,
+                                "w": 273
+                            },
+                            {
+                                "name": "Combine Server",
+                                "x": -58.5,
+                                "y": 280,
+                                "h": 50,
+                                "w": 197
+                            },
+                            {
+                                "name": "Replace Tokens",
+                                "x": -63.5,
+                                "y": 210,
+                                "h": 50,
+                                "w": 207
+                            },
+                            {
+                                "name": "52979db205550f93abf943bcfdb5ef",
+                                "x": -32,
+                                "y": 480,
+                                "h": 90,
+                                "w": 140
+                            },
+                            {
+                                "name": "Apply Snippet Config",
+                                "x": -100.5,
+                                "y": 370,
+                                "h": 60,
+                                "w": 290
+                            },
+                            {
+                                "name": "Download Artifacts",
+                                "x": -93.5,
+                                "y": 140,
+                                "h": 50,
+                                "w": 270.5
+                            }
+                        ],
+                        "type": "graph",
+                        "name": "9341b767-948c-4cb6-b0b0-a203a9ce5de2",
+                        "children": [
+                            {
+                                "type": "finish",
+                                "name": "52979db205550f93abf943bcfdb5ef",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Delete Files and Directories",
+                                "pluginName": "File Utils",
+                                "pluginVersion": 49,
+                                "properties": {
+                                    "baseDir": ".",
+                                    "includes": "**\/*\n*",
+                                    "excludes": "",
+                                    "followSymlinks": "false",
+                                    "caseSensitive": "true"
+                                },
+                                "type": "plugin",
+                                "name": "Delete Files and Directories",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Download Artifacts",
+                                "pluginName": "IBM UrbanCode Deploy Versioned File Storage",
+                                "pluginVersion": 23,
+                                "properties": {
+                                    "directoryOffset": ".",
+                                    "artifactSetBaseDir": "",
+                                    "fileIncludePatterns": "**\/*",
+                                    "fileExcludePatterns": "",
+                                    "syncMode": "true",
+                                    "fullVerification": "true",
+                                    "setFileExecuteBits": "false",
+                                    "verifyFileIntegrity": "false",
+                                    "versionId": "${p:version.id}",
+                                    "serverUrl": "${p:server.url}",
+                                    "compId": "${p:component.id}",
+                                    "resId": "${p:resource.id}",
+                                    "charset": "",
+                                    "label": ""
+                                },
+                                "type": "plugin",
+                                "name": "Download Artifacts",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Replace Tokens",
+                                "pluginName": "File Utils",
+                                "pluginVersion": 49,
+                                "properties": {
+                                    "includes": "**\/*.json",
+                                    "excludes": "",
+                                    "envPropValues": "${p:environment\/allProperties},${p:component\/allProperties},${p:resource\/allProperties}",
+                                    "propertyPrefix": "",
+                                    "explicitTokens": "",
+                                    "startDelimiter": "@",
+                                    "endDelimiter": "@",
+                                    "propFile": "replace_tokens.properties",
+                                    "dir": ".",
+                                    "customEncoding": ""
+                                },
+                                "type": "plugin",
+                                "name": "Replace Tokens",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "workingDir": "${p:componentProcess.defaultWorkDir}",
+                                "commandName": "Run Groovy Script",
+                                "pluginName": "Groovy",
+                                "pluginVersion": 6,
+                                "properties": {
+                                    "groovyHome": "${GROOVY_HOME}",
+                                    "scriptBody": "File file = new File(\"ibm-ucd-resources.json\");\nif (file.isDirectory()) {\n    throw new Exception(\"Directory exists in the way\");\n}\nif (file.isFile()) {\n   System.out.println(\"File already created\");\n}\nelse {\n    file.append(\"[\\n\", \"utf-8\");\n    File dir = new File(\".\");\n    boolean first = true; \n    dir.eachFileRecurse { curfile ->\n        if (curfile.getName().endsWith(\".json\") && !curfile.getName().equals(\"ibm-ucd-resources.json\")) { \n            if (first) {\n                first = false;\n            }\n            else {\n                file.append(\",\\n\", \"utf-8\");\n            }\n            curfile.eachLine { line -> \n                file.append(\"\\n\", \"utf-8\");\n                file.append(line);  \/* Input JSON files are already UTF-8 encoded *\/\n            }\n        }\n    }\n    file.append(\"\\n]\", \"utf-8\");\n}"
+                                },
+                                "type": "plugin",
+                                "name": "Combine Server",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": true,
+                                "impersonationUseSudo": false,
+                                "workingDir": "${p:componentProcess.defaultWorkDir}",
+                                "commandName": "WebSphere Configuration Apply",
+                                "pluginName": "WAS - Configure",
+                                "pluginVersion": 39,
+                                "properties": {
+                                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                                    "wasuser": "${p?:resource\/websphere.user}",
+                                    "waspassword": "${p?:resource\/websphere.password}",
+                                    "host": "${p?:resource\/websphere.host}",
+                                    "port": "${p?:resource\/websphere.port}",
+                                    "connType": "SOAP",
+                                    "resourcePath": "${p?:resource.path}",
+                                    "configurationTypes": "${p:configType}",
+                                    "configurationFile": "ibm-ucd-resources.json",
+                                    "updateAndCreateOnly": "true",
+                                    "snippetAction": "1",
+                                    "logLevel": "3"
+                                },
+                                "type": "plugin",
+                                "name": "Apply Snippet Config",
+                                "children": []
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Remove",
+                    "description": "",
+                    "defaultWorkingDir": "${p:resource\/work.dir}\/${p:component.name}",
+                    "takesVersion": true,
+                    "inventoryActionType": "REMOVE",
+                    "status": "Active",
+                    "active": true,
+                    "path": "componentTemplates\/357741e8-2340-4e05-8b25-bfc4e085ecbf\/processes\/2a8fa688-1d75-4a5f-90e8-b45cc0032a7e",
+                    "propDefs": [],
+                    "rootActivity": {
+                        "edges": [
+                            {
+                                "to": "Replace Tokens",
+                                "from": "Download Artifacts",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Delete Files and Directories",
+                                "type": "ALWAYS",
+                                "value": ""
+                            },
+                            {
+                                "to": "52979db205550f93abf943bcfdb5ef",
+                                "from": "Remove Snippet Config",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Remove Snippet Config",
+                                "from": "Combine Server",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Download Artifacts",
+                                "from": "Delete Files and Directories",
+                                "type": "SUCCESS",
+                                "value": ""
+                            },
+                            {
+                                "to": "Combine Server",
+                                "from": "Replace Tokens",
+                                "type": "SUCCESS",
+                                "value": ""
+                            }
+                        ],
+                        "offsets": [
+                            {
+                                "name": "Remove Snippet Config",
+                                "x": -97.75,
+                                "y": 415,
+                                "h": 60,
+                                "w": 290
+                            },
+                            {
+                                "name": "Replace Tokens",
+                                "x": -63.5,
+                                "y": 240,
+                                "h": 60,
+                                "w": 207
+                            },
+                            {
+                                "name": "52979db205550f93abf943bcfdb5ef",
+                                "x": -30,
+                                "y": 490,
+                                "h": 90,
+                                "w": 140
+                            },
+                            {
+                                "name": "Delete Files and Directories",
+                                "x": -86,
+                                "y": 90,
+                                "h": 55,
+                                "w": 252
+                            },
+                            {
+                                "name": "Combine Server",
+                                "x": -73.5,
+                                "y": 330,
+                                "h": 50,
+                                "w": 227
+                            },
+                            {
+                                "name": "Download Artifacts",
+                                "x": -73.5,
+                                "y": 170,
+                                "h": 50,
+                                "w": 227
+                            }
+                        ],
+                        "type": "graph",
+                        "name": "3bff68c5-015f-493d-b233-8b3a14b472a3",
+                        "children": [
+                            {
+                                "type": "finish",
+                                "name": "52979db205550f93abf943bcfdb5ef",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Delete Files and Directories",
+                                "pluginName": "File Utils",
+                                "pluginVersion": 49,
+                                "properties": {
+                                    "baseDir": ".",
+                                    "includes": "**\/*\n*",
+                                    "excludes": "",
+                                    "followSymlinks": "false",
+                                    "caseSensitive": "true"
+                                },
+                                "type": "plugin",
+                                "name": "Delete Files and Directories",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Download Artifacts",
+                                "pluginName": "IBM UrbanCode Deploy Versioned File Storage",
+                                "pluginVersion": 23,
+                                "properties": {
+                                    "directoryOffset": ".",
+                                    "artifactSetBaseDir": "",
+                                    "fileIncludePatterns": "**\/*",
+                                    "fileExcludePatterns": "",
+                                    "syncMode": "true",
+                                    "fullVerification": "true",
+                                    "setFileExecuteBits": "false",
+                                    "verifyFileIntegrity": "false",
+                                    "versionId": "${p:version.id}",
+                                    "serverUrl": "${p:server.url}",
+                                    "compId": "${p:component.id}",
+                                    "resId": "${p:resource.id}",
+                                    "charset": "",
+                                    "label": ""
+                                },
+                                "type": "plugin",
+                                "name": "Download Artifacts",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "commandName": "Replace Tokens",
+                                "pluginName": "File Utils",
+                                "pluginVersion": 49,
+                                "properties": {
+                                    "includes": "**\/*.json",
+                                    "excludes": "",
+                                    "envPropValues": "${p:environment\/allProperties},${p:component\/allProperties},${p:resource\/allProperties}",
+                                    "propertyPrefix": "",
+                                    "explicitTokens": "",
+                                    "startDelimiter": "@",
+                                    "endDelimiter": "@",
+                                    "propFile": "replace_tokens.properties",
+                                    "dir": ".",
+                                    "customEncoding": ""
+                                },
+                                "type": "plugin",
+                                "name": "Replace Tokens",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": false,
+                                "impersonationUseSudo": false,
+                                "workingDir": "${p:componentProcess.defaultWorkDir}",
+                                "commandName": "Run Groovy Script",
+                                "pluginName": "Groovy",
+                                "pluginVersion": 6,
+                                "properties": {
+                                    "groovyHome": "${GROOVY_HOME}",
+                                    "scriptBody": "File file = new File(\"ibm-ucd-resources.json\");\nif (file.isDirectory()) {\n    throw new Exception(\"Directory exists in the way\");\n}\nif (file.isFile()) {\n   System.out.println(\"File already created\");\n}\nelse {\n    file.append(\"[\\n\", \"utf-8\");\n    File dir = new File(\".\");\n    boolean first = true; \n    dir.eachFileRecurse { curfile ->\n        if (curfile.getName().endsWith(\".json\") && !curfile.getName().equals(\"ibm-ucd-resources.json\")) { \n            if (first) {\n                first = false;\n            }\n            else {\n                file.append(\",\\n\", \"utf-8\");\n            }\n            curfile.eachLine { line -> \n                file.append(\"\\n\", \"utf-8\");\n                file.append(line);  \/* Input JSON files are already UTF-8 encoded *\/\n            }\n        }\n    }\n    file.append(\"\\n]\", \"utf-8\");\n}"
+                                },
+                                "type": "plugin",
+                                "name": "Combine Server",
+                                "children": []
+                            },
+                            {
+                                "allowFailure": false,
+                                "useImpersonation": false,
+                                "showHidden": true,
+                                "impersonationUseSudo": false,
+                                "workingDir": "${p:componentProcess.defaultWorkDir}",
+                                "commandName": "WebSphere Configuration Apply",
+                                "pluginName": "WAS - Configure",
+                                "pluginVersion": 39,
+                                "properties": {
+                                    "profilePath": "${p?:resource\/websphere.profilePath}",
+                                    "commandPath": "${p?:resource\/websphere.commandPath}",
+                                    "wasuser": "${p?:resource\/websphere.user}",
+                                    "waspassword": "${p?:resource\/websphere.password}",
+                                    "host": "${p?:resource\/websphere.host}",
+                                    "port": "${p?:resource\/websphere.port}",
+                                    "connType": "SOAP",
+                                    "resourcePath": "${p?:resource.path}",
+                                    "configurationTypes": "${p:configType}",
+                                    "configurationFile": "ibm-ucd-resources.json",
+                                    "updateAndCreateOnly": "true",
+                                    "snippetAction": "2",
+                                    "logLevel": "3"
+                                },
+                                "type": "plugin",
+                                "name": "Remove Snippet Config",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
+            ],
+            "genericProcesses": [],
+            "teamMappings": []
+        },
+        "sourceConfigPluginName": "File System (Versioned)",
+        "envPropDefs": [],
+        "resPropDefs": [],
+        "versionPropDefs": [],
+        "propSheetGroup": {"propSheets": [
+            {
+                "name": "template",
+                "properties": []
+            },
+            {
+                "name": "custom",
+                "properties": []
+            },
+            {
+                "name": "FileSystemVersionedComponentProperties",
+                "properties": [
+                    {
+                        "name": "basePath",
+                        "value": "\/home\/user\/components",
+                        "description": "",
+                        "secure": false
+                    },
+                    {
+                        "name": "extensions",
+                        "description": "",
+                        "secure": false
+                    },
+                    {
+                        "name": "saveFileExecuteBits",
+                        "value": "false",
+                        "description": "",
+                        "secure": false
+                    }
+                ]
+            }
+        ]},
+        "processes": [],
+        "configTemplates": [],
+        "genericProcesses": [],
+        "teamMappings": [],
+        "tags": []
+    }],
+    "environments": [{
+        "name": "Test",
+        "color": "#008ABF",
+        "requireApprovals": false,
+        "exemptProcesses": [],
+        "lockSnapshots": false,
+        "cleanupDaysToKeep": 0,
+        "cleanupCountToKeep": 0,
+        "order": 0,
+        "active": true,
+        "propSheet": {"properties": []},
+        "templatePropSheet": {
+            "name": "template",
+            "properties": []
+        },
+        "baseResources": [],
+        "componentPropSheets": [{
+            "properties": [],
+            "componentName": "Snippet Config for Individual Configuration Object"
+        }],
+        "versionConditions": [],
+        "teamMappings": []
+    }],
+    "statuses": [],
+    "processes": [
+        {
+            "name": "Apply Snippet",
+            "description": "Creates or updates an individual configuration object",
+            "inventoryManagementType": "AUTOMATIC",
+            "offlineAgentHandling": "PRE_EXECUTION_CHECK",
+            "rootActivity": {
+                "edges": [
+                    {
+                        "to": "50c00e2141715e9aac30b82cdfe4a9",
+                        "from": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "type": "ALWAYS",
+                        "value": ""
+                    },
+                    {
+                        "to": "b2448aa6e087c1a6f1255c105482e4",
+                        "from": "50c00e2141715e9aac30b82cdfe4a9",
+                        "type": "SUCCESS",
+                        "value": ""
+                    }
+                ],
+                "offsets": [
+                    {
+                        "name": "50c00e2141715e9aac30b82cdfe4a9",
+                        "x": -150,
+                        "y": 210,
+                        "h": 50,
+                        "w": 380
+                    },
+                    {
+                        "name": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "x": -155,
+                        "y": 100,
+                        "h": 50,
+                        "w": 390
+                    },
+                    {
+                        "name": "b2448aa6e087c1a6f1255c105482e4",
+                        "x": -5,
+                        "y": 310,
+                        "h": 50,
+                        "w": 90
+                    }
+                ],
+                "type": "graph",
+                "name": "c2516d92-aa01-4c0e-b3c0-112d84b25018",
+                "children": [
+                    {
+                        "type": "finish",
+                        "name": "b2448aa6e087c1a6f1255c105482e4",
+                        "children": []
+                    },
+                    {
+                        "componentName": "Snippet Config for Individual Configuration Object",
+                        "properties": [
+                            {
+                                "name": "maxIteration",
+                                "value": "1"
+                            },
+                            {
+                                "name": "runOnlyOnFirst",
+                                "value": "false"
+                            },
+                            {
+                                "name": "failFast",
+                                "value": "false"
+                            }
+                        ],
+                        "type": "componentEnvironmentIterator",
+                        "name": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "children": [{
+                            "componentName": "Snippet Config for Individual Configuration Object",
+                            "component": {
+                                "id": "d13611d0-5c33-46fd-8049-a6e3aaa62a57",
+                                "securityResourceId": "6175d4b9-a74b-4d16-a0da-d570e75c65fe",
+                                "name": "Snippet Config for Individual Configuration Object",
+                                "created": 1473792254310,
+                                "componentType": "STANDARD",
+                                "ignoreQualifiers": 0,
+                                "importAutomatically": false,
+                                "useVfs": true,
+                                "active": true,
+                                "integrationFailed": false,
+                                "deleted": false,
+                                "defaultVersionType": "FULL",
+                                "cleanupDaysToKeep": 0,
+                                "cleanupCountToKeep": 0,
+                                "templateVersion": -1,
+                                "tags": [],
+                                "templateTags": [],
+                                "user": "admin"
+                            },
+                            "status": "Active",
+                            "selectionType": "ALL_EXISTING",
+                            "type": "uninstallAllVersionsIterator",
+                            "name": "09a643e547b494ce7a06c183757049",
+                            "children": [{
+                                "componentProcessName": "Remove",
+                                "componentName": "Snippet Config for Individual Configuration Object",
+                                "allowFailure": false,
+                                "properties": {},
+                                "type": "componentProcess",
+                                "name": "Uninstall Snippet Config for Individual Configuration Object",
+                                "children": []
+                            }]
+                        }]
+                    },
+                    {
+                        "componentName": "Snippet Config for Individual Configuration Object",
+                        "properties": [
+                            {
+                                "name": "maxIteration",
+                                "value": "1"
+                            },
+                            {
+                                "name": "runOnlyOnFirst",
+                                "value": "false"
+                            },
+                            {
+                                "name": "failFast",
+                                "value": "false"
+                            }
+                        ],
+                        "type": "componentEnvironmentIterator",
+                        "name": "50c00e2141715e9aac30b82cdfe4a9",
+                        "children": [{
+                            "componentName": "Snippet Config for Individual Configuration Object",
+                            "status": "Active",
+                            "type": "inventoryVersionDiff",
+                            "name": "5a913d01-dc25-431a-b1c9-78c1a117c1b5",
+                            "children": [{
+                                "componentProcessName": "Apply",
+                                "componentName": "Snippet Config for Individual Configuration Object",
+                                "allowFailure": false,
+                                "properties": {},
+                                "type": "componentProcess",
+                                "name": "Install Snippet Config for Individual Configuration Object",
+                                "children": []
+                            }]
+                        }]
+                    }
+                ]
+            },
+            "propDefs": [{
+                "name": "configType",
+                "label": "Snippet Configuration Type",
+                "pattern": "",
+                "type": "TEXT",
+                "required": true,
+                "description": "Type of WebSphere object this snippet represents (for example, JDBCProvider)",
+                "placeholder": ""
+            }],
+            "versionPresets": []
+        },
+        {
+            "name": "Remove Snippet",
+            "description": "Deletes an individual configuration object",
+            "inventoryManagementType": "AUTOMATIC",
+            "offlineAgentHandling": "PRE_EXECUTION_CHECK",
+            "rootActivity": {
+                "edges": [
+                    {
+                        "to": "b2448aa6e087c1a6f1255c105482e4",
+                        "from": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "type": "ALWAYS",
+                        "value": ""
+                    }
+                ],
+                "offsets": [
+                    {
+                        "name": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "x": -155,
+                        "y": 100,
+                        "h": 50,
+                        "w": 390
+                    },
+                    {
+                        "name": "b2448aa6e087c1a6f1255c105482e4",
+                        "x": -5,
+                        "y": 310,
+                        "h": 50,
+                        "w": 90
+                    }
+                ],
+                "type": "graph",
+                "name": "5532d471-f2c5-4ba5-8681-7c555fc93794",
+                "children": [
+                    {
+                        "type": "finish",
+                        "name": "b2448aa6e087c1a6f1255c105482e4",
+                        "children": []
+                    },
+                    {
+                        "componentName": "Snippet Config for Individual Configuration Object",
+                        "properties": [
+                            {
+                                "name": "maxIteration",
+                                "value": "1"
+                            },
+                            {
+                                "name": "runOnlyOnFirst",
+                                "value": "false"
+                            },
+                            {
+                                "name": "failFast",
+                                "value": "false"
+                            }
+                        ],
+                        "type": "componentEnvironmentIterator",
+                        "name": "b07bad1045e4d1ef9b4bec82eb8911",
+                        "children": [{
+                            "componentName": "Snippet Config for Individual Configuration Object",
+                            "component": {
+                                "id": "d13611d0-5c33-46fd-8049-a6e3aaa62a57",
+                                "securityResourceId": "6175d4b9-a74b-4d16-a0da-d570e75c65fe",
+                                "name": "Snippet Config for Individual Configuration Object",
+                                "created": 1473792254310,
+                                "componentType": "STANDARD",
+                                "ignoreQualifiers": 0,
+                                "importAutomatically": false,
+                                "useVfs": true,
+                                "active": true,
+                                "integrationFailed": false,
+                                "deleted": false,
+                                "defaultVersionType": "FULL",
+                                "cleanupDaysToKeep": 0,
+                                "cleanupCountToKeep": 0,
+                                "templateVersion": -1,
+                                "tags": [],
+                                "templateTags": [],
+                                "user": "admin"
+                            },
+                            "status": "Active",
+                            "selectionType": "ALL_EXISTING",
+                            "type": "uninstallAllVersionsIterator",
+                            "name": "09a643e547b494ce7a06c183757049",
+                            "children": [{
+                                "componentProcessName": "Remove",
+                                "componentName": "Snippet Config for Individual Configuration Object",
+                                "allowFailure": false,
+                                "properties": {},
+                                "type": "componentProcess",
+                                "name": "Uninstall Snippet Config for Individual Configuration Object",
+                                "children": []
+                            }]
+                        }]
+                    }
+                ]
+            },
+            "propDefs": [{
+                "name": "configType",
+                "label": "Snippet Configuration Type",
+                "pattern": "",
+                "type": "TEXT",
+                "required": true,
+                "description": "Type of WebSphere object this snippet represents (for example, JDBCProvider)",
+                "placeholder": ""
+            }],
+            "versionPresets": []
+        }
+    ],
+    "genericProcesses": [],
+    "teamMappings": [],
+    "tags": []
+}
