@@ -1,6 +1,0 @@
-{
-   "name": "DeployDemoPrep",
-   "component": "DeployDemoPrep",
-   "componentTag": "deployPrep",
-   "parent": "/DeployNewResource/LABEC431.vmec.svl.ibm.com"
-}
