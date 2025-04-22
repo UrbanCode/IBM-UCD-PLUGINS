@@ -1,0 +1,16 @@
+{
+    "manifestVersion": 1,
+    plugins: [{
+        "id": "com.urbancode.air.plugin.Shell",
+        "name": "Shell",
+        "version": "100.123456",
+        "description": "Plugins for running arbitrary shell/batch scripts from a devops deploy process",
+        "url": "http://foo.com/com.urbancode.air.plugin.Shell/launch-Shell-100.123456",
+        "releaseNote": "Version 100 adds the abiltiy to be amazing. But breaks shell with xargs for some reason.",
+        "minimumServerVersion": "7.0.0.12345",
+        "steps": [{
+            "name": "Shell",
+            "description": "lorem ipsum"
+        }]
+    }]
+}
