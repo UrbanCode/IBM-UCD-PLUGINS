@@ -2743,11 +2743,11 @@
         {
             "id": "com.urbancode.air.plugin.kubernetes",
             "name": "Kubernetes",
-            "version": "32.1154499",
+            "version": "33.1176035",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with resources and images in Kubernetes.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip",
-            "releaseNote": "log4j dependency updated",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Create Resources",
@@ -3560,11 +3560,11 @@
         {
             "id": "com.urbancode.air.plugin.openshift",
             "name": "OpenShift",
-            "version": "23.1168147",
+            "version": "25.1176034",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip",
-            "releaseNote": "Fixes APAR : PH61399 oc create object from template command fails when a warning is received",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Deploy",
