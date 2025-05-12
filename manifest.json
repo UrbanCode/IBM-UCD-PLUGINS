@@ -312,11 +312,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.Artifactory",
             "name": "Artifactory",
-            "version": "25.1167143",
+            "version": "26.1176841",
             "pluginType": "Automation",
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-25.1167143.zip",
-            "releaseNote": "RFE - URBANCODE-I-626.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip",
+            "releaseNote": "Fixed known issue DT436088 - Artifactory Plugin fails with groovy.lang.MissingPropertyException",
             "steps": [
                 {
                     "name": "Download version (Maven build)",
@@ -2063,11 +2063,11 @@
         {
             "id": "com.urbancode.air.plugin.DeployTools",
             "name": "Deploy Tools",
-            "version": "9.1056566",
+            "version": "10.1177004",
             "pluginType": "Automation",
             "description": "The Deploy Tools plugin provides automated post deployment verification.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip",
-            "releaseNote": "Support property file encryption.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip",
+            "releaseNote": "Updated log4j and Jettison libs.",
             "steps": [
                 {
                     "name": "Verify Deployment",
@@ -2126,11 +2126,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "71.1132358",
+            "version": "76.1176673",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip",
-            "releaseNote": "Update for java 17 compatibility",
+            "url": "https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/refs/heads/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip",
+            "releaseNote": "Fix an issue with certain steps on z/OS",
             "steps": [
                 {
                     "name": "Add Status to Version",
@@ -2151,6 +2151,10 @@
                 {
                     "name": "Add Version Link",
                     "description": "Creates or removes a link on a component version which can direct users to supplementary information related to the execution."
+                },
+                {
+                    "name": "Get Version Status Information",
+                    "description": "Retrieve the status information for a Version and sets the output properties:\n        versionLatestStatus, versionStatuses, and versionStatusIds.\n        The versionStatuses and versionStatusIds. properties will contain a comman-separated-values list of\n        all statuses on the Version.\n        Optionally, print a message and fail this step unless a required Status is present on the Version."
                 }
             ]
         },
@@ -4393,11 +4397,11 @@
         {
             "id": "com.urbancode.air.plugin.SystemInformation",
             "name": "System Information",
-            "version": "5.1122816",
+            "version": "9.1171671",
             "pluginType": "Automation",
             "description": "The System Information plugin includes a variety of checks to perform against the operating system. These steps can be used to verify that a deployment can succeed or has succeeded.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip",
-            "releaseNote": "Fixes APAR PI94880 - Updated from Apache Commons IO 1.4 to latest (2.2 as of now).",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip",
+            "releaseNote": "Updating commons-io library to 2.17.0 for CVE-2024-47554",
             "steps": [
                 {
                     "name": "Check Connectivity",
