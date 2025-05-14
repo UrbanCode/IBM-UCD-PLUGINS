@@ -5071,16 +5071,24 @@
         },
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
-            "name": "zOS Utility to download external artifacts",
-            "version": "12.1176020",
+            "name": "zOS External Artifacts Utility",
+            "version": "13.1177041",
             "pluginType": "Automation",
-            "description": "The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or Artifactory\n            repository.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip",
-            "releaseNote": "Added support for token for artifactory",
+            "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip",
+            "releaseNote": "Create a merged version from a given set of versions\n\t\t\tRenamed plugin to zOS External Artifacts Utility",
             "steps": [
                 {
                     "name": "Download Artifacts for zOS External Repo",
                     "description": "Download a z/OS package from an external artifact repository. The repository can be either a Nexus\n            or Artifactory repository."
+                },
+                {
+                    "name": "Create a Merged Version For JFrog Artifactory",
+                    "description": "Create a merged version for JFrog artifactory from a set of existing versions in external repository"
+                },
+                {
+                    "name": "Create a Merged Version For Nexus",
+                    "description": "Create a merged version for Nexus from a set of existing versions in external repository"
                 }
             ]
         },
