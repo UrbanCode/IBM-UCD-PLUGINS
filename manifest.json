@@ -755,10 +755,10 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "100.1175039",
+            "version": "100.1176430",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1175039.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip",
             "releaseNote": "Adding Condition to ignore token replacement for the properties file.",
             "steps": [
                 {
@@ -877,10 +877,10 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "28.1176784",
+            "version": "28.1164116",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1176784.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1164116.zip",
             "releaseNote": "APAR-(PH58492): Handled NPE error for few properties",
             "steps": [
                 {
@@ -1539,11 +1539,11 @@
         {
             "id": "com.urbancode.plugin.source.ClearCaseUCM",
             "name": "ClearCase",
-            "version": "16.1154103",
+            "version": "17.1155764",
             "pluginType": "Source",
             "description": "The ClearCase plug-in automates importing version artifacts from ClearCase (Base and UCM).",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip",
-            "releaseNote": "Log4j dependency updated",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1615,12 +1615,12 @@
         },
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
-            "name": "uBuild",
-            "version": "12.1131550",
+            "name": "DevOps Build",
+            "version": "16.1176344",
             "pluginType": "Source",
-            "description": "The UrbanCode Build plugin automates uploading artifacts from a UrbanCode Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip",
-            "releaseNote": "Update udclient and uDeployRestClient",
+            "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip",
+            "releaseNote": "Rebrand UrbanCode Build to DevOps Build",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3270,11 +3270,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS_SCM",
             "name": "TFS_SCM",
-            "version": "17.1154009",
+            "version": "19.1171672",
             "pluginType": "Source",
             "description": "The TFS_SCM plugins automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-17.1154009.zip",
-            "releaseNote": "Updating log4j dependencies",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip",
+            "releaseNote": "Updating commons-io library to 2.17.0 for CVE-2024-47554",
             "steps": [
                 {
                     "name": "Import Version",
