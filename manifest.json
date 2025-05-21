@@ -3224,11 +3224,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS",
             "name": "TFS",
-            "version": "25.1154010",
+            "version": "26.1155758",
             "pluginType": "Source",
             "description": "The Team Foundation Server (TFS) plug-in automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip",
-            "releaseNote": "Updating log4j dependencies",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Import Version",
