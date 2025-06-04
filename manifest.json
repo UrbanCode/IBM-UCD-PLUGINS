@@ -5269,6 +5269,21 @@
                     "description": "Executes REXX statements (Includes a sample REXX with Plugin features)"
                 }
             ]
+        },
+        {
+            "id": "com.urbancode.air.plugin.SendSmtpEmail",
+            "name": "Send SMTP Email",
+            "version": "4.1178408",
+            "pluginType": "Automation",
+            "description": "The plugin adds new file utilities beyond what is provided in the standard FileUtils plugin.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip",
+            "releaseNote": "Converted the plugin code form Groovy to Java.",
+            "steps": [
+                {
+                    "name": "Send SMTP Email",
+                    "description": "Send an SMTP email"
+                }
+            ]
         }
     ]
 }
