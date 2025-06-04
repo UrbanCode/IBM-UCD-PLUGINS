@@ -5171,11 +5171,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "97.1178369",
+            "version": "97.1178432",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1178369.zip",
-            "releaseNote": "Renamed Deploy Data Sets step to Deploy Datasets and USS Files\n            Renamed Rollback Data Sets to Rollback Datasets and USS Files\n            Skip backup option for a full type version\n            Fixed DT438858\u2014NullPointerException during backup in Deploy Datasets step\n            Fixed ClassCastException for Deploy step",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1178432.zip",
+            "releaseNote": "Renamed Deploy Data Sets step to Deploy Datasets and USS Files\n            Renamed Rollback Data Sets to Rollback Datasets and USS Files\n            Skip backup option for a full type version\n            Fixed DT438858\u2014NullPointerException during backup in Deploy Datasets step\n            Fixed ClassCastException for Deploy step\n            Fixed DT440158-Matching artifacts not skipped during runtime delta deployment",
             "steps": [
                 {
                     "name": "Copy Artifacts",
