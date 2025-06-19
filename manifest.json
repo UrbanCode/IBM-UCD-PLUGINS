@@ -5171,11 +5171,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "97.1178515",
+            "version": "98.1178697",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1178515.zip",
-            "releaseNote": "Renamed Deploy Data Sets step to Deploy Datasets and USS Files\n            Renamed Rollback Data Sets to Rollback Datasets and USS Files\n            Skip backup option for a full type version\n            Fixed DT438858 - NullPointerException during backup in Deploy Datasets step\n            Fixed ClassCastException for Deploy step\n            Fixed DT440158 - Matching artifacts not skipped during runtime delta deployment\n            Fixed DT440674 - Unable to create file issue when using container filter.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1178697.zip",
+            "releaseNote": "Support for rollback of non-risky artifacts",
             "steps": [
                 {
                     "name": "Copy Artifacts",
