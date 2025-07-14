@@ -5156,15 +5156,19 @@
         {
             "id": "com.urbancode.air.plugin.multigenartifact.zos",
             "name": "zOS Multi Generate Artifact Information",
-            "version": "9.1176022",
+            "version": "10.1179047",
             "pluginType": "Automation",
             "description": "The z/OS Multi Generate Artifact Information plug-in generates one or more informational text based on\n            defined templates. The information is sent to the output properties for use by later steps.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1176022.zip",
-            "releaseNote": "Minor code improvements",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-10.1179047.zip",
+            "releaseNote": "New step to pass filters in YAML format and generate artifact information",
             "steps": [
                 {
                     "name": "Generate Multiple Artifact Information",
                     "description": "Generate multiple text information for selected version artifacts. The information is sent to the output\n            properties for use by later steps."
+                },
+                {
+                    "name": "Generate Multiple Artifact Information YAML",
+                    "description": "Generate multiple text information for selected version artifacts using YAML filters. The information is sent to the output\n            properties for use by later steps."
                 }
             ]
         },
