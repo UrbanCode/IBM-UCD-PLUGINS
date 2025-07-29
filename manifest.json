@@ -3224,11 +3224,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS",
             "name": "TFS",
-            "version": "27.1179519",
+            "version": "26.1155758",
             "pluginType": "Source",
             "description": "The Team Foundation Server (TFS) plug-in automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/devops-deploy-TFS-SourceConfig-27.1179519.zip",
-            "releaseNote": "Update commons-lang to 3.18\n      resolves finding for non-exploitable CVE-2025-48924",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4333,11 +4333,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "21.1167618",
+            "version": "22.1179521",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip",
-            "releaseNote": "Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-22.1179521.zip",
+            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
             "steps": [
                 {
                     "name": "Shell",
