@@ -1650,11 +1650,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployApplication",
             "name": "UrbanCode Deploy Applications",
-            "version": "88.1179518",
+            "version": "87.1155713",
             "pluginType": "Automation",
             "description": "Plugin for creating and managing UrbanCode Deploy applications.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-88.1179518.zip",
-            "releaseNote": "Remove Apache Commons-Lang 2.x",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Create Application",
@@ -3224,11 +3224,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS",
             "name": "TFS",
-            "version": "26.1155758",
+            "version": "27.1179519",
             "pluginType": "Source",
             "description": "The Team Foundation Server (TFS) plug-in automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/devops-deploy-TFS-SourceConfig-27.1179519.zip",
+            "releaseNote": "Update commons-lang to 3.18\n      resolves finding for non-exploitable CVE-2025-48924",
             "steps": [
                 {
                     "name": "Import Version",
