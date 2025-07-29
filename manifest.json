@@ -2126,11 +2126,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "76.1176673",
+            "version": "77.1179532",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip",
-            "releaseNote": "Fix an issue with certain steps on z/OS",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-77.1179532.zip",
+            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
             "steps": [
                 {
                     "name": "Add Status to Version",
@@ -4333,11 +4333,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "22.1179521",
+            "version": "21.1167618",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-22.1179521.zip",
-            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip",
+            "releaseNote": "Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.",
             "steps": [
                 {
                     "name": "Shell",
