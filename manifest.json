@@ -1792,11 +1792,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "21.1179575",
+            "version": "20.1155711",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-21.1179575.zip",
-            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-20.1155711.zip",
+            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
             "steps": [
                 {
                     "name": "Install Template",
@@ -3564,11 +3564,11 @@
         {
             "id": "com.urbancode.air.plugin.openshift",
             "name": "OpenShift",
-            "version": "25.1176034",
+            "version": "26.1179573",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-26.1179573.zip",
+            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
             "steps": [
                 {
                     "name": "Deploy",
