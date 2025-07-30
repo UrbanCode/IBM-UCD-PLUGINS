@@ -1616,11 +1616,11 @@
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
             "name": "DevOps Build",
-            "version": "16.1176344",
+            "version": "17.1179574",
             "pluginType": "Source",
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip",
-            "releaseNote": "Rebrand UrbanCode Build to DevOps Build",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-17.1179574.zip",
+            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924",
             "steps": [
                 {
                     "name": "Import Version",
