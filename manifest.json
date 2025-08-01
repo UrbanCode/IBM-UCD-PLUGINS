@@ -5072,11 +5072,11 @@
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
             "name": "zOS External Artifacts Utility",
-            "version": "13.1178924",
+            "version": "13.1179643",
             "pluginType": "Automation",
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip",
-            "releaseNote": "Create a merged version from a given set of versions\n\t\t\tRenamed plugin to zOS External Artifacts Utility\n\t\t\tFixes '400:File not found' issue when validating checksum file",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip",
+            "releaseNote": "Create a merged version from a given set of versions\n\t\t\tRenamed plugin to zOS External Artifacts Utility\n\t\t\tFixes '400:File not found' issue when validating checksum file\n\t\t\tAdded support for creating a merged version for package format v2",
             "steps": [
                 {
                     "name": "Download Artifacts for zOS External Repo",
