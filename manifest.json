@@ -4534,11 +4534,11 @@
         {
             "id": "com.urbancode.air.plugin.WebSphere",
             "name": "WAS - Deploy",
-            "version": "131.1165947",
+            "version": "132.1179210",
             "pluginType": "Automation",
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip",
-            "releaseNote": "Fixed the issue for securedata jar for compatibility with Java 8.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip",
+            "releaseNote": "URBANCODE-I-710-Extend Role Mappings option to 8 parameters.",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
                 {
