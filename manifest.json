@@ -1509,11 +1509,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.ibm-odm",
             "name": "IBM ODM",
-            "version": "14.1149407",
+            "version": "15.1178699",
             "pluginType": "Source",
             "description": "The IBM ODM source config plugin automates downloading RuleApps from repository.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-14.1149407.zip",
-            "releaseNote": "Fixed issue to support both oauth and basic auth",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip",
+            "releaseNote": "DVOPS-I-751 - Added capability to fetch artifacts from nested branch",
             "steps": [
                 {
                     "name": "Import Version",
@@ -5277,11 +5277,11 @@
         {
             "id": "com.urbancode.air.plugin.SendSmtpEmail",
             "name": "Send SMTP Email",
-            "version": "4.1178408",
+            "version": "4.1179024",
             "pluginType": "Automation",
             "description": "The plugin adds new file utilities beyond what is provided in the standard FileUtils plugin.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip",
-            "releaseNote": "Converted the plugin code form Groovy to Java.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1179024.zip",
+            "releaseNote": "Fixed NoClassDefFoundError Issue.",
             "steps": [
                 {
                     "name": "Send SMTP Email",
