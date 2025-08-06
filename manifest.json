@@ -4534,11 +4534,11 @@
         {
             "id": "com.urbancode.air.plugin.WebSphere",
             "name": "WAS - Deploy",
-            "version": "132.1179210",
+            "version": "133.1179765",
             "pluginType": "Automation",
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip",
-            "releaseNote": "URBANCODE-I-710-Extend Role Mappings option to 8 parameters.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip",
+            "releaseNote": "Remove property note.",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
                 {
@@ -4735,7 +4735,7 @@
                 },
                 {
                     "name": "Terminate Server or Cluster",
-                    "description": "Stop a WebSphere server or cluster. For advanced users only. Use this step only after a Stop Server or Stop Cluster step has failed to stop the server or cluster. Sets the output property only if any of the node agents are inactive ${p:stepName/checkNodeAgent}"
+                    "description": "Stop a WebSphere server or cluster. For advanced users only. Use this step only after a Stop Server or Stop Cluster step has failed to stop the server or cluster."
                 },
                 {
                     "name": "Install OSGI Bundle",
@@ -4947,7 +4947,7 @@
                 },
                 {
                     "name": "List Cluster Nodes",
-                    "description": "Return the list of nodes the cluster is running on and set it as an output property in the format ${p:stepName/nodeList}"
+                    "description": "Return the list of nodes the cluster is running on"
                 },
                 {
                     "name": "Extract Configuration Properties",
