@@ -3503,11 +3503,11 @@
         {
             "id": "com.urbancode.air.plugin.source.nexusV3",
             "name": "Nexus Repository Manager V3",
-            "version": "5.1164218",
+            "version": "6.1179697",
             "pluginType": "Source",
             "description": "The Nexus Repository Manager V3 source config plugin automates downloading artifacts from \n      Nexus v3 hosted Maven, NPM, Nuget, and raw repository types.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip",
-            "releaseNote": "RFE-URBANCODE-I-598: Updated plugin to support multiple application files import from a Raw repository in Nexus.\n      Updated deprecated library HttpClientBuilder to HttpClientBuilder2.\n      Updating Jettison library to 1.5.4 for CVE-2023-1436.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip",
+            "releaseNote": "RFE-URBANCODE-I-735: Importing versions from raw nexus repository .",
             "steps": [
                 {
                     "name": "Import Version",
