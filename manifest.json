@@ -5110,11 +5110,11 @@
         {
             "id": "com.urbancode.air.plugin.source.zOSFile",
             "name": "zOS File",
-            "version": "9.1181052",
+            "version": "10.1181082",
             "pluginType": "Source",
             "description": "The zOS File plugin automates uploading data sets, UNIX files and generic artifacts from a z/OS system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip",
-            "releaseNote": "Remove Apache Commons-Lang 2.x resolves finding for non-exploitable CVE-2025-48924\n        Print buztool script messages during failure for diagnosis",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip",
+            "releaseNote": "Added support for new buztool parameters",
             "steps": [
                 {
                     "name": "Import Version",
