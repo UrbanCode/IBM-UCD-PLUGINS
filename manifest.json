@@ -4205,11 +4205,11 @@
         {
             "id": "com.urbancode.air.plugin.sql.JDBC",
             "name": "SQL-JDBC",
-            "version": "13.1154072",
+            "version": "14.1180493",
             "pluginType": "Automation",
             "description": "The SQL-JDBC plugin is an automation based plugin. It is executed as part of the deployment to help manage DB changes.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip",
-            "releaseNote": "Log4j and Jettison dependency updated.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/devops-deploy-SQL-JDBC-14.1180493.zip",
+            "releaseNote": "Add ability to run sql text in addition to sql files.",
             "steps": [
                 {
                     "name": "Execute SQL Scripts",
