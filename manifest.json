@@ -1650,11 +1650,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployApplication",
             "name": "UrbanCode Deploy Applications",
-            "version": "87.1155713",
+            "version": "89.1181334",
             "pluginType": "Automation",
             "description": "Plugin for creating and managing UrbanCode Deploy applications.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-89.1181334.zip",
+            "releaseNote": "DVOPS-I-769: Added Request Description field to the Run Application Process step.",
             "steps": [
                 {
                     "name": "Create Application",
