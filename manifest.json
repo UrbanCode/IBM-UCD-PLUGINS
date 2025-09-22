@@ -2090,11 +2090,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "49.1179566",
+            "version": "49.1181646",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip",
-            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924\n      Replace pax command with untar for zOS artifacts download",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1181646.zip",
+            "releaseNote": "Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924\n      Replace pax command with untar for zOS artifacts download\n      Fixed checksum verification failure when hash is less than 64 chars",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
                 {
