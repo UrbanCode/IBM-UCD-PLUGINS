@@ -5072,11 +5072,11 @@
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
             "name": "zOS External Artifacts Utility",
-            "version": "13.1181645",
+            "version": "13.1179643",
             "pluginType": "Automation",
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1181645.zip",
-            "releaseNote": "Create a merged version from a given set of versions\n\t\t\tRenamed plugin to zOS External Artifacts Utility\n\t\t\tFixes '400:File not found' issue when validating checksum file\n\t\t\tAdded support for creating a merged version for package format v2\n            Fixed checksum verification failure when hash is less than 64 chars",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip",
+            "releaseNote": "Create a merged version from a given set of versions\n\t\t\tRenamed plugin to zOS External Artifacts Utility\n\t\t\tFixes '400:File not found' issue when validating checksum file\n\t\t\tAdded support for creating a merged version for package format v2",
             "steps": [
                 {
                     "name": "Download Artifacts for zOS External Repo",
@@ -5175,11 +5175,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "98.1178819",
+            "version": "98.1181635",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1178819.zip",
-            "releaseNote": "Support for rollback of non-risky artifacts",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1181635.zip",
+            "releaseNote": "Support for rollback of non-risky artifacts\n            Replaced zip extract to Ant UnTar from native Pax command\n            Minor improvements in shell command execution\n            Fixed mismatch of hash values for inventory delta deploy",
             "steps": [
                 {
                     "name": "Copy Artifacts",
