@@ -614,11 +614,11 @@
         {
             "id": "com.urbancode.air.plugin.source.docker",
             "name": "Docker",
-            "version": "44.1167750",
+            "version": "45.1182090",
             "pluginType": "Source",
             "description": "This Docker source plugin detects Docker registry image tags and creates associated component versions for the tag.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-44.1167750.zip",
-            "releaseNote": "Correctly handle obtaining the id/digest when a Docker V2 (or OCI) image manifest is returned.  Also add support for obtaining the id/digest of image index files/fat manifests.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-45.1182090.zip",
+            "releaseNote": "URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
                 {
