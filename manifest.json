@@ -4333,11 +4333,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "21.1167618",
+            "version": "23.1182800",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip",
-            "releaseNote": "Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-23.1182800.zip",
+            "releaseNote": "Remove dependence on native code for Windows.",
             "steps": [
                 {
                     "name": "Shell",
