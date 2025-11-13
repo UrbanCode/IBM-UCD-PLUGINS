@@ -5288,6 +5288,21 @@
                     "description": "Send an SMTP email"
                 }
             ]
+        },
+        {
+            "id": "com.urbancode.plugin.terraformIaac",
+            "name": "Terraform Iaac",
+            "version": "3.1181573",
+            "pluginType": "Automation",
+            "description": "This plugin runs terraform scripts to PLAN, CREATE, DESTROY cloud infrastructure",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/terraform-iaac/devops-deploy-plugins-terraform-iaac-3.1181573.zip",
+            "releaseNote": "Added support for GCP.",
+            "steps": [
+                {
+                    "name": "Run Terraform Command",
+                    "description": "Run a generic terraform script which has some configurations to create cloud based resources."
+                }
+            ]
         }
     ]
 }
