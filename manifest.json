@@ -1650,11 +1650,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployApplication",
             "name": "UrbanCode Deploy Applications",
-            "version": "89.1181334",
+            "version": "90.1183820",
             "pluginType": "Automation",
             "description": "Plugin for creating and managing UrbanCode Deploy applications.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-89.1181334.zip",
-            "releaseNote": "DVOPS-I-769: Added Request Description field to the Run Application Process step.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-90.1183820.zip",
+            "releaseNote": "Run Application Process should detect if the process is canceled and set detailsLink.",
             "steps": [
                 {
                     "name": "Create Application",
