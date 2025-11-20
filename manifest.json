@@ -312,11 +312,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.Artifactory",
             "name": "Artifactory",
-            "version": "27.1183827",
+            "version": "26.1176841",
             "pluginType": "Automation",
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-27.1183827.zip",
-            "releaseNote": "Jettison dependency updated.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip",
+            "releaseNote": "Fixed known issue DT436088 - Artifactory Plugin fails with groovy.lang.MissingPropertyException",
             "steps": [
                 {
                     "name": "Download version (Maven build)",
@@ -4439,11 +4439,11 @@
         {
             "id": "com.urbancode.air.plugin.WebUtilities",
             "name": "Web Utilities",
-            "version": "18.1151823",
+            "version": "19.1183826",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to send HTTP requests and to upload files via FTP.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip",
-            "releaseNote": "Updated log4j dependencies.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-19.1183826.zip",
+            "releaseNote": "Jettison and BeanUtils dependency updated.",
             "steps": [
                 {
                     "name": "Send HTTP Call",
