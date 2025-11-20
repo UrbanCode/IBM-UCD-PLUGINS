@@ -351,11 +351,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.artifactory",
             "name": "Artifactory",
-            "version": "33.1167705",
+            "version": "34.1183829",
             "pluginType": "Source",
             "description": "The Artifactory source configuration plug-in creates component versions with artifacts from Artifactory. For additional documentation, see the artifactory_plugin_v1.pdf file included in the plug-in archive file.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip",
-            "releaseNote": "Add support to configure a custom keystore to present a certificate to the artifactory server.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-34.1183829.zip",
+            "releaseNote": "Updated Jettison dependency.",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4439,11 +4439,11 @@
         {
             "id": "com.urbancode.air.plugin.WebUtilities",
             "name": "Web Utilities",
-            "version": "19.1183826",
+            "version": "18.1151823",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to send HTTP requests and to upload files via FTP.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-19.1183826.zip",
-            "releaseNote": "Jettison and BeanUtils dependency updated.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip",
+            "releaseNote": "Updated log4j dependencies.",
             "steps": [
                 {
                     "name": "Send HTTP Call",
