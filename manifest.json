@@ -4439,11 +4439,11 @@
         {
             "id": "com.urbancode.air.plugin.WebUtilities",
             "name": "Web Utilities",
-            "version": "18.1151823",
+            "version": "20.1183890",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to send HTTP requests and to upload files via FTP.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip",
-            "releaseNote": "Updated log4j dependencies.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-20.1183890.zip",
+            "releaseNote": "BeanUtils dependency updated.",
             "steps": [
                 {
                     "name": "Send HTTP Call",
