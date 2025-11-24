@@ -2090,11 +2090,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "49.1183879",
+            "version": "49.1179566",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1183879.zip",
-            "releaseNote": "Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924\n      Replace pax command with untar for zOS artifacts download\n      Fixed checksum verification failure when hash is less than 64 chars\n      Minor improvements to z/OS steps",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip",
+            "releaseNote": "Update commons-lang to 3.18\nresolves finding for non-exploitable CVE-2025-48924\n      Replace pax command with untar for zOS artifacts download",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
                 {
@@ -5175,11 +5175,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "98.1182012",
+            "version": "99.1183883",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1182012.zip",
-            "releaseNote": "Support for rollback of non-risky artifacts\n            Replaced zip extract to Ant UnTar from native Pax command\n            Minor improvements in shell command execution\n            Fixed mismatch of hash values for inventory delta deploy\n            Added retry mechanism(max of 120 retries, each spaced by a second) to fetch job status",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-99.1183883.zip",
+            "releaseNote": "Added support for Linked version",
             "steps": [
                 {
                     "name": "Copy Artifacts",
