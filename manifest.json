@@ -5303,6 +5303,41 @@
                     "description": "Run a generic terraform script which has some configurations to create cloud based resources."
                 }
             ]
+        },
+        {
+            "id": "com.urbancode.air.plugin.DevOpsPlan",
+            "name": "DevOpsPlan",
+            "version": "1.1184123",
+            "pluginType": "Automation",
+            "description": "This plug-in integrates with a DevOps Plan application to manage work items and plans.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plan/devops-deploy-plugins-plan-1.1184123.zip",
+            "releaseNote": "Initial release of the Plan Plugin",
+            "steps": [
+                {
+                    "name": "Create Plan Record",
+                    "description": "Creates a new plan record (e.g., task, story, or issue) in the connected Plan application."
+                },
+                {
+                    "name": "Update Sprint",
+                    "description": "Updates a Sprint record."
+                },
+                {
+                    "name": "Update WorkItem",
+                    "description": "Updates a WorkItem record."
+                },
+                {
+                    "name": "Update Release",
+                    "description": "Updates a Release record ."
+                },
+                {
+                    "name": "Update Any Record",
+                    "description": "Updates a Record in Plan."
+                },
+                {
+                    "name": "Delete Record",
+                    "description": "Deletes a specified Plan record."
+                }
+            ]
         }
     ]
 }
