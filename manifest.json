@@ -5156,11 +5156,11 @@
         {
             "id": "com.urbancode.air.plugin.multigenartifact.zos",
             "name": "zOS Multi Generate Artifact Information",
-            "version": "12.1183876",
+            "version": "12.1184883",
             "pluginType": "Automation",
             "description": "The z/OS Multi Generate Artifact Information plug-in generates one or more informational text based on\n            defined templates. The information is sent to the output properties for use by later steps.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-12.1183876.zip",
-            "releaseNote": "Added support for linked versions",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-12.1184883.zip",
+            "releaseNote": "Added support for linked versions\n            Fixed NoSuchFileException",
             "steps": [
                 {
                     "name": "Generate Multiple Artifact Information",
@@ -5175,11 +5175,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "100.1184884",
+            "version": "100.1184126",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-100.1184884.zip",
-            "releaseNote": "Added support for Linked version\n            Fixed incorrect message during cp command failure\n            Fixed ZInventory update issue for linked versions with deleted artifacts\n            Performance improvement for Inventory Delta Deployment\n            Fix NoSuchFileException for generate artifact information step",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-100.1184126.zip",
+            "releaseNote": "Added support for Linked version",
             "steps": [
                 {
                     "name": "Copy Artifacts",
