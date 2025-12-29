@@ -5175,11 +5175,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "100.1184126",
+            "version": "100.1184884",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-100.1184126.zip",
-            "releaseNote": "Added support for Linked version",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-100.1184884.zip",
+            "releaseNote": "Added support for Linked version\n            Fixed incorrect message during cp command failure\n            Fixed ZInventory update issue for linked versions with deleted artifacts\n            Performance improvement for Inventory Delta Deployment\n            Fix NoSuchFileException for generate artifact information step",
             "steps": [
                 {
                     "name": "Copy Artifacts",
