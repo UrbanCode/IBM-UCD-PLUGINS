@@ -740,11 +740,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemVersioned",
             "name": "File System (Versioned)",
-            "version": "19.1155762",
+            "version": "20.1185359",
             "pluginType": "Source",
             "description": "The File System (Versioned) plug-in automates uploading artifacts from a versioned file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-19.1155762.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-20.1185359.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Import Version",
