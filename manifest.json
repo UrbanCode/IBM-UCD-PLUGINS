@@ -4333,11 +4333,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "23.1182800",
+            "version": "24.1185301",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-23.1182800.zip",
-            "releaseNote": "Remove dependence on native code for Windows.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-24.1185301.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Shell",
