@@ -3270,11 +3270,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS_SCM",
             "name": "TFS_SCM",
-            "version": "19.1171672",
+            "version": "20.1185336",
             "pluginType": "Source",
             "description": "The TFS_SCM plugins automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip",
-            "releaseNote": "Updating commons-io library to 2.17.0 for CVE-2024-47554",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-20.1185336.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4352,11 +4352,11 @@
         {
             "id": "com.urbancode.plugin.source.Subversion",
             "name": "Subversion",
-            "version": "27.1185334",
+            "version": "26.1159798",
             "pluginType": "Source",
             "description": "The Subversion source configuration plugin automates importing artifacts from a Subversion repository",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-27.1185334.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip",
+            "releaseNote": "made changes to support plugin for ucd v7.1.2.1",
             "steps": [
                 {
                     "name": "Import Version",
