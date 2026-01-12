@@ -1792,11 +1792,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "20.1155711",
+            "version": "22.1185306",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-20.1155711.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-22.1185306.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Install Template",
@@ -2126,11 +2126,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "78.1185299",
+            "version": "76.1176673",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-78.1185299.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip",
+            "releaseNote": "Fix an issue with certain steps on z/OS",
             "steps": [
                 {
                     "name": "Add Status to Version",
