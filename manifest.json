@@ -877,11 +877,11 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "29.1185328",
+            "version": "28.1178306",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-29.1185328.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-28.1178306.zip",
+            "releaseNote": "APAR-(PH58492): Handled NPE error for few properties",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1616,11 +1616,11 @@
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
             "name": "DevOps Build",
-            "version": "16.1176344",
+            "version": "18.1185330",
             "pluginType": "Source",
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip",
-            "releaseNote": "Rebrand UrbanCode Build to DevOps Build",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-18.1185330.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Import Version",
