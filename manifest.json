@@ -587,19 +587,19 @@
         {
             "id": "com.urbancode.air.plugin.DockerCompose",
             "name": "Docker Compose",
-            "version": "24.1174442",
+            "version": "25.1185319",
             "pluginType": "Automation",
             "description": "Create an environment based on a Compose file.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip",
-            "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/devops-deploy-docker-compose-25.1185319.zip",
+            "releaseNote": "Fixed issue while loading the plugin",
             "steps": [
                 {
                     "name": "Create Child Resources",
                     "description": "Create child resources of the component from Compose application resources. Dynamically generate an overrides file for docker-compose.yml based on the selected component versions at deployment."
                 },
                 {
-                    "name": "Deploy Docker Compose Application",
-                    "description": "Start all of the application services that are defined in a Compose file. Invoke 'docker-compose up' for compose file version less than or equal 2, and 'docker stack deploy' when version is 3+.  This specialized step is expected to be follow the \"Create Resource Tree\" step."
+                    "name": "Launch Docker Compose Application",
+                    "description": "Start all of the application services that are defined in a Compose file. Invoke 'docker-compose up' for compose file version less than or equal 2, and 'docker stack deploy' when version is 3+.  This specialized step is expected to be follow the 'Create Resource Tree' step."
                 },
                 {
                     "name": "Scale Docker Compose Application",
