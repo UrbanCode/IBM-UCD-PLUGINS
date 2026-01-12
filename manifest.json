@@ -2126,11 +2126,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "76.1176673",
+            "version": "78.1185299",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip",
-            "releaseNote": "Fix an issue with certain steps on z/OS",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-78.1185299.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Add Status to Version",
