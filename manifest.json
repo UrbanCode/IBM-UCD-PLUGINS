@@ -2747,11 +2747,11 @@
         {
             "id": "com.urbancode.air.plugin.kubernetes",
             "name": "Kubernetes",
-            "version": "33.1176035",
+            "version": "35.1185349",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with resources and images in Kubernetes.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-35.1185349.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Create Resources",
@@ -2791,19 +2791,19 @@
                 },
                 {
                     "name": "Rollout",
-                    "description": "Manage a deployment using subcommands like \"kubectl rollout undo deployment/abc\".\n                 If performing kubectl rollout history, the history is set as an output property in the format ${p:stepName/history}"
+                    "description": "Manage a deployment using subcommands like `kubectl rollout undo deployment/abc`.\n                 If performing kubectl rollout history, the history is set as an output property in the format ${p:stepName/history}"
                 },
                 {
                     "name": "Rolling Update",
-                    "description": "Perform a rolling update of the given Replication Controller.\""
+                    "description": "Perform a rolling update of the given Replication Controller."
                 },
                 {
                     "name": "Scale",
-                    "description": "Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.\""
+                    "description": "Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job."
                 },
                 {
                     "name": "Auto Scale",
-                    "description": "Creates an autoscaler that automatically chooses and sets the number of pods\n                 that run in a kubernetes cluster.\""
+                    "description": "Creates an autoscaler that automatically chooses and sets the number of pods\n                 that run in a kubernetes cluster."
                 },
                 {
                     "name": "Delete Resources",
