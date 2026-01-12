@@ -877,11 +877,11 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "28.1178306",
+            "version": "29.1185328",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-28.1178306.zip",
-            "releaseNote": "APAR-(PH58492): Handled NPE error for few properties",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-29.1185328.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Import Version",
