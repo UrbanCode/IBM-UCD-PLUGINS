@@ -5292,11 +5292,11 @@
         {
             "id": "com.urbancode.plugin.terraformIaac",
             "name": "Terraform Iaac",
-            "version": "3.1181573",
+            "version": "4.1185421",
             "pluginType": "Automation",
             "description": "This plugin runs terraform scripts to PLAN, CREATE, DESTROY cloud infrastructure",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/terraform-iaac/devops-deploy-plugins-terraform-iaac-3.1181573.zip",
-            "releaseNote": "Added support for GCP.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/terraform-iaac/devops-deploy-plugins-terraform-iaac-4.1185421.zip",
+            "releaseNote": "Added support for Azure.",
             "steps": [
                 {
                     "name": "Run Terraform Command",
