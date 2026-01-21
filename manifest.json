@@ -755,11 +755,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "100.1176430",
+            "version": "102.1185502",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip",
-            "releaseNote": "Adding Condition to ignore token replacement for the properties file.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-102.1185502.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "steps": [
                 {
                     "name": "Replace Tokens",
