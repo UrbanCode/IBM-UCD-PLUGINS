@@ -2126,11 +2126,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "76.1176673",
+            "version": "79.1185710",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip",
-            "releaseNote": "Fix an issue with certain steps on z/OS",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-79.1185710.zip",
+            "releaseNote": "New step to get version type",
             "steps": [
                 {
                     "name": "Add Status to Version",
@@ -2155,6 +2155,10 @@
                 {
                     "name": "Get Version Status Information",
                     "description": "Retrieve the status information for a Version and sets the output properties:\n        versionLatestStatus, versionStatuses, and versionStatusIds.\n        The versionStatuses and versionStatusIds. properties will contain a comman-separated-values list of\n        all statuses on the Version.\n        Optionally, print a message and fail this step unless a required Status is present on the Version."
+                },
+                {
+                    "name": "Get Version Type",
+                    "description": "Retrieve the version type information for a Version and sets the output property:\n      versionType."
                 }
             ]
         },
