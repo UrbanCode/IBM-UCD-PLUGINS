@@ -5076,11 +5076,11 @@
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
             "name": "zOS External Artifacts Utility",
-            "version": "14.1183877",
+            "version": "15.1185701",
             "pluginType": "Automation",
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-14.1183877.zip",
-            "releaseNote": "Added support for downloading artifacts for Linked versions",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-15.1185701.zip",
+            "releaseNote": "Added mechanism to cache From Version for a linked version for retry scenario",
             "steps": [
                 {
                     "name": "Download Artifacts for zOS External Repo",
