@@ -4066,11 +4066,11 @@
         {
             "id": "com.urbancode.air.plugin.WLDeploy",
             "name": "WLDeploy",
-            "version": "26.1175365",
+            "version": "27.1185983",
             "pluginType": "Automation",
             "description": "The WLDeploy plugin allows uDeploy to un/re/deploy Java applications as well as start/stop WebLogic servers and clusters.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip",
-            "releaseNote": "Fixed issue with Groovy 3.x.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/devops-deploy-WLDeploy-27.1185983.zip",
+            "releaseNote": "Fixed hardcoded value to fix TS021381090.",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
