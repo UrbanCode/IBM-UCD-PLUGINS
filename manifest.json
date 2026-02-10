@@ -2090,11 +2090,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "50.1185303",
+            "version": "51.1186061",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-50.1185303.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-51.1186061.zip",
+            "releaseNote": "Add support for linked versions for ZOS Components",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
                 {
