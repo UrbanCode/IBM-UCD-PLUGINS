@@ -312,11 +312,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.Artifactory",
             "name": "Artifactory",
-            "version": "26.1176841",
+            "version": "27.1183827",
             "pluginType": "Automation",
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip",
-            "releaseNote": "Fixed known issue DT436088 - Artifactory Plugin fails with groovy.lang.MissingPropertyException",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-27.1183827.zip",
+            "releaseNote": "Jettison dependency updated.",
             "steps": [
                 {
                     "name": "Download version (Maven build)",
