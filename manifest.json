@@ -5281,11 +5281,11 @@
         {
             "id": "com.urbancode.air.plugin.SendSmtpEmail",
             "name": "Send SMTP Email",
-            "version": "4.1179024",
+            "version": "4.1186203",
             "pluginType": "Automation",
-            "description": "The plugin adds new file utilities beyond what is provided in the standard FileUtils plugin.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1179024.zip",
-            "releaseNote": "Fixed NoClassDefFoundError Issue.",
+            "description": "This plugin provides a mechanism to send SMTP emails in your deployment process.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1186203.zip",
+            "releaseNote": "Converted the plugin code form Groovy to Java.\n\t  DT444811 - Fixed NoClassDefFoundError Issue\n\t  Updated plugin description and fixed NoClassDefFoundError for LoggerContext",
             "steps": [
                 {
                     "name": "Send SMTP Email",
