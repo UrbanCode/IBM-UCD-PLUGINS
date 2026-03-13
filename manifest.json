@@ -5114,10 +5114,10 @@
         {
             "id": "com.urbancode.air.plugin.source.zOSFile",
             "name": "zOS File",
-            "version": "10.1181082",
+            "version": "10.1186834",
             "pluginType": "Source",
             "description": "The zOS File plugin automates uploading data sets, UNIX files and generic artifacts from a z/OS system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1186834.zip",
             "releaseNote": "Added support for new buztool parameters",
             "steps": [
                 {
