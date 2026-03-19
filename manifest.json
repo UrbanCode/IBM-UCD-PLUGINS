@@ -993,11 +993,11 @@
         {
             "id": "com.urbancode.air.plugin.Groovy",
             "name": "Groovy",
-            "version": "16.1155716",
+            "version": "17.1186931",
             "pluginType": "Automation",
             "description": "The Groovy plugin is an automation based plugin that provides steps for executing user defined Groovy scripts.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-17.1186931.zip",
+            "releaseNote": "Option to run the user script in the same JVM aimed at providing performance benefits",
             "steps": [
                 {
                     "name": "Run Groovy Script",
