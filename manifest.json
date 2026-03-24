@@ -5172,22 +5172,6 @@
             ]
         },
         {
-            "id": "com.urbancode.air.plugin.cyberark",
-            "name": "CyberArk",
-            "version": "4.1098501",
-            "pluginType": "Automation",
-            "description": "The CyberArk plugin allows you to request a CyberArk password and set it as a secure process request property.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip",
-            "releaseNote": "Fixing CVE:CVE-2019-4233",
-            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cyberark/",
-            "steps": [
-                {
-                    "name": "Retrieve Password",
-                    "description": "Retrieve a password from a Cyberark safe and set it as a secure process request property. This step will\n        set the CyberArk/username, CyberArk/address, and CyberArk/password properties at either the\n        commponent process request level or the generic process request level."
-                }
-            ]
-        },
-        {
             "id": "com.urbancode.plugin.datasetWriter.zos",
             "name": "zOS Dataset Writer",
             "version": "4.1176024",
