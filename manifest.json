@@ -9,6 +9,7 @@
             "description": "The AccuRev source configuration plug-in creates component versions with artifacts from AccuRev.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip",
             "releaseNote": "Fixes APAR PH24084: Resolved class (FileListerBuilder$Permissions) not found dependency issue.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/AccuRevSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -24,6 +25,7 @@
             "description": "This plugin provides steps for launching instances, terminating instances, associating ip addresses, waiting for instances, creating a security group, and getting the public DNS for the Amazon EC2 tool.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AmazonEC2/AmazonEC2-6.1100863.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/AmazonEC2/",
             "steps": [
                 {
                     "name": "Launch Instances",
@@ -67,6 +69,7 @@
             "description": "This plug-in includes steps that integrate with Ansible.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip",
             "releaseNote": "Port plugin to Java",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ansible/",
             "steps": [
                 {
                     "name": "AShell",
@@ -130,6 +133,7 @@
             "description": "The Ant plugin is an automation based plugin. It is run during the deployment to automate the execution of ant tasks defined in a build.xml file.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip",
             "releaseNote": "log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Ant/",
             "steps": [
                 {
                     "name": "Ant",
@@ -145,6 +149,7 @@
             "description": "The Apache Server plugin allows uDeploy processes to start and stop Apache web servers.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/ucd-Apache-4.1154066.zip",
             "releaseNote": "Log4j dependency removed.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Apache/",
             "steps": [
                 {
                     "name": "Start",
@@ -164,6 +169,7 @@
             "description": "The Tomcat plugin is used during deployments to execute Tomcat run-book automations and deploy or undeploy Tomcat applications.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip",
             "releaseNote": "log4j dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Tomcat/",
             "steps": [
                 {
                     "name": "Check Application Status",
@@ -203,6 +209,7 @@
             "description": "Integration for DevOps ACE to deploy Broker Archives and start and stop Message Flows\n                 using the ACE API. This plugin is compatible with version 11 of DevOps Integration Bus.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-ace/ucd-plugins-ibm-ace-13.1174437.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-ace/",
             "steps": [
                 {
                     "name": "Create Integration Node",
@@ -266,6 +273,7 @@
             "description": "This plug-in includes steps to interact with Argo CD instances.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-4.1167795.zip",
             "releaseNote": "Update inventory management to handle digest values in imagespecs.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/argocd/",
             "steps": [
                 {
                     "name": "Login",
@@ -317,6 +325,7 @@
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-27.1183827.zip",
             "releaseNote": "Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Artifactory/",
             "steps": [
                 {
                     "name": "Download version (Maven build)",
@@ -356,6 +365,7 @@
             "description": "The Artifactory source configuration plug-in creates component versions with artifacts from Artifactory. For additional documentation, see the artifactory_plugin_v1.pdf file included in the plug-in archive file.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-34.1183829.zip",
             "releaseNote": "Updated Jettison dependency.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ArtifactorySourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -371,6 +381,7 @@
             "description": "Aspera File Transfer Support",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.1100729.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/aspera/",
             "steps": [
                 {
                     "name": "Download Artifacts",
@@ -390,6 +401,7 @@
             "description": "The AzureDevops plugins automates importing version artifacts from a AzureDevops server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AzureDevopsSourceconfig/plugins-sourceconfig-azure-1.1112501.zip",
             "releaseNote": "Initial release of this plugin.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/AzureDevopsSourceconfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -405,6 +417,7 @@
             "description": "Create, update, and check entries in BMC Remedy.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Remedy/Remedy-5.1056545.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Remedy/",
             "steps": [
                 {
                     "name": "Create Entry",
@@ -432,6 +445,7 @@
             "description": "Chef automation support",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Chef/Chef-3.1056568.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Chef/",
             "steps": [
                 {
                     "name": "Install Chef Node",
@@ -451,6 +465,7 @@
             "description": "The CyberArk plugin allows you to request a CyberArk password and set it as a secure process request property.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cyberark/",
             "steps": [
                 {
                     "name": "Retrieve Password",
@@ -466,6 +481,7 @@
             "description": "The Dimensions plugin automates downloading artifacts from Dimensions projects.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DimensionsSourceConfig/DimensionsSourceConfig-10.1100948.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DimensionsSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -481,6 +497,7 @@
             "description": "This plug-in includes steps to manage the lifecycle of Docker containers.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/docker-plugin/",
             "steps": [
                 {
                     "name": "Run Docker Container",
@@ -592,6 +609,7 @@
             "description": "Create an environment based on a Compose file.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/devops-deploy-docker-compose-25.1185319.zip",
             "releaseNote": "Fixed issue while loading the plugin",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/docker-compose/",
             "steps": [
                 {
                     "name": "Create Child Resources",
@@ -619,6 +637,7 @@
             "description": "This Docker source plugin detects Docker registry image tags and creates associated component versions for the tag.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-45.1182090.zip",
             "releaseNote": "URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
                 {
@@ -635,6 +654,7 @@
             "description": "The F5 content switch plug-in includes steps for working with F5 nodes, pools, iRules, and data groups.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip",
             "releaseNote": "Fixes APAR PH05331 - Added javamail dependencies jars - fixes - \"UNABLE TO FIND REQUIRED CLASSES\" error.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/F5/",
             "steps": [
                 {
                     "name": "Disable Pool Member",
@@ -730,6 +750,7 @@
             "description": "The File System plugin automates uploading artifacts from a normal file system.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-14.1185332.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -745,6 +766,7 @@
             "description": "The File System (Versioned) plug-in automates uploading artifacts from a versioned file system.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-20.1185359.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemVersionedSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -760,6 +782,7 @@
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-102.1185502.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
                     "name": "Replace Tokens",
@@ -847,6 +870,7 @@
             "description": "This plugin connects to a FileNet Case Manager application to export, import, and deploy solutions",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileNet-CaseManager/FileNet-CaseManager-1.1100878.zip",
             "releaseNote": "Initial release of the Case Manager Plug-in.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileNet-CaseManager/",
             "steps": [
                 {
                     "name": "Deploy Solution",
@@ -882,6 +906,7 @@
             "description": "The Git Plugin automates importing artifacts from Git.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-28.1178306.zip",
             "releaseNote": "APAR-(PH58492): Handled NPE error for few properties",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/GitSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -897,6 +922,7 @@
             "description": "The GitLab Generic Packages plug-in includes steps for downloading artifacts from GitLab Generic Pacakages repositories.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1148660.zip",
             "releaseNote": "Initial release. Installing this plugin will give you access to the steps listed below.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/gitlab-generic-packages/",
             "steps": [
                 {
                     "name": "Download version",
@@ -912,6 +938,7 @@
             "description": "Plugin for creating versions and importing files from GitLab Generic Packages",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-3.1158910.zip",
             "releaseNote": "Added ability to to unzip archived files before upload as component version files.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/gitlab-sourceconfig-generic-packages/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -927,6 +954,7 @@
             "description": "The GitHub Release plug-in creates a component for each tagged version of a GitHub release.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-5.1154619.zip",
             "releaseNote": "Log4j and Jettison dependency updated .",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/sourceconfig-github-release/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -942,6 +970,7 @@
             "description": "Provides mobile support for working with Android.\n        Refer to the android_plugin.pdf file, which is embedded in the plug-in .zip file for more documentation.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-Android/plugin-air-Android-3.1107122.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-Android/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
@@ -998,6 +1027,7 @@
             "description": "The Groovy plugin is an automation based plugin that provides steps for executing user defined Groovy scripts.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-17.1186931.zip",
             "releaseNote": "Option to run the user script in the same JVM aimed at providing performance benefits",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Groovy/",
             "steps": [
                 {
                     "name": "Run Groovy Script",
@@ -1013,6 +1043,7 @@
             "description": "Description",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/hp-loadrunner/plugins-hp-loadrunner-1.1004896.zip",
             "releaseNote": "RFE 100953 - Initial release of the HP LoadRunner plugin.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/hp-loadrunner/",
             "steps": [
                 {
                     "name": "Run Test Scenario",
@@ -1028,6 +1059,7 @@
             "description": "The QTP plugin executes QTP tests.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/QTP/",
             "steps": [
                 {
                     "name": "Run QuickTest Pro tests",
@@ -1043,6 +1075,7 @@
             "description": "The AppScan plugin allows Deploy to run scans and check results.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip",
             "releaseNote": "Fixed bug that doesn't allow the download report as PDF after appscan upgrade.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/appscan/",
             "steps": [
                 {
                     "name": "Configure Job Options",
@@ -1086,6 +1119,7 @@
             "description": "This plug-in includes a step to create and start an action in DevOps BigFix.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/ucd-bigfix-2.1174440.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/bigfix/",
             "steps": [
                 {
                     "name": "Start Action",
@@ -1101,6 +1135,7 @@
             "description": "Integration with the BlueMix Auto-Scale service's REST API. The 'IBM Containers' plug-in is required for login and logout functionality.\n\t  The Auto-Scaling service must be installed on your DevOps Bluemix space+.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/ucd-bluemix-autoscale-2.1174433.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/bluemix-autoscale/",
             "steps": [
                 {
                     "name": "Add Auto-Scale Policy to Application",
@@ -1116,6 +1151,7 @@
             "description": "Export Process Application snapshots from Websphere BPM and create IBM UrbanCode Deploy component versions.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-8.1056527.zip",
             "releaseNote": "A versions importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereBPMSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1131,6 +1167,7 @@
             "description": "This plug-in includes steps to deploy process application snapshots on a Process Server. For additional documentation, see the webspherebpm_plugin_v2.pdf file in the plug-in archive.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip",
             "releaseNote": "Fixes APAR PH08137: Exception WASX8009E Invalid Parameter with BPM Deploy Process Application Snapshot step with spaces in Process Server Name",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereBPM/",
             "steps": [
                 {
                     "name": "Deploy Process Application Snapshot",
@@ -1198,6 +1235,7 @@
             "description": "The Cognos plug-in includes steps to import from archive files to the Cognos content store and to export from the Cognos content store to archive files.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip",
             "releaseNote": "Fixed issues with method getStepProperties of AirPluginTool.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Cognos/",
             "steps": [
                 {
                     "name": "Import",
@@ -1217,6 +1255,7 @@
             "description": "The Cognos Analytics plug-in imports and exports Cognos content store archive files from and to UrbanCode Deploy.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cognos-analytics/Cognos-Analytics-1.1107117.zip",
             "releaseNote": "Initial release. Installing this plugin will give you access to the steps listed below.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cognos-analytics/",
             "steps": [
                 {
                     "name": "Import",
@@ -1236,6 +1275,7 @@
             "description": "Plugin for creating and managing Docker containers from within Cloud Foundry.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry-ibm-containers/cloud-foundry-containers-6.1103420.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry-ibm-containers/",
             "steps": [
                 {
                     "name": "Install IBM Containers Plugin",
@@ -1327,6 +1367,7 @@
             "description": "The DataStage plug-in includes steps to import and export files from InfoSphere Information Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip",
             "releaseNote": "Made correction for default values of few attributes\nURBANCODE-I-486: Enhancing plugin to handle false import error from DataStage.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/datastage/",
             "steps": [
                 {
                     "name": "Compile Job or Routine",
@@ -1370,6 +1411,7 @@
             "description": "The Instana plug-in includes steps for working with Instana Tool.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-2.1158245.zip",
             "releaseNote": "Version 2 of Instana plugin. Added Service Release Marker step. Added Application Release Marker. Added disableCerts to disable Certificate Validation.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-instana/",
             "steps": [
                 {
                     "name": "Add Global Release Marker",
@@ -1393,6 +1435,7 @@
             "description": "Integration for WebSphere Message Broker to deploy Broker Archives and start and stop Message Flows\n                 using the CMP API. for zOS",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip",
             "releaseNote": "Optimized IIB Deploy plugin\n          Removed Jettison Library with vulnerability",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-ibm-integration-bus-ucd/",
             "steps": [
                 {
                     "name": "zOS Deploy",
@@ -1408,6 +1451,7 @@
             "description": "Maximo plugin allows the user to upload and deploy configuration using migration manager.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/maximo/plugins-maximo-1.1088514.zip",
             "releaseNote": "Initial release. Installing this plugin will give you access to the steps listed below.\n      \t- Upload migration package\n      \t- Deploy migration package",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-maximo/",
             "steps": [
                 {
                     "name": "Upload Package",
@@ -1427,6 +1471,7 @@
             "description": "Provides support for deploying mobile application artifacts to an DevOps MobileFirst Server.\n        Refer to the worklight_plugin.pdf file embedded in the plug-in .zip file for pre-v9 documentation.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/air-worklight/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
@@ -1471,6 +1516,7 @@
             "description": "This plug-in includes steps to work with rules and versions in DevOps Operational Decision Manager.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip",
             "releaseNote": "Fixed issue to support both oauth and basic auth",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm/",
             "steps": [
                 {
                     "name": "Deploy Rule Archive",
@@ -1514,6 +1560,7 @@
             "description": "The IBM ODM source config plugin automates downloading RuleApps from repository.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip",
             "releaseNote": "DVOPS-I-751 - Added capability to fetch artifacts from nested branch",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1529,6 +1576,7 @@
             "description": "The RAM plugin automates downloading artifacts from Rational Asset Manager projects.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAMSourceConfig/ucd-RAMSourceConfig-14.1153919.zip",
             "releaseNote": "Updated log4j and Jettison dependencies",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RAMSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1544,6 +1592,7 @@
             "description": "The ClearCase plug-in automates importing version artifacts from ClearCase (Base and UCM).",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ClearCaseSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1559,6 +1608,7 @@
             "description": "The RationalQualityManager plugin will invoke RQM test suites or test cases to execute automatic test scripts.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RationalQualityManager/RQM-11.1101668.zip",
             "releaseNote": "User must now specify the location of a location RQMUrlUtility.jar that matches their version of RQM. This allows support for all RQM versions.\n          Updated method for validated RQM jars.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-rational-quality-manager-rqm/",
             "steps": [
                 {
                     "name": "Execute Test Suite",
@@ -1578,6 +1628,7 @@
             "description": "This source config plugin allows for downloading artifacts from RTC.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-8.1101694.zip",
             "releaseNote": "Fixes APAR PH17828, fix an incorrect value for \"Workspace History\" when configuring the importing of new versions.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/air-plugin-RTC-scm/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1593,6 +1644,7 @@
             "description": "The RTC Work Items plugin provides steps for the build to comment and change the status of work items found in RTC",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip",
             "releaseNote": "Fixed the Add-comments step failure.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-RTC-WorkItems/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
@@ -1621,6 +1673,7 @@
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip",
             "releaseNote": "Rebrand UrbanCode Build to DevOps Build",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uBuildSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -1636,6 +1689,7 @@
             "description": "This plugin allows uDeploy to upgrade and roll back databases.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip",
             "releaseNote": "Fixed for compatibility with Groovy 3.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DBUpgrader/",
             "steps": [
                 {
                     "name": "Upgrade DB",
@@ -1655,6 +1709,7 @@
             "description": "Plugin for creating and managing UrbanCode Deploy applications.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-90.1183820.zip",
             "releaseNote": "Run Application Process should detect if the process is canceled and set detailsLink.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/",
             "steps": [
                 {
                     "name": "Create Application",
@@ -1742,6 +1797,7 @@
             "description": "Plugin for creating and managing UrbanCode Deploy components.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-81.1155712.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Component/",
             "steps": [
                 {
                     "name": "Create Component",
@@ -1797,6 +1853,7 @@
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-22.1185306.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeployConfigManagement/",
             "steps": [
                 {
                     "name": "Install Template",
@@ -1824,6 +1881,7 @@
             "description": "Plugin for creating and managing UrbanCode Deploy environments.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip",
             "releaseNote": "Fixes APAR PH55636 - Create Multiple Environments not creating with expected color.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Environment/",
             "steps": [
                 {
                     "name": "Create Environment",
@@ -1891,6 +1949,7 @@
             "description": "Utilities for basic tasks that don't fit in a specific plugin.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/ucd-general-utilities-5.1155731.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/general-utilities/",
             "steps": [
                 {
                     "name": "Wait",
@@ -1906,6 +1965,7 @@
             "description": "Supports interaction with processes and process requests.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Process/",
             "steps": [
                 {
                     "name": "Set Process Request Property",
@@ -1925,6 +1985,7 @@
             "description": "Manages UrbanCode Deploy Resources",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Resource/",
             "minimumServerVersion": "7.0.5.11",
             "steps": [
                 {
@@ -2037,6 +2098,7 @@
             "description": "Plugin for managing IBM UrbanCode Deploy system properties and global settings.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-System/",
             "steps": [
                 {
                     "name": "Create System Property",
@@ -2068,6 +2130,7 @@
             "description": "The Deploy Tools plugin provides automated post deployment verification.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip",
             "releaseNote": "Updated log4j and Jettison libs.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/",
             "steps": [
                 {
                     "name": "Verify Deployment",
@@ -2095,6 +2158,7 @@
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-51.1186061.zip",
             "releaseNote": "Add support for linked versions for ZOS Components",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
                 {
@@ -2131,6 +2195,7 @@
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-79.1185710.zip",
             "releaseNote": "New step to get version type",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/",
             "steps": [
                 {
                     "name": "Add Status to Version",
@@ -2170,6 +2235,7 @@
             "description": "The IBM UrbanCode Release plug-in provides steps for integrating IBM UrbanCode Deploy with IBM UrbanCode Release.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip",
             "releaseNote": "The \"Password\" property is now a secure field.\n          Added HTTP statusLine and body responses for failed Status Snapshot deployments in the \"Add Snapshot Status\" step.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ucr-plugin/",
             "steps": [
                 {
                     "name": "Get Release for Environment",
@@ -2205,6 +2271,7 @@
             "description": "The uBuild plugin provides steps to download artifacts from uBuild and run uBuild processes.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip",
             "releaseNote": "Fixes APAR PI80964 - Run Secondary Process step with org/apache/log4j/Logger NoClassDefFoundError failure.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uBuild/",
             "steps": [
                 {
                     "name": "Run Secondary Process",
@@ -2232,6 +2299,7 @@
             "description": "Plugin to configure and deploy WebSphere Commerce customization using the Build and Deployment tool. Refer to the webspherecommerce_plugin_v1.pdf file embedded in the plug-in zip for additional documentation.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereCommerce/",
             "steps": [
                 {
                     "name": "Install server deployment package (Deprecated)",
@@ -2255,6 +2323,7 @@
             "description": "This plug-in includes steps to install and update applications in DevOps WebSphere Liberty, and to work with the profile configuration.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip",
             "releaseNote": "Updated Jettison and log4j dependencies",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereLiberty/",
             "steps": [
                 {
                     "name": "Install or Update Applications with Dropins",
@@ -2358,6 +2427,7 @@
             "description": "Plugin to deploy WebSphere Portal artifacts like themes, skins, portlets and PAAs. Refer to the websphereportal_plugin_v1.pdf file embedded in the plug-in zip for additional documentation.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSpherePortal/WebSpherePortal-8.1100783.zip",
             "releaseNote": "Fixes APAR PH27880 - 'Invoke XMLAccess script' Does not work for context root \"/\"",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSpherePortal/",
             "steps": [
                 {
                     "name": "Execute ConfigEngine command",
@@ -2389,6 +2459,7 @@
             "description": "The WebSphere Service Registry and Repository(WSRR) plugin manages configuration profiles and service registration.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WSRR/WSRR-9.1056551.zip",
             "releaseNote": "Fixes PI75774: Add missing AirPluginTool import to Register Service step.\n          Exit with failure if the Register Service step completes unsuccessfully.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WSRR/",
             "steps": [
                 {
                     "name": "Load Configuration Profile",
@@ -2416,6 +2487,7 @@
             "description": "This plug-in includes steps that integrate with WebSphere MQ.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip",
             "releaseNote": "Updated log4j and Jettison dependencies",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereMQ/",
             "steps": [
                 {
                     "name": "Create Queue Manager",
@@ -2607,6 +2679,7 @@
             "description": "This plugin integrates with IBM InfoSphere Information Services Director to allow \n      exporting and importing projects, applications, and/or services.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip",
             "releaseNote": "RFE 103489 - Initial release of InfoSphere Information Services Directory plug-in.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/infosphere-isd/",
             "steps": [
                 {
                     "name": "Design Time Export",
@@ -2634,6 +2707,7 @@
             "description": "The JBoss plugin automates deploying and undeploying applications and among other things automates starting and stopping the JBoss server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-25.1155393.zip",
             "releaseNote": "Log4j and Jettison dependency updated .",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/JBoss/",
             "steps": [
                 {
                     "name": "Deploy Application",
@@ -2721,6 +2795,7 @@
             "description": "Jira Integration",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip",
             "releaseNote": "RFE - URBANCODE-I-635 - PAT Token feature added.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/JIRA/",
             "steps": [
                 {
                     "name": "Add Comments",
@@ -2756,6 +2831,7 @@
             "description": "This plug-in includes steps to work with resources and images in Kubernetes.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-35.1185349.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/kubernetes/",
             "steps": [
                 {
                     "name": "Create Resources",
@@ -2867,6 +2943,7 @@
             "description": "This plugin contains Linux options for rebooting the operating system and setting file permissions.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/LinuxSystemTools/",
             "steps": [
                 {
                     "name": "Reboot",
@@ -2902,6 +2979,7 @@
             "description": "The Maven plugin automates downloading artifacts from Maven projects.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip",
             "releaseNote": "Add support to allow pass certificates with client.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -2917,6 +2995,7 @@
             "description": "The Maven plugin provides support for resolving artifacts from a maven repository.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-11.1167755.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Maven/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
@@ -2933,6 +3012,7 @@
             "description": "The Mesos Marathon plugin allows UCD to manipulate Marathon.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/ucd-mesos-marathon-4.1174443.zip",
             "releaseNote": "Added error logging and stack traces. Changed API use to support older versions of Marathon as well.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/mesos-marathon/",
             "steps": [
                 {
                     "name": "Kill Tasks",
@@ -2960,6 +3040,7 @@
             "description": "The HP Quality Center Plugin automates among others creating deleting deleting issues in QC.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip",
             "releaseNote": "Reverted version 15 changes.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/HPQualityCenter/",
             "steps": [
                 {
                     "name": "Create Issue",
@@ -2995,6 +3076,7 @@
             "description": "The IIS-Configuration plug-in includes steps to create and manage IIS configurations.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip",
             "releaseNote": "Add compatibility with Groovy 3.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/iis-configuration/",
             "minimumServerVersion": "6.2.0.2",
             "steps": [
                 {
@@ -3035,6 +3117,7 @@
             "description": "The IIS-AdminScripts plugin allows uDeploy to automate IIS6 configuration changes during a deployment.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/ucd-IIS-AdminScripts-10.1154089.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IIS-AdminScripts/",
             "steps": [
                 {
                     "name": "AdsUtil",
@@ -3062,6 +3145,7 @@
             "description": "The IIS-AppCmd plugin is an automation based plugin. It is used during the deployment to automate IIS 7 and 7.5 configuration changes.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-8.1154620.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IIS-AppCmd/",
             "steps": [
                 {
                     "name": "Create Application",
@@ -3133,6 +3217,7 @@
             "description": "The MSDeploy plugin automates synchronizing and deleting servers, sites, applications, packages, and starting, stopping and recycling application Pools through the MSDeploy application.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-6.1164186.zip",
             "releaseNote": "Updated plugin gor groovy3 support.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IIS-MSDeploy/",
             "steps": [
                 {
                     "name": "Synchronize",
@@ -3168,6 +3253,7 @@
             "description": "SQLCMD is a command line application that comes with Microsoft SQL Server, and exposes the management features of SQL Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip",
             "releaseNote": "Log4j and Jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SQLCmd/",
             "steps": [
                 {
                     "name": "Run SQLCmd scripts",
@@ -3183,6 +3269,7 @@
             "description": "Microsoft SQL Server Integration Services plugin provides deployment automation of packages to SQL database servers that can\n      work alone or with other deployed packages to provide solutions to complex business needs.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MicrosoftSSIS/MicrosoftSSIS-2.1005733.zip",
             "releaseNote": "Fixed APAR PH05484 - Invalid SERVER argument to deploy step.\nFixed an issue where file mappings would deploy twice.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MicrosoftSSIS/",
             "steps": [
                 {
                     "name": "Deploy",
@@ -3198,6 +3285,7 @@
             "description": "The Sharepoint plugin allows uDeploy to deploy WSP and CMP packages.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Sharepoint/Sharepoint-8.1056539.zip",
             "releaseNote": "Update activate feature step to handle multiple features and add a deactivate feature step.\nUpdate deploy WSP step to allow for a full reinstall instead of update.\nFix WSP Deploy step to handle spaces in the path to stsadm.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Sharepoint/",
             "steps": [
                 {
                     "name": "Export SharePoint Content",
@@ -3233,6 +3321,7 @@
             "description": "The Team Foundation Server (TFS) plug-in automates importing version artifacts from a TFS server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip",
             "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS-SourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3248,6 +3337,7 @@
             "description": "This plugin allows for the creation and modification of work items in Microsoft Team Foundation Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-TFS-WorkItems/TFS-WorkItems-3.1056533.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-TFS-WorkItems/",
             "steps": [
                 {
                     "name": "Create Work Item",
@@ -3279,6 +3369,7 @@
             "description": "The TFS_SCM plugins automates importing version artifacts from a TFS server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-20.1185336.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS_SCM-SourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3294,6 +3385,7 @@
             "description": "This plugin provides steps for managing Windows Server failover clusters, a feature found in Windows Server Enterprise editions beginning with Windows Server 2008 R2.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsFailoverCluster/WindowsFailoverCluster-6.1103479.zip",
             "releaseNote": "Fixed groovy-2.4.15 'collectAll' regression.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WindowsFailoverCluster/",
             "steps": [
                 {
                     "name": "Start Cluster Service",
@@ -3341,6 +3433,7 @@
             "description": "The Service Control Manager plugin is an automation based plugin. It is used during the deployment to automate Windows Services.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip",
             "releaseNote": "Log4j and jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ServiceControlManager/",
             "steps": [
                 {
                     "name": "Create Service",
@@ -3384,6 +3477,7 @@
             "description": "The WindowsSystemTools Plugin automates various Windows system tasks.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/ucd-WindowsSystemTools-24.1127383.zip",
             "releaseNote": "Add compatibility with Groovy 3.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WindowsSystemTools/",
             "steps": [
                 {
                     "name": "Modify ACLs",
@@ -3467,6 +3561,7 @@
             "description": "Automate the deployment of Mulesoft applications to a Mulesoft target.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip",
             "releaseNote": "Fixed issues with methods setOutputProperties and getStepProperties of AirPluginTool.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/mulesoft/",
             "steps": [
                 {
                     "name": "Deploy to Cloudhub",
@@ -3482,6 +3577,7 @@
             "description": "The NPM source configuration plug-in creates component versions with packages from an NPM registry.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-npm/sourceconfig-npm-3.1053076.zip",
             "releaseNote": "A versions importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/sourceconfig-npm/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3497,6 +3593,7 @@
             "description": "The Nexus plug-in includes steps to download artifacts from a Nexus repository.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus/Nexus-3.1101667.zip",
             "releaseNote": "Updated to ensure all response texts are zOS compatible.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nexus/",
             "steps": [
                 {
                     "name": "Download NuGet package",
@@ -3512,6 +3609,7 @@
             "description": "The Nexus Repository Manager V3 source config plugin automates downloading artifacts from \n      Nexus v3 hosted Maven, NPM, Nuget, and raw repository types.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip",
             "releaseNote": "RFE-URBANCODE-I-735: Importing versions from raw nexus repository .",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/sourceconfig-nexus-v3/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3527,6 +3625,7 @@
             "description": "The Nexus source config plugin automates downloading artifacts from Nexus v2 hosted Maven repositories.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus-source-config/Nexus-Source-Config-4.1053075.zip",
             "releaseNote": "A version's importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nexus-source-config/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3542,6 +3641,7 @@
             "description": "The NuGet plug-in automates importing artifacts from NuGet packages.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip",
             "releaseNote": "log4j and jettison dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nuget-source-config/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -3557,6 +3657,7 @@
             "description": "This OpenShift source plugin detects Docker registry image tags and creates associated component versions for the tag.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip",
             "releaseNote": "Fixes APAR PH17739 - Invalid value for namingConvention property.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/OpenShiftSourceConfig/",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
                 {
@@ -3573,6 +3674,7 @@
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-27.1185296.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/",
             "steps": [
                 {
                     "name": "Deploy",
@@ -3680,6 +3782,7 @@
             "description": "The SQL*Plus plugin allows uDeploy to execute SQL scripts during a deployment.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-24.1163812.zip",
             "releaseNote": "Handling missing File issue",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SQLPlus/",
             "steps": [
                 {
                     "name": "Run SQLPlus script",
@@ -3699,6 +3802,7 @@
             "description": "Plug-in that allows a user in sending commands to the WebLogic Server Deployer tool.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WebLogic-Application-Deployment/plugin-air-WebLogic-Application-Deployment-8.1061630.zip",
             "releaseNote": "Fixes APAR PH25731 - SSL URL DESTINATION UNREACHABLE",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WebLogic-Application-Deployment/",
             "steps": [
                 {
                     "name": "Deploy",
@@ -3730,6 +3834,7 @@
             "description": "This plug-in allows a user to handle event generators for WebLogic Integration Resource Management.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLI-Resource-Management/plugin-air-WLI-Resource-Management-35.1056548.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLI-Resource-Management/",
             "steps": [
                 {
                     "name": "Create File EG",
@@ -3789,6 +3894,7 @@
             "description": "This plugin automates WebLogic tasks.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogic-WLST/WebLogic-WLST-9.1100786.zip",
             "releaseNote": "Updated all default property values to coincide with the WLDeploy plugin values.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebLogic-WLST/",
             "steps": [
                 {
                     "name": "Suspend Server",
@@ -3844,6 +3950,7 @@
             "description": "The WebLogic Server Resource Management plug-in provides steps to work with beans on an Oracle WebLogic Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLS-Resource-Management/plugin-air-WLS-Resource-Management-6.1056547.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/",
             "steps": [
                 {
                     "name": "Create Quota",
@@ -4071,6 +4178,7 @@
             "description": "The WLDeploy plugin allows uDeploy to un/re/deploy Java applications as well as start/stop WebLogic servers and clusters.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/devops-deploy-WLDeploy-27.1186187.zip",
             "releaseNote": "Fixed hardcoded value to fix TS021381090.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WLDeploy/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
                 {
@@ -4119,6 +4227,7 @@
             "description": "The PVCS plugin automates downloading artifacts from PVCS.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PvcsSourceConfig/PvcsSourceConfig-7.1026780.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/PvcsSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4134,6 +4243,7 @@
             "description": "The Perforce plugin automates importing version artifacts from Perforce.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PerforceSourceConfig/PerforceSourceConfig-9.1026768.zip",
             "releaseNote": "Fixing CVE:CVE-2019-4233",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/PerforceSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4149,6 +4259,7 @@
             "description": "The PowerShell Integration plug-in provides a step that runs a PowerShell script. This step allows for bidirectional passing of script variables and UrbanCode Deploy properties, and custom exit status handling.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip",
             "releaseNote": "Fixed APAR PH12966 - Process fails when script doesn't explicitly call 'exit'.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/powershell-integration/",
             "steps": [
                 {
                     "name": "Run PowerShell Script",
@@ -4164,6 +4275,7 @@
             "description": "The RPM Plugin automates installing, updating, and uninstalling rpm packages.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPM/RPM-4.1100816.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RPM/",
             "steps": [
                 {
                     "name": "Install RPM",
@@ -4187,6 +4299,7 @@
             "description": "This plug-in includes steps to update Rally issues for defect and feature tracking.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip",
             "releaseNote": "(PI89142) Fixed classpath for users that configure proxy host",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Rally/",
             "steps": [
                 {
                     "name": "Add Comments",
@@ -4214,6 +4327,7 @@
             "description": "The SQL-JDBC plugin is an automation based plugin. It is executed as part of the deployment to help manage DB changes.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/devops-deploy-SQL-JDBC-14.1180493.zip",
             "releaseNote": "Add ability to run sql text in addition to sql files.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SQL-JDBC/",
             "steps": [
                 {
                     "name": "Execute SQL Scripts",
@@ -4233,6 +4347,7 @@
             "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip",
             "releaseNote": "Resolved Property validation issue.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
                     "name": "Bulk Retrieve",
@@ -4268,6 +4383,7 @@
             "description": "The Selenium Plug-in runs Selenium RC commands using a Selenium HTML test suite file.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip",
             "releaseNote": "Log4j dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Selenium/",
             "steps": [
                 {
                     "name": "Run Test Suite",
@@ -4283,6 +4399,7 @@
             "description": "The ServiceNow plugin allows for the easy automation of CRUD operations on ServiceNow records.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip",
             "releaseNote": "RFE - URBANCODE-I-648 Added Check Extension Window for compare with end date.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ServiceNow/",
             "steps": [
                 {
                     "name": "Check Records",
@@ -4342,6 +4459,7 @@
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-24.1185301.zip",
             "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/",
             "steps": [
                 {
                     "name": "Shell",
@@ -4361,6 +4479,7 @@
             "description": "The Subversion source configuration plugin automates importing artifacts from a Subversion repository",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip",
             "releaseNote": "made changes to support plugin for ucd v7.1.2.1",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SubversionSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4376,6 +4495,7 @@
             "description": "This plugin allows uDeploy to checkout and export code from Subversion.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Subversion-export/Subversion-export-5.1100775.zip",
             "releaseNote": "Support property file encryption.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Subversion-export/",
             "steps": [
                 {
                     "name": "Svn Export",
@@ -4391,6 +4511,7 @@
             "description": "The Sybase plugin provides steps to integrate with a Sybase Adaptive Server Enterprise relational database server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sybase/plugins-sybase-6.1100960.zip",
             "releaseNote": "Added support for Sybase source profile path with spaces in Unix.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/sybase/",
             "steps": [
                 {
                     "name": "Run SQL Scripts",
@@ -4406,6 +4527,7 @@
             "description": "The System Information plugin includes a variety of checks to perform against the operating system. These steps can be used to verify that a deployment can succeed or has succeeded.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip",
             "releaseNote": "Updating commons-io library to 2.17.0 for CVE-2024-47554",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SystemInformation/",
             "steps": [
                 {
                     "name": "Check Connectivity",
@@ -4433,6 +4555,7 @@
             "description": "The TeamCity plugin automates downloading artifacts from TeamCity projects.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip",
             "releaseNote": "Updated log4j dependencies",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TeamCitySourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -4448,6 +4571,7 @@
             "description": "This plug-in includes steps to send HTTP requests and to upload files via FTP.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-20.1183890.zip",
             "releaseNote": "BeanUtils dependency updated.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/web-utilities/",
             "steps": [
                 {
                     "name": "Send HTTP Call",
@@ -4471,6 +4595,7 @@
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps to import and export configuration information for WebSphere Application Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip",
             "releaseNote": "Fixed the issue for securedata jar for compatibility with Java 8.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereConfiguration/",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
                 {
@@ -4543,6 +4668,7 @@
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip",
             "releaseNote": "Remove property note.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
                 {
@@ -4975,6 +5101,7 @@
             "description": "Starting point for creating an automated WebSphere Application Server installation application.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip",
             "releaseNote": "Updated jettison and log4j dependencies",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/websphere-install/",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
                 {
@@ -5035,26 +5162,12 @@
             "description": "Plugin for installing agents to remote machine using WinRS",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip",
             "releaseNote": "Update udclient and uDeployRestClient",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WinRSAgentInstall/",
             "minimumServerVersion": "6.1.1.1",
             "steps": [
                 {
                     "name": "WinRS Agent Install",
                     "description": "Install agent to remote machine using WinRS"
-                }
-            ]
-        },
-        {
-            "id": "com.urbancode.air.plugin.cyberark",
-            "name": "CyberArk",
-            "version": "4.1098501",
-            "pluginType": "Automation",
-            "description": "The CyberArk plugin allows you to request a CyberArk password and set it as a secure process request property.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip",
-            "releaseNote": "Fixing CVE:CVE-2019-4233",
-            "steps": [
-                {
-                    "name": "Retrieve Password",
-                    "description": "Retrieve a password from a Cyberark safe and set it as a secure process request property. This step will\n        set the CyberArk/username, CyberArk/address, and CyberArk/password properties at either the\n        commponent process request level or the generic process request level."
                 }
             ]
         },
@@ -5066,6 +5179,7 @@
             "description": "The zOS Dataset Writer plug-in copies input text, dataset or USS file to a mainframe dataset.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip",
             "releaseNote": "Enhancement to accept multiple datasets or Files as input\n      Minor Improvements\n      Fixed security issue CVE-2021-29425\n      Fixed Jettison Vulnerability",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-dataset-writer/",
             "steps": [
                 {
                     "name": "Write to Sequential Dataset",
@@ -5081,6 +5195,7 @@
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-16.1186873.zip",
             "releaseNote": "Added support to download linked versions as a zip from Artifactory provided site has custom plugin installed",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zOS-external-artifact-download/",
             "steps": [
                 {
                     "name": "Download Artifacts for zOS External Repo",
@@ -5104,6 +5219,7 @@
             "description": "The z/OS FTP plug-in uploads HFS files artifacts from another z/OS Logical partitions(LPARs).",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-2.1173218.zip",
             "releaseNote": "Removed input to pass IRRRacf library path",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-ftp/",
             "steps": [
                 {
                     "name": "FTP Artifacts",
@@ -5119,6 +5235,7 @@
             "description": "The zOS File plugin automates uploading data sets, UNIX files and generic artifacts from a z/OS system.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1186834.zip",
             "releaseNote": "Added support for new buztool parameters",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zOSFileSourceConfig/",
             "steps": [
                 {
                     "name": "Import Version",
@@ -5134,6 +5251,7 @@
             "description": "The zOSMF plug-in includes deployment activities using DevOps zOS Management Facility",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435.zip",
             "releaseNote": "Fixed Groovy compilation issue on Groovy-3.0.11",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zosmf/",
             "steps": [
                 {
                     "name": "Create Workflow",
@@ -5165,6 +5283,7 @@
             "description": "The z/OS Multi Generate Artifact Information plug-in generates one or more informational text based on\n            defined templates. The information is sent to the output properties for use by later steps.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-12.1184883.zip",
             "releaseNote": "Added support for linked versions\n            Fixed NoSuchFileException",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-multi-generate-artifact-info/",
             "steps": [
                 {
                     "name": "Generate Multiple Artifact Information",
@@ -5184,6 +5303,7 @@
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-101.1186159.zip",
             "releaseNote": "add support to skip deletion of files in target in deploy datasets and uss files step\n            add support for runtime deployment for linked version\n            Fix ZInventory table update issue for linked version redeployment\n            Fix memory leak and improve performance for runtime deployment",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
                     "name": "Copy Artifacts",
@@ -5271,6 +5391,7 @@
             "description": "The zOS Rexx Executor plug-in executes REXX program from a Dataset (or) specified inline in the plugin.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip",
             "releaseNote": "Added checkbox to print logs and minor improvements\n            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes\n            Increased allowed arguments size to 248 characters\n            Fixed issue with work directory during two or more parallel step execution\n            Handle return code for a CLIST error message response from ISPF Gateway\n            Use Legacy ISPF Gateway to run programs by default\n            Improvements in ISPF gateway error handling\n            Fixed PH62152 - RcException while allocating temporary datasets\n            Minor improvements in ISPF gateway",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-rexx/",
             "steps": [
                 {
                     "name": "Execute a REXX program",
@@ -5286,6 +5407,7 @@
             "description": "This plugin provides a mechanism to send SMTP emails in your deployment process.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1186203.zip",
             "releaseNote": "Converted the plugin code form Groovy to Java.\n\t  DT444811 - Fixed NoClassDefFoundError Issue\n\t  Updated plugin description and fixed NoClassDefFoundError for LoggerContext",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/send-smtp-email/",
             "steps": [
                 {
                     "name": "Send SMTP Email",
@@ -5301,6 +5423,7 @@
             "description": "This plugin runs terraform scripts to PLAN, CREATE, DESTROY cloud infrastructure",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/terraform-iaac/devops-deploy-plugins-terraform-iaac-4.1185421.zip",
             "releaseNote": "Added support for Azure.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Terraform/",
             "steps": [
                 {
                     "name": "Run Terraform Command",
@@ -5316,6 +5439,7 @@
             "description": "This plug-in integrates with a DevOps Plan application to manage work items and plans.",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plan/devops-deploy-plugins-plan-1.1184123.zip",
             "releaseNote": "Initial release of the Plan Plugin",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/devops-plan/",
             "steps": [
                 {
                     "name": "Create Plan Record",
