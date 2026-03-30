@@ -2153,11 +2153,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "51.1186061",
+            "version": "52.1187410",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-51.1186061.zip",
-            "releaseNote": "Add support for linked versions for ZOS Components",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-52.1187410.zip",
+            "releaseNote": "Reverted cache mechanism for zOS linked version",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
@@ -5190,11 +5190,11 @@
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
             "name": "zOS External Artifacts Utility",
-            "version": "17.1187409",
+            "version": "16.1186873",
             "pluginType": "Automation",
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-17.1187409.zip",
-            "releaseNote": "Reverted cache mechanism for linked versions",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-16.1186873.zip",
+            "releaseNote": "Added support to download linked versions as a zip from Artifactory provided site has custom plugin installed",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zOS-external-artifact-download/",
             "steps": [
                 {
