@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "101.1186159",
+            "version": "102.1187730",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-101.1186159.zip",
-            "releaseNote": "add support to skip deletion of files in target in deploy datasets and uss files step\n            add support for runtime deployment for linked version\n            Fix ZInventory table update issue for linked version redeployment\n            Fix memory leak and improve performance for runtime deployment",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-102.1187730.zip",
+            "releaseNote": "add support for updating last modified timestamp for PDS members of non U RECFM type\n           Skip Backup, Deployment, and ZInventory update for empty package manifest",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
