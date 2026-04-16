@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "103.1187825",
+            "version": "103.1187939",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-103.1187825.zip",
-            "releaseNote": "Added Run in Parallel option to Submit Job step to submit all jobs first and then wait for each job sequentially",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-103.1187939.zip",
+            "releaseNote": "Added Run in Parallel option to Submit Job step to submit all jobs first and then wait for each job sequentially\n            Fix IOException: Corrupted TAR archive error while extracting zip file\n            Added retry logic for ZInventory requests upon encountering deadlock issues in DB",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
