@@ -901,11 +901,11 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "30.1188326",
+            "version": "28.1178306",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-30.1188326.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-28.1178306.zip",
+            "releaseNote": "APAR-(PH58492): Handled NPE error for few properties",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/GitSourceConfig/",
             "steps": [
                 {
@@ -4474,11 +4474,11 @@
         {
             "id": "com.urbancode.plugin.source.Subversion",
             "name": "Subversion",
-            "version": "26.1159798",
+            "version": "28.1188327",
             "pluginType": "Source",
             "description": "The Subversion source configuration plugin automates importing artifacts from a Subversion repository",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip",
-            "releaseNote": "made changes to support plugin for ucd v7.1.2.1",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-28.1188327.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SubversionSourceConfig/",
             "steps": [
                 {
