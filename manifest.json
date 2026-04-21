@@ -1848,11 +1848,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "23.1188335",
+            "version": "22.1185306",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-23.1188335.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-22.1185306.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeployConfigManagement/",
             "steps": [
                 {
@@ -2153,11 +2153,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "52.1187410",
+            "version": "53.1188336",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-52.1187410.zip",
-            "releaseNote": "Reverted cache mechanism for zOS linked version",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-53.1188336.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
