@@ -745,11 +745,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemBasic",
             "name": "File System",
-            "version": "16.1188386",
+            "version": "14.1185332",
             "pluginType": "Source",
             "description": "The File System plugin automates uploading artifacts from a normal file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-16.1188386.zip",
-            "releaseNote": "Minor update to Apache Commons Lang3",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-14.1185332.zip",
+            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/",
             "steps": [
                 {
@@ -761,11 +761,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemVersioned",
             "name": "File System (Versioned)",
-            "version": "20.1185359",
+            "version": "23.1188382",
             "pluginType": "Source",
             "description": "The File System (Versioned) plug-in automates uploading artifacts from a versioned file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-20.1185359.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-23.1188382.zip",
+            "releaseNote": "Minor update to Apache Commons Lang3",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemVersionedSourceConfig/",
             "steps": [
                 {
