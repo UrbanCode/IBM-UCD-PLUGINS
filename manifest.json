@@ -745,11 +745,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemBasic",
             "name": "File System",
-            "version": "14.1185332",
+            "version": "16.1188386",
             "pluginType": "Source",
             "description": "The File System plugin automates uploading artifacts from a normal file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-14.1185332.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-16.1188386.zip",
+            "releaseNote": "Minor update to Apache Commons Lang3",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/",
             "steps": [
                 {
@@ -777,11 +777,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "102.1185502",
+            "version": "103.1188332",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-102.1185502.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-103.1188332.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
@@ -2826,11 +2826,11 @@
         {
             "id": "com.urbancode.air.plugin.kubernetes",
             "name": "Kubernetes",
-            "version": "35.1185349",
+            "version": "36.1188330",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with resources and images in Kubernetes.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-35.1185349.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-36.1188330.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/kubernetes/",
             "steps": [
                 {
@@ -3669,11 +3669,11 @@
         {
             "id": "com.urbancode.air.plugin.openshift",
             "name": "OpenShift",
-            "version": "27.1185296",
+            "version": "28.1188331",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-27.1185296.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-28.1188331.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/",
             "steps": [
                 {
@@ -4454,11 +4454,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "24.1185301",
+            "version": "25.1188333",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-24.1185301.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-25.1188333.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/",
             "steps": [
                 {
