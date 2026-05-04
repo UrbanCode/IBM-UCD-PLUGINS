@@ -5475,7 +5475,7 @@
             "description": "This plugin enables you to use HCL AppScan on Cloud (ASoC) easily from UrbanCode",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-15.1188549.zip",
             "releaseNote": "Created enterprise plugin.",
-            "documentationLink": "",
+            "documentationLink": "https://github.com/UrbanCode/IBM-UCD-PLUGINS",
             "steps": [
                 {
                     "name": "Start Dynamic Analyzer ASoC Scan",
