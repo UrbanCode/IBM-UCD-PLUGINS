@@ -1639,11 +1639,11 @@
         {
             "id": "com.urbancode.air.plugin.RTCWorkItems",
             "name": "RTC Work Items",
-            "version": "15.1142216",
+            "version": "16.1188935",
             "pluginType": "Automation",
             "description": "The RTC Work Items plugin provides steps for the build to comment and change the status of work items found in RTC",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip",
-            "releaseNote": "Fixed the Add-comments step failure.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/devops-deploy-plugin-air-RTC-WorkItems-16.1188935.zip",
+            "releaseNote": "Fixed check status and Change Defect status step failures.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-RTC-WorkItems/",
             "minimumServerVersion": "6.0.1.0",
             "steps": [
