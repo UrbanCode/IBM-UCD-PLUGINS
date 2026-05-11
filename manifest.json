@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "103.1188887",
+            "version": "104.1189042",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-103.1188887.zip",
-            "releaseNote": "Added Run in Parallel option to Submit Job step to submit all jobs first and then wait for each job sequentially\n            Fix IOException: Corrupted TAR archive error while extracting zip file\n            Added retry logic for ZInventory requests upon encountering deadlock issues in DB\n            Fix RTCzMVSExec64 Not found in java.library.path error\n            DeployTime is updated only when the user id is less than 7 characters\n            When no artifacts are deployed empty packageManifest is copied to version base directory",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-104.1189042.zip",
+            "releaseNote": "Added new step to create a sub version from an existing version",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
@@ -5380,6 +5380,10 @@
                 {
                     "name": "Restore Backup Datasets",
                     "description": "Restored datasets from backup taken during deployment"
+                },
+                {
+                    "name": "Create Sub-Version from Version",
+                    "description": "Creates a sub-version from an existing version"
                 }
             ]
         },
