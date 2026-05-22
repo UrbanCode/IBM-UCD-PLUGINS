@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "105.1189136",
+            "version": "105.1189524",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-105.1189136.zip",
-            "releaseNote": "Update the ispf stats with user id provided by the user.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-105.1189524.zip",
+            "releaseNote": "Update the ispf stats with user id provided by the user.\n            Support deploying linked version over incremental version.\n            Added support for alias for v2 package format",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
