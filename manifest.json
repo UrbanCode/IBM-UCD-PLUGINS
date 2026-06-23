@@ -360,11 +360,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.artifactory",
             "name": "Artifactory",
-            "version": "34.1183829",
+            "version": "35.1190350",
             "pluginType": "Source",
             "description": "The Artifactory source configuration plug-in creates component versions with artifacts from Artifactory. For additional documentation, see the artifactory_plugin_v1.pdf file included in the plug-in archive file.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-34.1183829.zip",
-            "releaseNote": "Updated Jettison dependency.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-35.1190350.zip",
+            "releaseNote": "Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ArtifactorySourceConfig/",
             "steps": [
                 {
