@@ -4394,11 +4394,11 @@
         {
             "id": "com.urbancode.air.plugin.ServiceNow",
             "name": "ServiceNow",
-            "version": "40.1168551",
+            "version": "41.1190394",
             "pluginType": "Automation",
             "description": "The ServiceNow plugin allows for the easy automation of CRUD operations on ServiceNow records.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip",
-            "releaseNote": "RFE - URBANCODE-I-648 Added Check Extension Window for compare with end date.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/devops-deploy-ServiceNow-41.1190394.zip",
+            "releaseNote": "DVOPS-I-865: DevOps Deploy ServiceNow Plugin to Integrate with MuleSoft",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ServiceNow/",
             "steps": [
                 {
