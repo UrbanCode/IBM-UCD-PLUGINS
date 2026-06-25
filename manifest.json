@@ -5477,41 +5477,41 @@
         },
         {
             "id": "com.urbancode.air.plugin.IBMSecurity.scx",
-            "name": "HCL AppScan on Cloud (ASoC)",
-            "version": "15.1188549",
+            "name": "HCL AppScan 360 (AS360)",
+            "version": "1.1190316",
             "pluginType": "Automation",
-            "description": "This plugin enables you to use HCL AppScan on Cloud (ASoC) easily from UrbanCode",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-15.1188549.zip",
-            "releaseNote": "Created enterprise plugin.",
+            "description": "This plugin enables you to use HCL AppScan 360 (AS360) easily from UrbanCode",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-HCL-AppScan360-UCD-1.1190316.zip",
+            "releaseNote": "Initial release of the AppScan 360 plugin.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
             "steps": [
                 {
-                    "name": "Start Dynamic Analyzer ASoC Scan",
-                    "description": "Starts a new Dynamic Analyzer ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
+                    "name": "Start Dynamic Analyzer AS360 Scan",
+                    "description": "Starts a new Dynamic Analyzer AS360 Scan, using HCL AppScan 360.\n        This step will generate the 'ScanId' output property."
                 },
                 {
-                    "name": "Start Static Analyzer ASoC Scan",
-                    "description": "Starts a new Static Analyzer ASoC Scan, using HCL AppScan \n        on Cloud. This step will generate the 'ScanId' output property."
+                    "name": "Start Static Analyzer AS360 Scan",
+                    "description": "Starts a new Static Analyzer AS360 Scan, using HCL AppScan \n        on Cloud. This step will generate the 'ScanId' output property."
                 },
                 {
-                    "name": "Start Software Composition Analysis (SCA) ASoC Scan",
-                    "description": "Starts a new SCA ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
+                    "name": "Start Software Composition Analysis (SCA) AS360 Scan",
+                    "description": "Starts a new Software Composition Analysis (SCA) AS360 Scan, using HCL AppScan 360. \n    This step will generate the 'ScanId' output property."
                 },
                 {
-                    "name": "Create ASoC Presence",
+                    "name": "Create AS360 Presence",
                     "description": "Create and start a new presence. To access a private site server you must \n        start the presence in an environment that has local access to the server. The 'PresenceId'\n        output property generated can be used to run scans in environments that do not have\n        access to the private site."
                 },
                 {
-                    "name": "Start ASoC Presence",
-                    "description": "Start an existing ASoC presence. The presence will be started on the \n        agent machine that runs the step."
+                    "name": "Start AS360 Presence",
+                    "description": "Start an existing AS360 presence. The presence will be started on the \n        agent machine that runs the step."
                 },
                 {
-                    "name": "Stop ASoC Presence",
-                    "description": "Stop a running ASoC presence. This step must be run on the \n        agent machine on which the presence was originally started."
+                    "name": "Stop AS360 Presence",
+                    "description": "Stop a running AS360 presence. This step must be run on the \n        agent machine on which the presence was originally started."
                 },
                 {
-                    "name": "Delete ASoC Presence",
-                    "description": "Delete an ASoC presence. The presence will subsequently be stopped on any\n        machine where it is currently running."
+                    "name": "Delete AS360 Presence",
+                    "description": "Delete an AS360 presence. The presence will subsequently be stopped on any\n        machine where it is currently running."
                 }
             ]
         }
