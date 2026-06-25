@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "105.1190073",
+            "version": "106.1190348",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-105.1190073.zip",
-            "releaseNote": "Update the ispf stats with user id provided by the user.\n            Support deploying linked version over incremental version.\n            Added support for alias for v2 package format\n            Update ZInventory logic for linked version when FromVersion is unavailable\n            Update ZInventory logic for linked version when FromVersion is not linked version\n            Increased space for temp dataset",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190348.zip",
+            "releaseNote": "Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run\n            Added option to exclude, inherit properties and add properties in Create Sub-Version step.\n            Added new step to create sub version for external repository artifacts\n            Ignore exception when there are no mapping for datasets in Restore Backup Datasets step",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
@@ -5384,6 +5384,10 @@
                 {
                     "name": "Create Sub-Version from Version",
                     "description": "Creates a sub-version from an existing version"
+                },
+                {
+                    "name": "Create Sub-Version from Version for External Repository",
+                    "description": "Creates a sub-version from an existing version for an external repository"
                 }
             ]
         },
