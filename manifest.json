@@ -4342,11 +4342,11 @@
         {
             "id": "com.urbancode.air.plugin.SalesForce",
             "name": "SalesForce",
-            "version": "10.1138575",
+            "version": "11.1188811",
             "pluginType": "Automation",
             "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip",
-            "releaseNote": "Resolved Property validation issue.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-11.1188811.zip",
+            "releaseNote": "Resolve Groovy compatibility issues.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
