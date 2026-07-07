@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "106.1190490",
+            "version": "106.1190559",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190490.zip",
-            "releaseNote": "Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run\n            Added option to exclude, inherit properties and add properties in Create Sub-Version step.\n            Added new step to create sub version for external repository artifacts\n            Ignore exception when there are no mapping for datasets in Restore Backup Datasets step\n            Fixed issue with overriding mvs artifacts when backup is disabled\n            Fix KNOWN-ISSUE DT475088",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190559.zip",
+            "releaseNote": "Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run\n            Added option to exclude, inherit properties and add properties in Create Sub-Version step.\n            Added new step to create sub version for external repository artifacts\n            Ignore exception when there are no mapping for datasets in Restore Backup Datasets step\n            Fixed issue with overriding mvs artifacts when backup is disabled\n            Fix KNOWN-ISSUE DT475088\n            Add option to skip updating zInventory",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
