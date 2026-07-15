@@ -4342,11 +4342,11 @@
         {
             "id": "com.urbancode.air.plugin.SalesForce",
             "name": "SalesForce",
-            "version": "11.1188811",
+            "version": "12.1190892",
             "pluginType": "Automation",
             "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-11.1188811.zip",
-            "releaseNote": "Resolve Groovy compatibility issues.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-12.1190892.zip",
+            "releaseNote": "Fix NullPointerException and NumberFormatException when proxy properties are not defined on the resource.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
