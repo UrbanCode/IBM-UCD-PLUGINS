@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "108.1190945",
+            "version": "108.1191074",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1190945.zip",
-            "releaseNote": "Added option to execute RUNTIME delta deployment in Dry Run mode",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191074.zip",
+            "releaseNote": "Added option to execute RUNTIME delta deployment in Dry Run mode\n            Create Sub Version step fails for linked version",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
