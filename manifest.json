@@ -632,11 +632,11 @@
         {
             "id": "com.urbancode.air.plugin.source.docker",
             "name": "Docker",
-            "version": "45.1182090",
+            "version": "46.1191044",
             "pluginType": "Source",
             "description": "This Docker source plugin detects Docker registry image tags and creates associated component versions for the tag.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-45.1182090.zip",
-            "releaseNote": "URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-46.1191044.zip",
+            "releaseNote": "Updated Log4j dependency to address CVE-2026-34477.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
