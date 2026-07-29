@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "108.1191158",
+            "version": "108.1191185",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191158.zip",
-            "releaseNote": "Added option to execute RUNTIME delta deployment in Dry Run mode\n            Create Sub Version step fails for linked version\n            Post-deploy in Deploy-dataset step will not copy xml files during redeployment of a version with RUNTIME delta-deploy and no artifacts are deployed",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191185.zip",
+            "releaseNote": "Added option to execute RUNTIME delta deployment in Dry Run mode\n            Create Sub Version step fails for linked version\n            Post-deploy in Deploy-dataset step will not copy xml files during redeployment of a version with RUNTIME delta-deploy and no artifacts are deployed\n            Use binary.version file instead of installed.version file to determine the installed version of the agent",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
