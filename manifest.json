@@ -901,11 +901,11 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "30.1188326",
+            "version": "31.1191353",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-30.1188326.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-31.1191353.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/GitSourceConfig/",
             "steps": [
                 {
