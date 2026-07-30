@@ -745,11 +745,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemBasic",
             "name": "File System",
-            "version": "16.1188386",
+            "version": "17.1191234",
             "pluginType": "Source",
             "description": "The File System plugin automates uploading artifacts from a normal file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-16.1188386.zip",
-            "releaseNote": "Minor update to Apache Commons Lang3",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-17.1191234.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/",
             "steps": [
                 {
@@ -777,11 +777,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "105.1191352",
+            "version": "104.1190935",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-105.1191352.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-104.1190935.zip",
+            "releaseNote": "convert the Delete-Dir plugin step to java",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
