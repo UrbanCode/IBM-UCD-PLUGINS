@@ -1668,11 +1668,11 @@
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
             "name": "DevOps Build",
-            "version": "19.1188329",
+            "version": "20.1191356",
             "pluginType": "Source",
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-19.1188329.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-20.1191356.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uBuildSourceConfig/",
             "steps": [
                 {
@@ -2190,11 +2190,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "81.1191357",
+            "version": "80.1188334",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-81.1191357.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-80.1188334.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/",
             "steps": [
                 {
