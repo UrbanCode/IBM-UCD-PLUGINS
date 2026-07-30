@@ -777,11 +777,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "104.1190935",
+            "version": "105.1191352",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-104.1190935.zip",
-            "releaseNote": "convert the Delete-Dir plugin step to java",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-105.1191352.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
@@ -1848,11 +1848,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "24.1191358",
+            "version": "23.1188335",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-24.1191358.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-23.1188335.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeployConfigManagement/",
             "steps": [
                 {
@@ -2153,11 +2153,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "53.1188336",
+            "version": "54.1191268",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-53.1188336.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-54.1191268.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
@@ -2190,11 +2190,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "80.1188334",
+            "version": "81.1191357",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-80.1188334.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-81.1191357.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/",
             "steps": [
                 {
@@ -4454,11 +4454,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "26.1191246",
+            "version": "25.1188333",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-26.1191246.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-25.1188333.zip",
+            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/",
             "steps": [
                 {
