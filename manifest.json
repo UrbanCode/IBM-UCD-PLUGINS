@@ -761,11 +761,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemVersioned",
             "name": "File System (Versioned)",
-            "version": "23.1188382",
+            "version": "24.1191513",
             "pluginType": "Source",
             "description": "The File System (Versioned) plug-in automates uploading artifacts from a versioned file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-23.1188382.zip",
-            "releaseNote": "Minor update to Apache Commons Lang3",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-24.1191513.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemVersionedSourceConfig/",
             "steps": [
                 {
