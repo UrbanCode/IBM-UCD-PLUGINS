@@ -5476,7 +5476,7 @@
             ]
         },
         {
-            "id": "com.urbancode.air.plugin.IBMSecurity.scx",
+            "id": "com.urbancode.air.plugin.IBMSecurity.scx360",
             "name": "HCL AppScan 360 (AS360)",
             "version": "1.1190316",
             "pluginType": "Automation",
