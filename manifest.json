@@ -5483,7 +5483,7 @@
             "description": "This plugin enables you to use HCL AppScan 360 (AS360) easily from UrbanCode",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-1.1191560.zip",
             "releaseNote": "Initial release of the AppScan 360 plugin. \n              Changed the plugin id",
-            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/appscan-360/",
             "steps": [
                 {
                     "name": "Start Dynamic Analyzer AS360 Scan",
@@ -5527,7 +5527,7 @@
             "description": "This plugin enables you to use HCL AppScan on Cloud (ASoC) easily from UrbanCode",
             "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-15.1188549.zip",
             "releaseNote": "Created enterprise plugin.",
-            "documentationLink": "",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
             "steps": [
                 {
                     "name": "Start Dynamic Analyzer ASoC Scan",
