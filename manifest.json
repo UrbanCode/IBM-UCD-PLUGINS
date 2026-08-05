@@ -2674,10 +2674,10 @@
         {
             "id": "com.urbancode.air.plugin.InfoSphereISD",
             "name": "IBM InfoSphere ISD",
-            "version": "1.1003048",
+            "version": "1.1174436",
             "pluginType": "Automation",
             "description": "This plugin integrates with IBM InfoSphere Information Services Director to allow \n      exporting and importing projects, applications, and/or services.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip",
             "releaseNote": "RFE 103489 - Initial release of InfoSphere Information Services Directory plug-in.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/infosphere-isd/",
             "steps": [
