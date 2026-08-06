@@ -320,11 +320,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.Artifactory",
             "name": "Artifactory",
-            "version": "29.1191480",
+            "version": "30.1191646",
             "pluginType": "Automation",
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-29.1191480.zip",
-            "releaseNote": "Updated Log4j dependency to address CVE-2026-49844.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-30.1191646.zip",
+            "releaseNote": "Fix : Handle large file downloads from Artifactory with S3 redirect.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Artifactory/",
             "steps": [
                 {
