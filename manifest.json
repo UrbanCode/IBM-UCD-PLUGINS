@@ -649,11 +649,11 @@
         {
             "id": "com.urbancode.air.plugin.f5",
             "name": "F5",
-            "version": "24.1107123",
+            "version": "25.1192615",
             "pluginType": "Automation",
             "description": "The F5 content switch plug-in includes steps for working with F5 nodes, pools, iRules, and data groups.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip",
-            "releaseNote": "Fixes APAR PH05331 - Added javamail dependencies jars - fixes - \"UNABLE TO FIND REQUIRED CLASSES\" error.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/devops-deploy-F5-25.1192615.zip",
+            "releaseNote": "Removed unused log4j dependencies from the plugin package",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/F5/",
             "steps": [
                 {
