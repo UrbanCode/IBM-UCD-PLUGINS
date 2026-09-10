@@ -4663,11 +4663,11 @@
         {
             "id": "com.urbancode.air.plugin.WebSphere",
             "name": "WAS - Deploy",
-            "version": "133.1179765",
+            "version": "134.1192661",
             "pluginType": "Automation",
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip",
-            "releaseNote": "Remove property note.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-134.1192661.zip",
+            "releaseNote": "Fixed NullPointerException when password field is empty or not provided.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
