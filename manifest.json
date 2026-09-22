@@ -5478,11 +5478,11 @@
         {
             "id": "com.urbancode.air.plugin.IBMSecurity.scx360",
             "name": "HCL AppScan 360 (AS360)",
-            "version": "1.1191560",
+            "version": "2.1192960",
             "pluginType": "Automation",
             "description": "This plugin enables you to use HCL AppScan 360 (AS360) easily from UrbanCode",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-1.1191560.zip",
-            "releaseNote": "Initial release of the AppScan 360 plugin. \n              Changed the plugin id",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-2.1192960.zip",
+            "releaseNote": "Added steps for  interactive monitoring technology (IAST) capabilities.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/appscan-360/",
             "steps": [
                 {
@@ -5516,6 +5516,10 @@
                 {
                     "name": "Deploy IAST Java Agent",
                     "description": "Deploys the Secagent.war file to an application server for IAST Java Agent usage."
+                },
+                {
+                    "name": "Deploy IAST DotNet Agent",
+                    "description": "Deploys the IAST dotnet agent for application monitoring."
                 }
             ]
         },
