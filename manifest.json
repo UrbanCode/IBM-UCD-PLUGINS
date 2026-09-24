@@ -1555,11 +1555,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1178699",
+            "version": "16.1193059",
             "pluginType": "Source",
-            "description": "The IBM ODM source config plugin automates downloading RuleApps from repository.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip",
-            "releaseNote": "DVOPS-I-751 - Added capability to fetch artifacts from nested branch",
+            "description": "The DevOps ODM source config plugin automates downloading RuleApps from repository.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-16.1193059.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/",
             "steps": [
                 {
