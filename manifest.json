@@ -1511,11 +1511,11 @@
         {
             "id": "com.urbancode.air.plugin.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1174432",
+            "version": "16.1193085",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with rules and versions in DevOps Operational Decision Manager.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip",
-            "releaseNote": "Fixed issue to support both oauth and basic auth",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/devops-deploy-ibm-odm-16.1193085.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm/",
             "steps": [
                 {
