@@ -5574,10 +5574,10 @@
         {
             "id": "com.hcl.urbancode.air.plugin.rtas",
             "name": "IBM DevOps Test Hub",
-            "version": "5.1",
+            "version": "5.2",
             "pluginType": "Automation",
             "description": "The IBM DevOps Test Hub DD-IBM plugin allows communication with the IBM DevOps Test Hub.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-5.1.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-5.2.zip",
             "releaseNote": "Bumping the Major version as API changes were made earlier.\n            API changes means changes to adding new steps(removing existing steps) or changes to step parameters(making step as mandatory or optional).",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IBMDevOpsTestHub/",
             "steps": [
