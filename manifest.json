@@ -320,11 +320,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.Artifactory",
             "name": "Artifactory",
-            "version": "28.1190424",
+            "version": "30.1191646",
             "pluginType": "Automation",
             "description": "The Artifactory plug-in includes steps for downloading artifacts from Artifactory repositories.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-28.1190424.zip",
-            "releaseNote": "Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-30.1191646.zip",
+            "releaseNote": "Fix : Handle large file downloads from Artifactory with S3 redirect.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Artifactory/",
             "steps": [
                 {
@@ -360,11 +360,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.artifactory",
             "name": "Artifactory",
-            "version": "35.1190350",
+            "version": "37.1192201",
             "pluginType": "Source",
             "description": "The Artifactory source configuration plug-in creates component versions with artifacts from Artifactory. For additional documentation, see the artifactory_plugin_v1.pdf file included in the plug-in archive file.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-35.1190350.zip",
-            "releaseNote": "Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-37.1192201.zip",
+            "releaseNote": "Add Artifactory repo origin link to version when importing.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ArtifactorySourceConfig/",
             "steps": [
                 {
@@ -632,11 +632,11 @@
         {
             "id": "com.urbancode.air.plugin.source.docker",
             "name": "Docker",
-            "version": "45.1182090",
+            "version": "46.1191044",
             "pluginType": "Source",
             "description": "This Docker source plugin detects Docker registry image tags and creates associated component versions for the tag.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-45.1182090.zip",
-            "releaseNote": "URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/devops-deploy-DockerSourceConfig-46.1191044.zip",
+            "releaseNote": "Updated Log4j dependency to address CVE-2026-34477.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/",
             "minimumServerVersion": "6.1.1.0",
             "steps": [
@@ -649,11 +649,11 @@
         {
             "id": "com.urbancode.air.plugin.f5",
             "name": "F5",
-            "version": "24.1107123",
+            "version": "25.1192615",
             "pluginType": "Automation",
             "description": "The F5 content switch plug-in includes steps for working with F5 nodes, pools, iRules, and data groups.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip",
-            "releaseNote": "Fixes APAR PH05331 - Added javamail dependencies jars - fixes - \"UNABLE TO FIND REQUIRED CLASSES\" error.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/devops-deploy-F5-25.1192615.zip",
+            "releaseNote": "Removed unused log4j dependencies from the plugin package",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/F5/",
             "steps": [
                 {
@@ -745,11 +745,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemBasic",
             "name": "File System",
-            "version": "16.1188386",
+            "version": "17.1191234",
             "pluginType": "Source",
             "description": "The File System plugin automates uploading artifacts from a normal file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-16.1188386.zip",
-            "releaseNote": "Minor update to Apache Commons Lang3",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-17.1191234.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/",
             "steps": [
                 {
@@ -761,11 +761,11 @@
         {
             "id": "com.urbancode.air.plugin.source.fileSystemVersioned",
             "name": "File System (Versioned)",
-            "version": "23.1188382",
+            "version": "24.1191513",
             "pluginType": "Source",
             "description": "The File System (Versioned) plug-in automates uploading artifacts from a versioned file system.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-23.1188382.zip",
-            "releaseNote": "Minor update to Apache Commons Lang3",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/devops-deploy-FileSystemVersionedSourceConfig-24.1191513.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemVersionedSourceConfig/",
             "steps": [
                 {
@@ -777,11 +777,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "103.1188332",
+            "version": "107.1192822",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-103.1188332.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-107.1192822.zip",
+            "releaseNote": "Restore case insensitive file matching for Windows.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
@@ -901,11 +901,11 @@
         {
             "id": "com.urbancode.plugin.source.Git",
             "name": "Git",
-            "version": "30.1188326",
+            "version": "31.1191353",
             "pluginType": "Source",
             "description": "The Git Plugin automates importing artifacts from Git.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-30.1188326.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-31.1191353.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/GitSourceConfig/",
             "steps": [
                 {
@@ -1022,11 +1022,11 @@
         {
             "id": "com.urbancode.air.plugin.Groovy",
             "name": "Groovy",
-            "version": "17.1186931",
+            "version": "18.1192559",
             "pluginType": "Automation",
             "description": "The Groovy plugin is an automation based plugin that provides steps for executing user defined Groovy scripts.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-17.1186931.zip",
-            "releaseNote": "Option to run the user script in the same JVM aimed at providing performance benefits",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-18.1192559.zip",
+            "releaseNote": "Added support to include all jars inside a directory for classpath",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Groovy/",
             "steps": [
                 {
@@ -1511,11 +1511,11 @@
         {
             "id": "com.urbancode.air.plugin.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1174432",
+            "version": "16.1193169",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with rules and versions in DevOps Operational Decision Manager.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip",
-            "releaseNote": "Fixed issue to support both oauth and basic auth",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/devops-deploy-ibm-odm-16.1193169.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm/",
             "steps": [
                 {
@@ -1555,11 +1555,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1178699",
+            "version": "16.1193059",
             "pluginType": "Source",
-            "description": "The IBM ODM source config plugin automates downloading RuleApps from repository.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip",
-            "releaseNote": "DVOPS-I-751 - Added capability to fetch artifacts from nested branch",
+            "description": "The DevOps ODM source config plugin automates downloading RuleApps from repository.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-16.1193059.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/",
             "steps": [
                 {
@@ -1668,11 +1668,11 @@
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
             "name": "DevOps Build",
-            "version": "19.1188329",
+            "version": "20.1191356",
             "pluginType": "Source",
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-19.1188329.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-20.1191356.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uBuildSourceConfig/",
             "steps": [
                 {
@@ -1848,11 +1848,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "23.1188335",
+            "version": "24.1191358",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-23.1188335.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-24.1191358.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeployConfigManagement/",
             "steps": [
                 {
@@ -2153,11 +2153,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "53.1188336",
+            "version": "54.1191268",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-53.1188336.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-54.1191268.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
@@ -2190,11 +2190,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployVersion",
             "name": "UrbanCode Deploy Versions",
-            "version": "80.1188334",
+            "version": "81.1191357",
             "pluginType": "Automation",
             "description": "Plugin for editing Component Versions in UrbanCode Deploy.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-80.1188334.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-81.1191357.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/",
             "steps": [
                 {
@@ -2674,10 +2674,10 @@
         {
             "id": "com.urbancode.air.plugin.InfoSphereISD",
             "name": "IBM InfoSphere ISD",
-            "version": "1.1003048",
+            "version": "1.1174436",
             "pluginType": "Automation",
             "description": "This plugin integrates with IBM InfoSphere Information Services Director to allow \n      exporting and importing projects, applications, and/or services.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip",
             "releaseNote": "RFE 103489 - Initial release of InfoSphere Information Services Directory plug-in.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/infosphere-isd/",
             "steps": [
@@ -2826,11 +2826,11 @@
         {
             "id": "com.urbancode.air.plugin.kubernetes",
             "name": "Kubernetes",
-            "version": "36.1188330",
+            "version": "37.1191233",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with resources and images in Kubernetes.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-36.1188330.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/devops-deploy-kubernetes-37.1191233.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/kubernetes/",
             "steps": [
                 {
@@ -3364,11 +3364,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS_SCM",
             "name": "TFS_SCM",
-            "version": "20.1185336",
+            "version": "22.1191355",
             "pluginType": "Source",
             "description": "The TFS_SCM plugins automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-20.1185336.zip",
-            "releaseNote": "Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-22.1191355.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS_SCM-SourceConfig/",
             "steps": [
                 {
@@ -3669,11 +3669,11 @@
         {
             "id": "com.urbancode.air.plugin.openshift",
             "name": "OpenShift",
-            "version": "28.1188331",
+            "version": "29.1191245",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-28.1188331.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-29.1191245.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/",
             "steps": [
                 {
@@ -4342,11 +4342,11 @@
         {
             "id": "com.urbancode.air.plugin.SalesForce",
             "name": "SalesForce",
-            "version": "11.1188811",
+            "version": "12.1190892",
             "pluginType": "Automation",
             "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-11.1188811.zip",
-            "releaseNote": "Resolve Groovy compatibility issues.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-12.1190892.zip",
+            "releaseNote": "Fix NullPointerException and NumberFormatException when proxy properties are not defined on the resource.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
@@ -4454,11 +4454,11 @@
         {
             "id": "com.urbancode.air.plugin.Shell",
             "name": "Shell",
-            "version": "25.1188333",
+            "version": "26.1191246",
             "pluginType": "Automation",
             "description": "The Shell plugin allows users to run custom shell scripts during the deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-25.1188333.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-26.1191246.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/",
             "steps": [
                 {
@@ -4474,11 +4474,11 @@
         {
             "id": "com.urbancode.plugin.source.Subversion",
             "name": "Subversion",
-            "version": "28.1188327",
+            "version": "29.1191354",
             "pluginType": "Source",
             "description": "The Subversion source configuration plugin automates importing artifacts from a Subversion repository",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-28.1188327.zip",
-            "releaseNote": "Update Apache Log4j to 2.25.4\n\nAddresses mulitiple non-exploitable CVEs:\n CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-29.1191354.zip",
+            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SubversionSourceConfig/",
             "steps": [
                 {
@@ -4663,11 +4663,11 @@
         {
             "id": "com.urbancode.air.plugin.WebSphere",
             "name": "WAS - Deploy",
-            "version": "133.1179765",
+            "version": "134.1192661",
             "pluginType": "Automation",
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip",
-            "releaseNote": "Remove property note.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-134.1192661.zip",
+            "releaseNote": "Fixed NullPointerException when password field is empty or not provided.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "106.1190490",
+            "version": "109.1192683",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190490.zip",
-            "releaseNote": "Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run\n            Added option to exclude, inherit properties and add properties in Create Sub-Version step.\n            Added new step to create sub version for external repository artifacts\n            Ignore exception when there are no mapping for datasets in Restore Backup Datasets step\n            Fixed issue with overriding mvs artifacts when backup is disabled\n            Fix KNOWN-ISSUE DT475088",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-109.1192683.zip",
+            "releaseNote": "Minor improvements in rexx programs execution\n            Update Apache Ant to 1.10.18 for non-exploitable CVE-2026-7825\n            Added elapsed time for backup and deploy sub steps",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
@@ -5476,14 +5476,14 @@
             ]
         },
         {
-            "id": "com.urbancode.air.plugin.IBMSecurity.scx",
+            "id": "com.urbancode.air.plugin.IBMSecurity.scx360",
             "name": "HCL AppScan 360 (AS360)",
-            "version": "1.1190316",
+            "version": "2.1192960",
             "pluginType": "Automation",
             "description": "This plugin enables you to use HCL AppScan 360 (AS360) easily from UrbanCode",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-HCL-AppScan360-UCD-1.1190316.zip",
-            "releaseNote": "Initial release of the AppScan 360 plugin.",
-            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-2.1192960.zip",
+            "releaseNote": "Added steps for  interactive monitoring technology (IAST) capabilities.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/appscan-360/",
             "steps": [
                 {
                     "name": "Start Dynamic Analyzer AS360 Scan",
@@ -5512,6 +5512,78 @@
                 {
                     "name": "Delete AS360 Presence",
                     "description": "Delete an AS360 presence. The presence will subsequently be stopped on any\n        machine where it is currently running."
+                },
+                {
+                    "name": "Deploy IAST Java Agent",
+                    "description": "Deploys the Secagent.war file to an application server for IAST Java Agent usage."
+                },
+                {
+                    "name": "Deploy IAST DotNet Agent",
+                    "description": "Deploys the IAST dotnet agent for application monitoring."
+                }
+            ]
+        },
+        {
+            "id": "com.urbancode.air.plugin.IBMSecurity.scx",
+            "name": "HCL AppScan on Cloud (ASoC)",
+            "version": "16.1192961",
+            "pluginType": "Automation",
+            "description": "This plugin enables you to use HCL AppScan on Cloud (ASoC) easily from UrbanCode",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-16.1192961.zip",
+            "releaseNote": "Added steps for  interactive monitoring technology (IAST) capabilities.",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
+            "steps": [
+                {
+                    "name": "Start Dynamic Analyzer ASoC Scan",
+                    "description": "Starts a new Dynamic Analyzer ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
+                },
+                {
+                    "name": "Start Static Analyzer ASoC Scan",
+                    "description": "Starts a new Static Analyzer ASoC Scan, using HCL AppScan \n        on Cloud. This step will generate the 'ScanId' output property."
+                },
+                {
+                    "name": "Start Software Composition Analysis (SCA) ASoC Scan",
+                    "description": "Starts a new SCA ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
+                },
+                {
+                    "name": "Create ASoC Presence",
+                    "description": "Create and start a new presence. To access a private site server you must \n        start the presence in an environment that has local access to the server. The 'PresenceId'\n        output property generated can be used to run scans in environments that do not have\n        access to the private site."
+                },
+                {
+                    "name": "Start ASoC Presence",
+                    "description": "Start an existing ASoC presence. The presence will be started on the \n        agent machine that runs the step."
+                },
+                {
+                    "name": "Stop ASoC Presence",
+                    "description": "Stop a running ASoC presence. This step must be run on the \n        agent machine on which the presence was originally started."
+                },
+                {
+                    "name": "Delete ASoC Presence",
+                    "description": "Delete an ASoC presence. The presence will subsequently be stopped on any\n        machine where it is currently running."
+                },
+                {
+                    "name": "Deploy IAST Java Agent",
+                    "description": "Deploys the Secagent.war file to an application server for IAST Java Agent usage."
+                },
+                {
+                    "name": "Deploy IAST DotNet Agent",
+                    "description": "Deploys the IAST dotnet agent for application monitoring."
+                }
+            ]
+        },
+        {
+            "id": "com.hcl.urbancode.air.plugin.rtas",
+            "name": "IBM DevOps Test Hub",
+            "version": "5.1",
+            "pluginType": "Automation",
+            "description": "The IBM DevOps Test Hub DD-IBM plugin allows communication with the IBM DevOps Test Hub.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-5.1.zip",
+            "releaseNote": "Bumping the Major version as API changes were made earlier.\n            API changes means changes to adding new steps(removing existing steps) or changes to step parameters(making step as mandatory or optional).",
+            "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IBMDevOpsTestHub/",
+            "steps": [
+                {
+                    "name": "Run IBM DevOps Test Hub test",
+                    "description": "Start a job on IBM DevOps Test Hub."
                 }
             ]
         }
