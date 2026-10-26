@@ -4342,36 +4342,36 @@
         {
             "id": "com.urbancode.air.plugin.SalesForce",
             "name": "SalesForce",
-            "version": "12.1190892",
+            "version": "13.1194004",
             "pluginType": "Automation",
-            "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-12.1190892.zip",
-            "releaseNote": "Fix NullPointerException and NumberFormatException when proxy properties are not defined on the resource.",
+            "description": "Plugin for deploying and retrieving Salesforce metadata using Salesforce CLI v2 (sf).\n      Replaces the retired Force.com Migration Tool (ant-salesforce.jar), which stopped\n      receiving updates at API v59.0. Requires Salesforce CLI v2 on the agent and headless\n      authentication via the JWT bearer flow or an SFDX auth URL.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-13.1194004.zip",
+            "releaseNote": "Migrated Salesforce plugin from Ant Migration Tool to Salesforce CLI.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
                     "name": "Bulk Retrieve",
-                    "description": "Download a large number of components of a single metadata type into a set of local files.."
+                    "description": "Download all components of a single metadata type into a local directory."
                 },
                 {
                     "name": "Deploy",
-                    "description": "Deploy components, code, or recent validations into your org."
+                    "description": "Deploy a metadata-format directory to an org, or validate it without saving."
                 },
                 {
                     "name": "Deploy Recent Validation",
-                    "description": "Deploy recently validated components."
+                    "description": "Quick-deploy a previously validated deployment without rerunning its tests."
                 },
                 {
                     "name": "Describe Metadata",
-                    "description": "Describe and list all metadata types and their existing objects."
+                    "description": "List every metadata type available in the target org."
                 },
                 {
                     "name": "List Metadata",
-                    "description": "List information on a given metadata type."
+                    "description": "List the components of a given metadata type in the target org."
                 },
                 {
                     "name": "Retrieve",
-                    "description": "Retrieve unpackaged, managed or unmanaged packages."
+                    "description": "Retrieve unpackaged metadata or named packages into a metadata-format directory."
                 }
             ]
         },
