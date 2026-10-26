@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "110.1193957",
+            "version": "110.1194019",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-110.1193957.zip",
-            "releaseNote": "Display target directory in rollback manifest XML for HFS containers during deployment\n            Improvements in partial deployment\n            Use cylinders for temp dataset creation for large deployment or rollback\n            Removed groovy dependency",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-110.1194019.zip",
+            "releaseNote": "Display target directory in rollback manifest XML for HFS containers during deployment\n            Improvements in partial deployment\n            Use cylinders for temp dataset creation for large deployment or rollback\n            Removed groovy dependency\n            Fixed a bug during package manifest parsing",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
