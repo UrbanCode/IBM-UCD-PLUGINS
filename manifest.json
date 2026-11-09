@@ -360,11 +360,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.artifactory",
             "name": "Artifactory",
-            "version": "36.1191482",
+            "version": "37.1192201",
             "pluginType": "Source",
             "description": "The Artifactory source configuration plug-in creates component versions with artifacts from Artifactory. For additional documentation, see the artifactory_plugin_v1.pdf file included in the plug-in archive file.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-36.1191482.zip",
-            "releaseNote": "Updated Log4j dependency to address CVE-2026-49844.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/devops-deploy-ArtifactorySourceConfig-37.1192201.zip",
+            "releaseNote": "Add Artifactory repo origin link to version when importing.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ArtifactorySourceConfig/",
             "steps": [
                 {
@@ -649,11 +649,11 @@
         {
             "id": "com.urbancode.air.plugin.f5",
             "name": "F5",
-            "version": "24.1107123",
+            "version": "25.1192615",
             "pluginType": "Automation",
             "description": "The F5 content switch plug-in includes steps for working with F5 nodes, pools, iRules, and data groups.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip",
-            "releaseNote": "Fixes APAR PH05331 - Added javamail dependencies jars - fixes - \"UNABLE TO FIND REQUIRED CLASSES\" error.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/devops-deploy-F5-25.1192615.zip",
+            "releaseNote": "Removed unused log4j dependencies from the plugin package",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/F5/",
             "steps": [
                 {
@@ -777,11 +777,11 @@
         {
             "id": "com.urbancode.air.plugin.FileUtils",
             "name": "File Utils",
-            "version": "105.1191352",
+            "version": "107.1192822",
             "pluginType": "Automation",
             "description": "The File Utils plug-in includes steps, such as deleting or creating directories and replacing tokens in a file, that perform folder-level and file-level tasks as part of a deployment process.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-105.1191352.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-107.1192822.zip",
+            "releaseNote": "Restore case insensitive file matching for Windows.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/",
             "steps": [
                 {
@@ -1022,11 +1022,11 @@
         {
             "id": "com.urbancode.air.plugin.Groovy",
             "name": "Groovy",
-            "version": "17.1186931",
+            "version": "18.1192559",
             "pluginType": "Automation",
             "description": "The Groovy plugin is an automation based plugin that provides steps for executing user defined Groovy scripts.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-17.1186931.zip",
-            "releaseNote": "Option to run the user script in the same JVM aimed at providing performance benefits",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-18.1192559.zip",
+            "releaseNote": "Added support to include all jars inside a directory for classpath",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Groovy/",
             "steps": [
                 {
@@ -1511,11 +1511,11 @@
         {
             "id": "com.urbancode.air.plugin.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1174432",
+            "version": "16.1193169",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with rules and versions in DevOps Operational Decision Manager.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip",
-            "releaseNote": "Fixed issue to support both oauth and basic auth",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/devops-deploy-ibm-odm-16.1193169.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm/",
             "steps": [
                 {
@@ -1555,11 +1555,11 @@
         {
             "id": "com.ibm.urbancode.air.plugin.source.ibm-odm",
             "name": "IBM ODM",
-            "version": "15.1178699",
+            "version": "16.1193059",
             "pluginType": "Source",
-            "description": "The IBM ODM source config plugin automates downloading RuleApps from repository.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip",
-            "releaseNote": "DVOPS-I-751 - Added capability to fetch artifacts from nested branch",
+            "description": "The DevOps ODM source config plugin automates downloading RuleApps from repository.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-16.1193059.zip",
+            "releaseNote": "RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/",
             "steps": [
                 {
@@ -4342,36 +4342,36 @@
         {
             "id": "com.urbancode.air.plugin.SalesForce",
             "name": "SalesForce",
-            "version": "12.1190892",
+            "version": "13.1194004",
             "pluginType": "Automation",
-            "description": "Plugin for SFDC Force.com migration tool to deploy changes to SalesForce",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-12.1190892.zip",
-            "releaseNote": "Fix NullPointerException and NumberFormatException when proxy properties are not defined on the resource.",
+            "description": "Plugin for deploying and retrieving Salesforce metadata using Salesforce CLI v2 (sf).\n      Replaces the retired Force.com Migration Tool (ant-salesforce.jar), which stopped\n      receiving updates at API v59.0. Requires Salesforce CLI v2 on the agent and headless\n      authentication via the JWT bearer flow or an SFDX auth URL.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/devops-deploy-salesforce-13.1194004.zip",
+            "releaseNote": "Migrated Salesforce plugin from Ant Migration Tool to Salesforce CLI.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/salesforce/",
             "steps": [
                 {
                     "name": "Bulk Retrieve",
-                    "description": "Download a large number of components of a single metadata type into a set of local files.."
+                    "description": "Download all components of a single metadata type into a local directory."
                 },
                 {
                     "name": "Deploy",
-                    "description": "Deploy components, code, or recent validations into your org."
+                    "description": "Deploy a metadata-format directory to an org, or validate it without saving."
                 },
                 {
                     "name": "Deploy Recent Validation",
-                    "description": "Deploy recently validated components."
+                    "description": "Quick-deploy a previously validated deployment without rerunning its tests."
                 },
                 {
                     "name": "Describe Metadata",
-                    "description": "Describe and list all metadata types and their existing objects."
+                    "description": "List every metadata type available in the target org."
                 },
                 {
                     "name": "List Metadata",
-                    "description": "List information on a given metadata type."
+                    "description": "List the components of a given metadata type in the target org."
                 },
                 {
                     "name": "Retrieve",
-                    "description": "Retrieve unpackaged, managed or unmanaged packages."
+                    "description": "Retrieve unpackaged metadata or named packages into a metadata-format directory."
                 }
             ]
         },
@@ -4663,11 +4663,11 @@
         {
             "id": "com.urbancode.air.plugin.WebSphere",
             "name": "WAS - Deploy",
-            "version": "133.1179765",
+            "version": "134.1192661",
             "pluginType": "Automation",
             "description": "WebSphere Application Server is an application server built using J2EE, XML, and Web Services.\nThis plug-in includes steps for deploying applications to WebSphere Application Server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip",
-            "releaseNote": "Remove property note.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-134.1192661.zip",
+            "releaseNote": "Fixed NullPointerException when password field is empty or not provided.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/",
             "minimumServerVersion": "6.1.1.2",
             "steps": [
@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "108.1191826",
+            "version": "110.1194019",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191826.zip",
-            "releaseNote": "Added option to execute RUNTIME delta deployment in Dry Run mode\n            Create Sub Version step fails for linked version\n            Post-deploy in Deploy-dataset step will not copy xml files during redeployment of a version with RUNTIME delta-deploy and no artifacts are deployed\n            Use binary.version file instead of installed.version file to determine the installed version of the agent\n            Added support for FBM/VBM datasets for package format v2\n            Fixed issue with wildcard starting with dollar character during backup for package format v2",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-110.1194019.zip",
+            "releaseNote": "Display target directory in rollback manifest XML for HFS containers during deployment\n            Improvements in partial deployment\n            Use cylinders for temp dataset creation for large deployment or rollback\n            Removed groovy dependency\n            Fixed a bug during package manifest parsing",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
@@ -5478,11 +5478,11 @@
         {
             "id": "com.urbancode.air.plugin.IBMSecurity.scx360",
             "name": "HCL AppScan 360 (AS360)",
-            "version": "1.1191560",
+            "version": "3.1194304",
             "pluginType": "Automation",
             "description": "This plugin enables you to use HCL AppScan 360 (AS360) easily from UrbanCode",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-1.1191560.zip",
-            "releaseNote": "Initial release of the AppScan 360 plugin. \n              Changed the plugin id",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan360/devops-deploy-HCL-AppScan360-UCD-3.1194304.zip",
+            "releaseNote": "Added Commit SHA, Environment ID, and Build URL properties to Deploy IAST Java and .NET Agent steps.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/appscan-360/",
             "steps": [
                 {
@@ -5516,56 +5516,68 @@
                 {
                     "name": "Deploy IAST Java Agent",
                     "description": "Deploys the Secagent.war file to an application server for IAST Java Agent usage."
+                },
+                {
+                    "name": "Deploy IAST DotNet Agent",
+                    "description": "Deploys the IAST dotnet agent for application monitoring."
                 }
             ]
         },
         {
             "id": "com.urbancode.air.plugin.IBMSecurity.scx",
             "name": "HCL AppScan on Cloud (ASoC)",
-            "version": "15.1188549",
+            "version": "16.1192961",
             "pluginType": "Automation",
             "description": "This plugin enables you to use HCL AppScan on Cloud (ASoC) easily from UrbanCode",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-15.1188549.zip",
-            "releaseNote": "Created enterprise plugin.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan-cloud/devops-deploy-plugins-appscan-cloud-16.1192961.zip",
+            "releaseNote": "Added steps for  interactive monitoring technology (IAST) capabilities.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ASOC/",
             "steps": [
                 {
                     "name": "Start Dynamic Analyzer ASoC Scan",
-                    "description": "Starts a new Dynamic Analyzer ASoC Scan, using HCL AppScan on Cloud.\n This step will generate the 'ScanId' output property."
+                    "description": "Starts a new Dynamic Analyzer ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
                 },
                 {
                     "name": "Start Static Analyzer ASoC Scan",
-                    "description": "Starts a new Static Analyzer ASoC Scan, using HCL AppScan \n on Cloud. This step will generate the 'ScanId' output property."
+                    "description": "Starts a new Static Analyzer ASoC Scan, using HCL AppScan \n        on Cloud. This step will generate the 'ScanId' output property."
                 },
                 {
                     "name": "Start Software Composition Analysis (SCA) ASoC Scan",
-                    "description": "Starts a new SCA ASoC Scan, using HCL AppScan on Cloud.\n This step will generate the 'ScanId' output property."
+                    "description": "Starts a new SCA ASoC Scan, using HCL AppScan on Cloud.\n        This step will generate the 'ScanId' output property."
                 },
                 {
                     "name": "Create ASoC Presence",
-                    "description": "Create and start a new presence. To access a private site server you must \n start the presence in an environment that has local access to the server. The 'PresenceId'\n output property generated can be used to run scans in environments that do not have\n access to the private site."
+                    "description": "Create and start a new presence. To access a private site server you must \n        start the presence in an environment that has local access to the server. The 'PresenceId'\n        output property generated can be used to run scans in environments that do not have\n        access to the private site."
                 },
                 {
                     "name": "Start ASoC Presence",
-                    "description": "Start an existing ASoC presence. The presence will be started on the \n agent machine that runs the step."
+                    "description": "Start an existing ASoC presence. The presence will be started on the \n        agent machine that runs the step."
                 },
                 {
                     "name": "Stop ASoC Presence",
-                    "description": "Stop a running ASoC presence. This step must be run on the \n agent machine on which the presence was originally started."
+                    "description": "Stop a running ASoC presence. This step must be run on the \n        agent machine on which the presence was originally started."
                 },
                 {
                     "name": "Delete ASoC Presence",
-                    "description": "Delete an ASoC presence. The presence will subsequently be stopped on any\n machine where it is currently running."
+                    "description": "Delete an ASoC presence. The presence will subsequently be stopped on any\n        machine where it is currently running."
+                },
+                {
+                    "name": "Deploy IAST Java Agent",
+                    "description": "Deploys the Secagent.war file to an application server for IAST Java Agent usage."
+                },
+                {
+                    "name": "Deploy IAST DotNet Agent",
+                    "description": "Deploys the IAST dotnet agent for application monitoring."
                 }
             ]
         },
         {
             "id": "com.hcl.urbancode.air.plugin.rtas",
             "name": "IBM DevOps Test Hub",
-            "version": "5.1",
+            "version": "5.2",
             "pluginType": "Automation",
             "description": "The IBM DevOps Test Hub DD-IBM plugin allows communication with the IBM DevOps Test Hub.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-5.1.zip",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-5.2.zip",
             "releaseNote": "Bumping the Major version as API changes were made earlier.\n            API changes means changes to adding new steps(removing existing steps) or changes to step parameters(making step as mandatory or optional).",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/IBMDevOpsTestHub/",
             "steps": [
