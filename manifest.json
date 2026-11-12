@@ -1704,11 +1704,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployApplication",
             "name": "UrbanCode Deploy Applications",
-            "version": "90.1183820",
+            "version": "91.1194960",
             "pluginType": "Automation",
             "description": "Plugin for creating and managing UrbanCode Deploy applications.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-90.1183820.zip",
-            "releaseNote": "Run Application Process should detect if the process is canceled and set detailsLink.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-91.1194960.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/",
             "steps": [
                 {
