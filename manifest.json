@@ -3669,11 +3669,11 @@
         {
             "id": "com.urbancode.air.plugin.openshift",
             "name": "OpenShift",
-            "version": "29.1191245",
+            "version": "30.1194961",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to work with application stacks in Red Hat OpenShift.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-29.1191245.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-30.1194961.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/",
             "steps": [
                 {
