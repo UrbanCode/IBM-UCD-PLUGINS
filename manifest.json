@@ -2974,11 +2974,11 @@
         {
             "id": "com.urbancode.air.plugin.source.maven",
             "name": "Maven",
-            "version": "30.1167665",
+            "version": "31.1194956",
             "pluginType": "Source",
             "description": "The Maven plugin automates downloading artifacts from Maven projects.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip",
-            "releaseNote": "Add support to allow pass certificates with client.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/devops-deploy-MavenSourceConfig-31.1194956.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/",
             "steps": [
                 {
