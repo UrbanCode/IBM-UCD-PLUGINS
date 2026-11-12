@@ -5442,11 +5442,11 @@
         {
             "id": "com.urbancode.air.plugin.DevOpsPlan",
             "name": "DevOpsPlan",
-            "version": "1.1184123",
+            "version": "2.1194957",
             "pluginType": "Automation",
             "description": "This plug-in integrates with a DevOps Plan application to manage work items and plans.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plan/devops-deploy-plugins-plan-1.1184123.zip",
-            "releaseNote": "Initial release of the Plan Plugin",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plan/devops-deploy-plugins-plan-2.1194957.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/devops-plan/",
             "steps": [
                 {
