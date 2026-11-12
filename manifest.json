@@ -4474,11 +4474,11 @@
         {
             "id": "com.urbancode.plugin.source.Subversion",
             "name": "Subversion",
-            "version": "29.1191354",
+            "version": "30.1194951",
             "pluginType": "Source",
             "description": "The Subversion source configuration plugin automates importing artifacts from a Subversion repository",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-29.1191354.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-30.1194951.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SubversionSourceConfig/",
             "steps": [
                 {
