@@ -1960,11 +1960,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployProcess",
             "name": "UrbanCode Deploy Processes",
-            "version": "14.1155709",
+            "version": "15.1194954",
             "pluginType": "Automation",
             "description": "Supports interaction with processes and process requests.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/devops-deploy-uDeploy-Process-15.1194954.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Process/",
             "steps": [
                 {
