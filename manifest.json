@@ -3364,11 +3364,11 @@
         {
             "id": "com.urbancode.plugin.source.TFS_SCM",
             "name": "TFS_SCM",
-            "version": "22.1191355",
+            "version": "23.1194959",
             "pluginType": "Source",
             "description": "The TFS_SCM plugins automates importing version artifacts from a TFS server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-22.1191355.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/devops-deploy-TFS_SCM-SourceConfig-23.1194959.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS_SCM-SourceConfig/",
             "steps": [
                 {
