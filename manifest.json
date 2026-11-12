@@ -1668,11 +1668,11 @@
         {
             "id": "com.urbancode.air.plugin.source.uBuild",
             "name": "DevOps Build",
-            "version": "20.1191356",
+            "version": "21.1194963",
             "pluginType": "Source",
             "description": "The DevOps Build plugin automates uploading artifacts from a DevOps Build server.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-20.1191356.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-21.1194963.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uBuildSourceConfig/",
             "steps": [
                 {
