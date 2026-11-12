@@ -1848,11 +1848,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployConfigManagement",
             "name": "UrbanCode Deploy Configuration Management",
-            "version": "24.1191358",
+            "version": "25.1194949",
             "pluginType": "Automation",
             "description": "Plugin for downloading and uploading configuration templates from/to UrbanCode Deploy",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-24.1191358.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-25.1194949.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeployConfigManagement/",
             "steps": [
                 {
