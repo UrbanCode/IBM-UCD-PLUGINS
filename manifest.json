@@ -1980,11 +1980,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployResource",
             "name": "UrbanCode Deploy Resources",
-            "version": "86.1155708",
+            "version": "87.1194971",
             "pluginType": "Automation",
             "description": "Manages UrbanCode Deploy Resources",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/devops-deploy-uDeploy-Resource-87.1194971.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Resource/",
             "minimumServerVersion": "7.0.5.11",
             "steps": [
