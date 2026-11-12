@@ -1944,11 +1944,11 @@
         {
             "id": "com.urbancode.air.plugin.GeneralUtilities",
             "name": "General Utilities",
-            "version": "5.1155731",
+            "version": "6.1194965",
             "pluginType": "Automation",
             "description": "Utilities for basic tasks that don't fit in a specific plugin.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/ucd-general-utilities-5.1155731.zip",
-            "releaseNote": "Updating Jettison library to 1.5.4 for CVE-2023-1436",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/devops-deploy-general-utilities-6.1194965.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/general-utilities/",
             "steps": [
                 {
