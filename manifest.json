@@ -4522,11 +4522,11 @@
         {
             "id": "com.urbancode.air.plugin.SystemInformation",
             "name": "System Information",
-            "version": "9.1171671",
+            "version": "10.1194970",
             "pluginType": "Automation",
             "description": "The System Information plugin includes a variety of checks to perform against the operating system. These steps can be used to verify that a deployment can succeed or has succeeded.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip",
-            "releaseNote": "Updating commons-io library to 2.17.0 for CVE-2024-47554",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/devops-deploy-SystemInformation-10.1194970.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/SystemInformation/",
             "steps": [
                 {
