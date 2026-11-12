@@ -2153,11 +2153,11 @@
         {
             "id": "com.urbancode.plugin.VFS",
             "name": "UrbanCode Deploy Versioned File Storage",
-            "version": "54.1191268",
+            "version": "55.1194958",
             "pluginType": "Automation",
             "description": "A plugin to allow UrbanCode Deploy to upload artifacts to CodeStation.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-54.1191268.zip",
-            "releaseNote": "Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-55.1194958.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/",
             "minimumServerVersion": "6.1.0.0",
             "steps": [
