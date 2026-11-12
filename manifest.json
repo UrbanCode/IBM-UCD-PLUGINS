@@ -492,11 +492,11 @@
         {
             "id": "com.urbancode.air.plugin.docker",
             "name": "Docker",
-            "version": "11.1154926",
+            "version": "12.1194948",
             "pluginType": "Automation",
             "description": "This plug-in includes steps to manage the lifecycle of Docker containers.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip",
-            "releaseNote": "Log4j and Jettison dependency updated.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/devops-deploy-docker-plugin-12.1194948.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/docker-plugin/",
             "steps": [
                 {
