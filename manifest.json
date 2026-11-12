@@ -1876,11 +1876,11 @@
         {
             "id": "com.urbancode.air.plugin.uDeployEnvironment",
             "name": "UrbanCode Deploy Environments",
-            "version": "89.1159271",
+            "version": "90.1194964",
             "pluginType": "Automation",
             "description": "Plugin for creating and managing UrbanCode Deploy environments.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip",
-            "releaseNote": "Fixes APAR PH55636 - Create Multiple Environments not creating with expected color.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/devops-deploy-uDeploy-Environment-90.1194964.zip",
+            "releaseNote": "Update Apache Commons Codec to 1.23.0: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Environment/",
             "steps": [
                 {
