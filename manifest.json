@@ -5278,11 +5278,11 @@
         {
             "id": "com.urbancode.air.plugin.multigenartifact.zos",
             "name": "zOS Multi Generate Artifact Information",
-            "version": "12.1184883",
+            "version": "13.1195079",
             "pluginType": "Automation",
             "description": "The z/OS Multi Generate Artifact Information plug-in generates one or more informational text based on\n            defined templates. The information is sent to the output properties for use by later steps.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-12.1184883.zip",
-            "releaseNote": "Added support for linked versions\n            Fixed NoSuchFileException",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-13.1195079.zip",
+            "releaseNote": "Fix for CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-multi-generate-artifact-info/",
             "steps": [
                 {
