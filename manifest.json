@@ -5298,11 +5298,11 @@
         {
             "id": "com.ibm.ucd.plugin.zos",
             "name": "zOS Utility",
-            "version": "111.1194947",
+            "version": "111.1195070",
             "pluginType": "Automation",
             "description": "The zOS Utility plug-in includes steps related to deployment activities for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-111.1194947.zip",
-            "releaseNote": "Removed Apache Commons Codec library: Addresses CVE-2026-124077 and CVE-2026-119078.",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-111.1195070.zip",
+            "releaseNote": "Removed Apache Commons Codec library: Addresses CVE-2026-124077 and CVE-2026-119078.\n            Fixed DT507734 - Failed to create file issue for multi dataset deployment",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/",
             "steps": [
                 {
