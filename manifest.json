@@ -5394,11 +5394,11 @@
         {
             "id": "com.urbancode.plugin.zOSRexxExec",
             "name": "zOS Rexx Executor",
-            "version": "2.1176018",
+            "version": "3.1195085",
             "pluginType": "Automation",
             "description": "The zOS Rexx Executor plug-in executes REXX program from a Dataset (or) specified inline in the plugin.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip",
-            "releaseNote": "Added checkbox to print logs and minor improvements\n            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes\n            Increased allowed arguments size to 248 characters\n            Fixed issue with work directory during two or more parallel step execution\n            Handle return code for a CLIST error message response from ISPF Gateway\n            Use Legacy ISPF Gateway to run programs by default\n            Improvements in ISPF gateway error handling\n            Fixed PH62152 - RcException while allocating temporary datasets\n            Minor improvements in ISPF gateway",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/devops-deploy-zos-rexx-3.1195085.zip",
+            "releaseNote": "Added input and output properties encryption",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-rexx/",
             "steps": [
                 {
