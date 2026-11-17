@@ -5190,11 +5190,11 @@
         {
             "id": "com.urbancode.air.plugin.extrepo.zos",
             "name": "zOS External Artifacts Utility",
-            "version": "17.1187409",
+            "version": "18.1195067",
             "pluginType": "Automation",
             "description": "The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.",
-            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-17.1187409.zip",
-            "releaseNote": "Reverted cache mechanism for linked versions",
+            "url": "https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-18.1195067.zip",
+            "releaseNote": "Removed Apache Commons Codec library: Addresses CVE-2026-124077 and CVE-2026-119078.",
             "documentationLink": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zOS-external-artifact-download/",
             "steps": [
                 {
